@@ -16,7 +16,7 @@ const MapComponent = ({ children }) => {
   };
 
   return (
-    <LoadScript googleMapsApiKey="AIzaSyBLPMX-di8mNzI6ICMZNuxu_12izb6NYrU">
+    <LoadScript googleMapsApiKey=[Fill in with Google Maps API]>
       <GoogleMap
         mapContainerStyle={mapContainerStyle}
         center={center}
