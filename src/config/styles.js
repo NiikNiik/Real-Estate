@@ -1,0 +1,77 @@
+import colors from "./colors";
+
+export default {
+  colors,
+  text: {
+    fontFamily: "Roboto",
+    lineHeight: "19px",
+    marginBottom: "17px",
+  },
+  Screen: {
+    backgroundColor: "#ffffff",
+    width: "100vw",
+    height: "100vh",
+    display: "flex",
+    flexDirection: "row",
+    justifyContent: "flex-start",
+    alignItems: "flex-start",
+  },
+  textInput: {
+    border: "0",
+    boxSizing: "border-box",
+    borderRadius: "24px",
+    boxShadow: "0px 2px 8px rgba(64,60,67,0.24)",
+    backgroundColor: "#ffffff",
+    fontFamily: "Roboto",
+    fontWeight: 300,
+    lineHeight: "19px",
+    outline: "none",
+    marginBottom: "17px", // Optional, for consistency
+  },
+  RoundcheckboxContainer: {
+    cursor: "pointer",
+    overflow: "hidden",
+    pointerEvents: "auto",
+    borderRadius: "20px",
+    boxShadow: "0px 0px 0px rgba(0, 0, 0, 0.08)",
+    border: 0,
+  },
+  checkboxContainer: {
+    cursor: "pointer",
+    overflow: "hidden",
+    pointerEvents: "auto",
+    borderRadius: "5px",
+    boxShadow: "0px 0px 0px rgba(0, 0, 0, 0.08)",
+    border: 0,
+  },
+  checkboxCheck: {
+    display: "none",
+    transition: "left 0.3s ease",
+    zIndex: 1,
+  },
+  checkboxInput: {
+    position: "absolute",
+    opacity: 0,
+    visibility: "hidden",
+    width: "1px",
+    height: "1px",
+    pointerEvents: "none",
+  },
+  button: {
+    cursor: "pointer",
+    border: "0",
+    boxSizing: "border-box",
+    borderRadius: "24px",
+    fontFamily: "Roboto",
+    outline: "none",
+  },
+  selector: {
+    cursor: "pointer",
+    border: `2px solid ${colors.primary}`,
+    borderRadius: "24px",
+    backgroundColor: colors.white,
+    display: "flex",
+    justifyContent: "center",
+    alignItems: "center",
+  },
+};
