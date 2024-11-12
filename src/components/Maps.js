@@ -16,7 +16,7 @@ const MapComponent = ({ children }) => {
   };
 
   return (
-    <LoadScript googleMapsApiKey={process.env.local.REACT_APP_GOOGLE_MAPS_API_KEY}>
+    <LoadScript googleMapsApiKey={process.env.REACT_APP_GOOGLE_MAPS_API_KEY}>
       <GoogleMap
         mapContainerStyle={mapContainerStyle}
         center={center}
