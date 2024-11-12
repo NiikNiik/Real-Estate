@@ -10,7 +10,12 @@ import { cleanup } from '@testing-library/react';
 // Cleanup after each test
 afterEach(() => {
     cleanup();
+    jest.clearAllMocks();
     jest.clearAllTimers();
+});
+
+beforeEach(() => {
+    jest.resetModules();
 });
 
 // Mock window.matchMedia
