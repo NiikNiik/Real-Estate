@@ -1,70 +1,88 @@
-# Getting Started with Create React App
+# Real Estate Web Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is a real estate web application that allows users to browse and search residential properties in Maryland. Users can filter results, view property details, save favorites, and interact with an interactive map. The application integrates with external APIs and is built with a focus on user experience and data security.
 
-## Available Scripts
+## Table of Contents
 
-In the project directory, you can run:
+- [Project Overview](#project-overview)
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Installation](#installation)
+- [Usage](#usage)
+- [File Structure](#file-structure)
+- [Future Features](#future-features)
 
-### `npm start`
+## Project Overview
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+The Real Estate Web Application provides a user-friendly interface for browsing and searching Maryland residential properties. Users can log in securely, search properties by specific criteria, and view properties on an interactive map. This application is designed to be responsive, secure, and easy to use.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Features
 
-### `npm test`
+- **Secure User Authentication**: Users can log in securely and create profiles.
+- **Property Search and Filter**: Filter properties by price, size, location, and more.
+- **Interactive Map**: Display property locations using Google Maps API.
+- **Save Favorites**: Users can save preferred properties for later viewing.
+- **Detailed Property Listings**: Property details such as price, size, bed/bath count, and more.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Technologies Used
 
-### `npm run build`
+- **Frontend**: React, HTML, CSS
+- **Backend**: Node.js, Express.js
+- **Database**: PostgreSQL
+- **External APIs**: ATTOM Data API (for property data), Google Maps API (for map visualization)
+- **CSS**: [index.css](./index.css) provides global styling for the application
+- **Testing**: Jest, React Testing Library
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Installation
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. **Clone the repository**:
+    ```bash
+    git clone https://github.com/your-username/real-estate-app.git
+    cd real-estate-app
+    ```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+2. **Install dependencies**:
+    ```bash
+    npm install
+    ```
 
-### `npm run eject`
+3. **Environment Setup**:
+   - Create a `.env` file in the root directory and add your API keys for ATTOM and Google Maps.
+   - Example `.env` file:
+     ```plaintext
+     ATTOM_API_KEY=your_attom_api_key
+     GOOGLE_MAPS_API_KEY=your_google_maps_api_key
+     ```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+4. **Start the application**:
+    ```bash
+    npm start
+    ```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Usage
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- **Homepage**: The main screen allows users to search for properties.
+- **Property Listings**: Lists properties based on user-selected filters.
+- **Interactive Map**: Allows users to see property locations on a map.
+- **Save Properties**: Logged-in users can save properties for future reference.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## File Structure
 
-## Learn More
+- **App.js**: Main component of the application, managing routing and layout.
+- **index.js**: Entry point for the React application, rendering the App component.
+- **index.css**: Provides global styling, including font settings and layout adjustments.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Future Features
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- **Mortgage Calculator**: Calculate estimated mortgage payments.
+- **Price History**: View historical price trends for properties.
+- **School and Crime Data**: Display nearby schools and local crime statistics.
+- **Improved Accessibility**: Ensure compliance with WCAG 2.1 standards.
 
-### Code Splitting
+## Contributing
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Feel free to open issues or submit pull requests to enhance the app.
 
-### Analyzing the Bundle Size
+## License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project is licensed under the MIT License.
