@@ -6,13 +6,15 @@ import colors from '../../config/colors';
 const originalError = console.error;
 beforeAll(() => {
     console.error = (...args) => {
-        if (args[0].includes('Warning: Removing a style property') || 
-            args[0].includes('Warning: Updating a style property')) {
+        if (
+        args[0].includes('Warning: Removing a style property during rerender') ||
+        args[0].includes('Warning: Updating a style property during rerender')
+        ) {
         return;
         }
         originalError.call(console, ...args);
     };
-    });
+});
 
     afterAll(() => {
     console.error = originalError;

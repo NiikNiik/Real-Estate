@@ -60,23 +60,25 @@ const subMenuItems = {
 const SideNavBar = (props) => {
   const [hoveredButton, setHoveredButton] = useState(null);
   const [showSubMenu, setShowSubMenu] = useState(false);
-  const [hoverTimer, setHoverTimer] = useState(null);
   const [isSubMenuHovered, setIsSubMenuHovered] = useState(false);
 
   useEffect(() => {
+    let timer;
     if (hoveredButton !== null || isSubMenuHovered) {
-      const timer = setTimeout(() => {
+      timer = setTimeout(() => {
         setShowSubMenu(true);
-      }, 200); // Reduced to 200ms for better UX
-      setHoverTimer(timer);
+      }, 200);
     } else {
       setShowSubMenu(false);
-      if (hoverTimer) {
-        clearTimeout(hoverTimer);
-        setHoverTimer(null);
-      }
     }
-  }, [hoveredButton, hoverTimer, isSubMenuHovered]);
+
+    // Cleanup function to clear timeout
+    return () => {
+      if (timer) {
+        clearTimeout(timer);
+      }
+    };
+  }, [hoveredButton, isSubMenuHovered]); // Removed hoverTimer from dependencies
 
   const handleButtonClick = (text) => {
     console.log(`${text} button clicked`);

@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import AppText from "./Text";
 import colors from "../config/colors";
 
@@ -21,6 +21,15 @@ const TextButton = ({
     setIsHovered(false);
     onHoverChange(false);
   };
+
+  // If externalHoverState changes, update isHovered and call onHoverChange
+  useEffect(() => {
+    if (externalHoverState !== null) {
+      const newHoveredState = externalHoverState;
+      setIsHovered(newHoveredState);
+      onHoverChange(newHoveredState);
+    }
+  }, [externalHoverState, onHoverChange]);
 
   const textButtonStyle = {
     ...style,
