@@ -107,24 +107,18 @@ To view all dependencies and specific versions, see the `package.json` file.
 
 The project uses **Jest** and **React Testing Library** to ensure each component and function performs as expected.
 
-- **Tested Components**: `App.js`, `HomeScreen.js`, `TopNavBar.js`, `PropertyListings.js`
+- **Tested Components**: `App.js`, `ListingCard.js`, `ListView.js`, `TopNavBar.js`
 - **Test Types**:
   - **Unit Tests**: Focus on individual functions and components.
   - **Integration Tests**: Validate that different parts of the app work together seamlessly.
   - **System Tests**: End-to-end workflows that verify the complete user experience.
 
-### Example Unit Test Case
+## Future Features
+- **Mortgage Calculator**: Calculate estimated mortgage payments.
+- **Price History**: Display historical price trends for properties.
+- **School and Crime Data**: Include data for schools and crime statistics in the vicinity.
+- **Accessibility Enhancements**: Compliance with WCAG 2.1 for inclusive design.
 
-Here is a sample structure of a unit test:
+## License
 
-```javascript
-// ListingsCard.test.js
-
-import { render, screen } from '@testing-library/react';
-import ListingsCard from './ListingsCard';
-
-test('renders property title', () => {
-  render(<ListingsCard title="Luxury Condo" />);
-  const titleElement = screen.getByText(/Luxury Condo/i);
-  expect(titleElement).toBeInTheDocument();
-});
+This project is licensed under the MIT License.
