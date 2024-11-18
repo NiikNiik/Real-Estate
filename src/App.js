@@ -1,6 +1,8 @@
 import React, { useState } from "react";
-import HomeScreen from "./screens/HomeScreen"; // Adjust the path as needed
-import LoginScreen from "./screens/LoginScreen"; // Adjust the path as needed
+import HomeScreen from "./screens/HomeScreen";
+import LoginScreen from "./screens/LoginScreen";
+import CreateAccountScreen from "./screens/CreateAccountScreen";
+import ForgotPasswordScreen from "./screens/ForgotPasswordScreen";
 import TopNavBar from "./components/TopNavBar";
 
 function App() {
@@ -14,6 +16,10 @@ function App() {
     switch (currentScreen) {
       case "login":
         return <LoginScreen navigate={navigate} />;
+      case "create-account":
+        return <CreateAccountScreen navigate={navigate} />;
+      case "forgot-password":
+        return <ForgotPasswordScreen navigate={navigate} />;
       case "home":
       default:
         return <HomeScreen navigate={navigate} />;

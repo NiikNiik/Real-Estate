@@ -1,19 +1,18 @@
 import React, { useState } from "react";
 import AppText from "../components/Text";
 import AppTextInput from "../components/TextInput";
-import Checkbox from "../components/Checkbox";
 import Button from "../components/Button";
-import TextButton from "../components/TextButton";
 import Icon from "../assets/Icon";
 import Screen from "../components/Screen";
-import BackArrowIcon from "../components/BackArrowIcon"; // Adjust the path as needed
+import BackArrowIcon from "../components/BackArrowIcon";
 import styles from "../config/styles";
 import colors from "../config/colors";
 
 const defaultProps = {
   image: require("../assets/loginimage.png"),
   emailPlaceholder: "Enter your email",
-  passwordPlaceholder: "Enter your password",
+  passwordPlaceholder: "Create a password",
+  confirmPasswordPlaceholder: "Confirm password",
 };
 
 const StaticCard = (props) => {
@@ -34,12 +33,12 @@ const StaticCard = (props) => {
       <div
         style={{
           position: "absolute",
-          top: "15px", // Added padding
-          left: "15px", // Added padding
+          top: "15px",
+          left: "15px",
           cursor: "pointer",
-          zIndex: 10, // Ensure the arrow is on the topmost layer
+          zIndex: 10,
         }}
-        onClick={() => props.navigate("home")}
+        onClick={() => props.navigate("login")}
       >
         <BackArrowIcon
           style={{
@@ -77,13 +76,11 @@ const Image = (props) => {
   );
 };
 
-const LoginScreen = (props) => {
-  const [isRememberMeChecked, setIsRememberMeChecked] = useState(false);
+const CreateAccountScreen = (props) => {
   return (
     <Screen>
       <StaticCard navigate={props.navigate}>
         <Image image={defaultProps.image} />
-        {props.children}
       </StaticCard>
       <div
         style={{
@@ -128,7 +125,7 @@ const LoginScreen = (props) => {
                 paddingBottom: "25px",
               }}
             >
-              GoCasa
+              Create Account
             </AppText>
           </div>
           <div style={{ marginBottom: "7px" }}>
@@ -149,7 +146,7 @@ const LoginScreen = (props) => {
               placeholder={defaultProps.emailPlaceholder}
             />
           </div>
-          <div style={{ marginBottom: "-15px" }}>
+          <div style={{ marginBottom: "7px" }}>
             <AppText
               style={{ ...styles.text, fontSize: "14px", fontWeight: "bold" }}
             >
@@ -164,40 +161,28 @@ const LoginScreen = (props) => {
                 backgroundColor: colors.white,
                 fontSize: "14px",
               }}
+              type="password"
               placeholder={defaultProps.passwordPlaceholder}
             />
           </div>
-          <div
-            style={{
-              display: "flex",
-              alignItems: "center",
-              justifyContent: "flex-end",
-              width: "600px",
-              marginBottom: "7px",
-            }}
-          >
-            <Checkbox
-              style={{
-                display: "flex",
-                width: "20px",
-                height: "20px",
-                alignItems: "center",
-                justifyContent: "center",
-                backgroundColor: colors.primary,
-                color: colors.white,
-              }}
-              onChange={setIsRememberMeChecked}
-            />
+          <div style={{ marginBottom: "20px" }}>
             <AppText
-              style={{
-                ...styles.text,
-                fontSize: "12px",
-                marginLeft: "10px",
-                fontWeight: isRememberMeChecked ? "bold" : "normal",
-              }}
+              style={{ ...styles.text, fontSize: "14px", fontWeight: "bold" }}
             >
-              Remember me
+              Confirm Password
             </AppText>
+            <AppTextInput
+              style={{
+                width: "600px",
+                height: "60px",
+                padding: "0px 5px",
+                color: colors.dark,
+                backgroundColor: colors.white,
+                fontSize: "14px",
+              }}
+              type="password"
+              placeholder={defaultProps.confirmPasswordPlaceholder}
+            />
           </div>
           <div style={{ marginBottom: "7px", paddingTop: "30px" }}>
             <Button
@@ -206,40 +191,8 @@ const LoginScreen = (props) => {
               color="#ffffff"
               fontSize="16px"
               fontWeight="700"
-              label="Log In"
+              label="Create Account"
             />
-          </div>
-          <div
-            style={{
-              display: "flex",
-              flexDirection: "row",
-              justifyContent: "space-between",
-              width: "600px",
-              paddingTop: "10px",
-            }}
-          >
-            <TextButton
-              style={{
-                fontSize: "14px",
-                color: colors.primary,
-                paddingLeft: "10px",
-                paddingRight: "10px",
-              }}
-              onClick={() => props.navigate("forgot-password")}
-            >
-              Forgot your password?
-            </TextButton>
-            <TextButton
-              style={{
-                fontSize: "14px",
-                color: colors.primary,
-                paddingLeft: "10px",
-                paddingRight: "10px",
-              }}
-              onClick={() => props.navigate("create-account")}
-            >
-              New Account?
-            </TextButton>
           </div>
         </div>
       </div>
@@ -247,4 +200,4 @@ const LoginScreen = (props) => {
   );
 };
 
-export default LoginScreen;
+export default CreateAccountScreen;
