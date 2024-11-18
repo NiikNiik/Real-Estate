@@ -104,12 +104,25 @@ const listingsData = [
   },
 ];
 
-const ListView = () => {
+const ListView = ({ listingType = "For Sale" }) => {
+  // Filter listings based on the listingType
+  const filteredListings = listingsData.filter(listing => {
+    const listingText = listing.subtitle.toLowerCase();
+    switch(listingType) {
+      case "For Rent":
+        return listingText.includes("for rent");
+      case "Sold":
+        return listingText.includes("sold");
+      case "For Sale":
+      default:
+        return listingText.includes("for sale");
+    }
+  });
   return (
     <div style={styles.mainContainer}>
       <AppText style={styles.title}>Real Estate & Homes For Sale</AppText>
       <div style={styles.headerContainer}>
-        <AppText style={styles.subtitle}>{listingsData.length} results</AppText>
+        <AppText style={styles.subtitle}>{filteredListings.length} results</AppText>
         <TextButton style={styles.textButton}>
           <div style={styles.textButtonContent}>
             Sort: Homes for You{" "}
@@ -118,7 +131,7 @@ const ListView = () => {
         </TextButton>
       </div>
       <div style={styles.gridContainer}>
-        {listingsData.map((listing, index) => (
+        {filteredListings.map((listing, index) => (
           <ListingsCard
             key={index}
             images={listing.images}

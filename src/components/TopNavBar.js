@@ -67,7 +67,7 @@ const styles = {
   },
 };
 
-const TopNavBar = ({ navigate }) => {
+const TopNavBar = ({ navigate, onListingTypeChange }) => {
   const [openDropdown, setOpenDropdown] = useState(null);
   const [exactMatch, setExactMatch] = useState(false);
   const [showPlus, setShowPlus] = useState(true);
@@ -93,8 +93,10 @@ const TopNavBar = ({ navigate }) => {
   };
 
   const handleForSaleChange = (value) => {
-    setForSaleSelection(value);
     setForSaleSelection([value]); // Wrap in array since we're handling it as array
+    if (onListingTypeChange) {
+      onListingTypeChange(value);
+    }
   };
 
   const getBedsAndBathsTitle = () => {

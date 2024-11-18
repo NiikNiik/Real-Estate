@@ -18,3 +18,30 @@ const HomeScreen = ({ navigate }) => {
 };
 
 export default HomeScreen;
+import React, { useState } from "react";
+import TopNavBar from "../components/TopNavBar";
+import ListView from "../components/ListView";
+import Maps from "../components/Maps";
+
+const HomeScreen = ({ navigate }) => {
+  const [listingType, setListingType] = useState("For Sale");
+
+  const handleListingTypeChange = (type) => {
+    setListingType(type);
+  };
+
+  return (
+    <div>
+      <TopNavBar 
+        navigate={navigate} 
+        onListingTypeChange={handleListingTypeChange}
+      />
+      <div style={{ display: "flex" }}>
+        <Maps />
+        <ListView listingType={listingType} />
+      </div>
+    </div>
+  );
+};
+
+export default HomeScreen;
