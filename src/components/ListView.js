@@ -6,6 +6,72 @@ import DownChevron from "../assets/DownChevron";
 import colors from "../config/colors";
 
 const listingsData = [
+  // Rental Properties
+  {
+    images: [
+      require("../assets/house1A.JPG"), // Reusing existing images for demo
+      require("../assets/house1B.JPG"),
+      require("../assets/house1C.JPG"),
+      require("../assets/house1D.JPG"),
+      require("../assets/house1E.JPG"),
+      require("../assets/house1F.JPG"),
+    ],
+    title: "$2,500/mo",
+    subtitle: "2 bds | 2 ba | 1,200 sqft - House for rent",
+    secondSubtitle: "4455 Rental Ave, Alexandria, VA 22306",
+    thirdSubtitle: "Alexandria Property Management",
+    leftIcon: <span>Utilities Included</span>,
+    rightIcon: <span>Right Icon</span>,
+  },
+  {
+    images: [
+      require("../assets/house2A.JPG"),
+      require("../assets/house2B.JPG"),
+      require("../assets/house2C.JPG"),
+      require("../assets/house2D.JPG"),
+      require("../assets/house2E.JPG"),
+      require("../assets/house2F.JPG"),
+    ],
+    title: "$3,200/mo",
+    subtitle: "3 bds | 2.5 ba | 1,800 sqft - House for rent",
+    secondSubtitle: "7788 Lease St, Alexandria, VA 22306",
+    thirdSubtitle: "Premier Rentals LLC",
+    leftIcon: <span>Pet Friendly</span>,
+    rightIcon: <span>Right Icon</span>,
+  },
+  // Sold Properties
+  {
+    images: [
+      require("../assets/house3A.JPG"),
+      require("../assets/house3B.JPG"),
+      require("../assets/house3C.JPG"),
+      require("../assets/house3D.JPG"),
+      require("../assets/house3E.JPG"),
+      require("../assets/house3F.JPG"),
+    ],
+    title: "$725,000",
+    subtitle: "4 bds | 3 ba | 2,500 sqft - House sold",
+    secondSubtitle: "9900 Closed Dr, Alexandria, VA 22306",
+    thirdSubtitle: "SOLD: March 2024",
+    leftIcon: <span>Recently Sold</span>,
+    rightIcon: <span>Right Icon</span>,
+  },
+  {
+    images: [
+      require("../assets/house4A.JPG"),
+      require("../assets/house4B.JPG"),
+      require("../assets/house4C.JPG"),
+      require("../assets/house4D.JPG"),
+      require("../assets/house4E.JPG"),
+      require("../assets/house4F.JPG"),
+    ],
+    title: "$899,000",
+    subtitle: "5 bds | 4 ba | 3,200 sqft - House sold",
+    secondSubtitle: "1234 Settlement Rd, Alexandria, VA 22306",
+    thirdSubtitle: "SOLD: February 2024",
+    leftIcon: <span>Sold Above Asking</span>,
+    rightIcon: <span>Right Icon</span>,
+  },
   {
     images: [
       require("../assets/house1A.JPG"),
@@ -104,12 +170,25 @@ const listingsData = [
   },
 ];
 
-const ListView = () => {
+const ListView = ({ listingType = "For Sale" }) => {
+  // Filter listings based on the listingType
+  const filteredListings = listingsData.filter(listing => {
+    const listingText = listing.subtitle.toLowerCase();
+    switch(listingType) {
+      case "For Rent":
+        return listingText.includes("for rent");
+      case "Sold":
+        return listingText.includes("sold");
+      case "For Sale":
+      default:
+        return listingText.includes("for sale");
+    }
+  });
   return (
     <div style={styles.mainContainer}>
       <AppText style={styles.title}>Real Estate & Homes For Sale</AppText>
       <div style={styles.headerContainer}>
-        <AppText style={styles.subtitle}>{listingsData.length} results</AppText>
+        <AppText style={styles.subtitle}>{filteredListings.length} results</AppText>
         <TextButton style={styles.textButton}>
           <div style={styles.textButtonContent}>
             Sort: Homes for You{" "}
@@ -118,7 +197,7 @@ const ListView = () => {
         </TextButton>
       </div>
       <div style={styles.gridContainer}>
-        {listingsData.map((listing, index) => (
+        {filteredListings.map((listing, index) => (
           <ListingsCard
             key={index}
             images={listing.images}

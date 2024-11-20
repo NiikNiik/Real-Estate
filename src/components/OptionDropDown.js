@@ -112,9 +112,14 @@ const OptionDropDown = ({
   isHomeType, // Add isHomeType prop
 }) => {
   const [hoveredItem, setHoveredItem] = useState(null);
-  const [selectedItems, setSelectedItems] = useState(
-    text === "For Sale" ? ["For Sale"] : []
-  );
+  const [selectedItems, setSelectedItems] = useState([]);
+
+  useEffect(() => {
+    // Initialize selectedItems based on props
+    if (text === "For Sale" && selectedItems.length === 0) {
+      setSelectedItems(["For Sale"]);
+    }
+  }, []);
   const [selectAllText, setSelectAllText] = useState("Select All");
 
   useEffect(() => {
@@ -133,6 +138,10 @@ const OptionDropDown = ({
   const handleItemClick = (item, isChecked) => {
     if (text === "For Sale") {
       setSelectedItems([item]);
+      if (onSelect) {
+        onSelect(item);
+      }
+      toggleDropdown(); // Close dropdown after selection
     } else {
       setSelectedItems((prevSelectedItems) =>
         isChecked

@@ -67,13 +67,13 @@ const styles = {
   },
 };
 
-const TopNavBar = ({ navigate }) => {
+const TopNavBar = ({ navigate, onListingTypeChange }) => {
   const [openDropdown, setOpenDropdown] = useState(null);
   const [exactMatch, setExactMatch] = useState(false);
   const [showPlus, setShowPlus] = useState(true);
   const [bedrooms, setBedrooms] = useState("Any");
   const [bathrooms, setBathrooms] = useState("Any");
-  const [forSaleSelection, setForSaleSelection] = useState("For Sale");
+  const [forSaleSelection, setForSaleSelection] = useState(["For Sale"]);
 
   const toggleDropdown = (index) => {
     setOpenDropdown(openDropdown === index ? null : index);
@@ -93,8 +93,10 @@ const TopNavBar = ({ navigate }) => {
   };
 
   const handleForSaleChange = (value) => {
-    setForSaleSelection(value);
-    console.log("For Sale selection changed to:", value); // Verify state update
+    setForSaleSelection([value]); // Wrap in array since we're handling it as array
+    if (onListingTypeChange) {
+      onListingTypeChange(value);
+    }
   };
 
   const getBedsAndBathsTitle = () => {
