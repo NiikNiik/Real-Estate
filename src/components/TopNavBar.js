@@ -67,13 +67,14 @@ const styles = {
   },
 };
 
-const TopNavBar = ({ navigate, onListingTypeChange }) => {
+const TopNavBar = ({ navigate, onListingTypeChange, onSearch }) => {
   const [openDropdown, setOpenDropdown] = useState(null);
   const [exactMatch, setExactMatch] = useState(false);
   const [showPlus, setShowPlus] = useState(true);
   const [bedrooms, setBedrooms] = useState("Any");
   const [bathrooms, setBathrooms] = useState("Any");
   const [forSaleSelection, setForSaleSelection] = useState(["For Sale"]);
+  const [searchQuery, setSearchQuery] = useState("");
 
   const toggleDropdown = (index) => {
     setOpenDropdown(openDropdown === index ? null : index);
@@ -96,6 +97,12 @@ const TopNavBar = ({ navigate, onListingTypeChange }) => {
     setForSaleSelection([value]); // Wrap in array since we're handling it as array
     if (onListingTypeChange) {
       onListingTypeChange(value);
+    }
+  };
+
+  const handleSearch = () => {
+    if (onSearch) {
+      onSearch(searchQuery); // Trigger the search callback with the query
     }
   };
 
@@ -154,6 +161,8 @@ const TopNavBar = ({ navigate, onListingTypeChange }) => {
           <AppTextInput
             style={styles.TextInput}
             placeholder="Address, neighborhood, city, ZIP"
+            value={searchQuery}
+            onChange={(e) => setSearchQuery(e.target.value)} // Update query state
           />
           <div style={styles.MagnifyingGlassIcon}>
             <MagnifyingGlassIcon width={17} height={17} />
@@ -236,20 +245,8 @@ const TopNavBar = ({ navigate, onListingTypeChange }) => {
         ))}
       </div>
       <div style={styles.NavLinks}>
-        <TextButton
-          onClick={() => {
-            /* Empty navigation for now */
-          }}
-        >
-          Manage Properties
-        </TextButton>
-        <TextButton
-          onClick={() => {
-            /* Empty navigation for now */
-          }}
-        >
-          Advertise
-        </TextButton>
+      <TextButton onClick={() => navigate("manage")}>Manage Properties</TextButton>
+        <TextButton onClick={() => navigate("advertise")}>Advertise</TextButton>
         <TextButton onClick={() => navigate("login")}>Log In</TextButton>
       </div>
     </div>
