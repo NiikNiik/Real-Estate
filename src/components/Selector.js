@@ -22,14 +22,20 @@ const styles = {
     cursor: "pointer",
     padding: "10px 0",
     position: "relative",
-    zIndex: 1, // Default z-index
-    border: `1px solid ${colors.primary}`, // Default border color
+    zIndex: 1,
+    borderLeft: `1px solid ${colors.primary}`,
+    borderRight: `1px solid ${colors.primary}`,
+    borderTop: `1px solid ${colors.primary}`,
+    borderBottom: `1px solid ${colors.primary}`,
   },
   activeCell: {
     backgroundColor: colors.primary,
     color: colors.white,
     zIndex: 3,
-    borderColor: colors.white,
+    borderLeft: `1px solid ${colors.white}`,
+    borderRight: `1px solid ${colors.white}`,
+    borderTop: `1px solid ${colors.white}`,
+    borderBottom: `1px solid ${colors.white}`,
   },
   inactiveCell: {
     backgroundColor: colors.white,
@@ -39,39 +45,47 @@ const styles = {
   highlightedCell: {
     backgroundColor: colors.primary,
     color: colors.white,
-    zIndex: 2, // Higher z-index for highlighted cells
-    borderColor: colors.white, // Change border to white when highlighted
+    zIndex: 2,
+    borderLeft: `1px solid ${colors.white}`,
+    borderRight: `1px solid ${colors.white}`,
+    borderTop: `1px solid ${colors.white}`,
+    borderBottom: `1px solid ${colors.white}`,
   },
   leftBorder: {
-    borderRight: `1px solid ${colors.primary}`,
+    borderRight: `2px solid ${colors.primary}`,
   },
   rightBorder: {
-    borderLeft: `1px solid ${colors.primary}`,
+    borderLeft: `1px solid ${colors.white}`,
   },
   adjacentRightBorder: {
-    borderRight: `2px solid ${colors.white}`, // Change right border of adjacent cell to white
+    borderRight: `1px solid ${colors.white}`,
   },
   adjacentLeftBorder: {
-    borderLeft: `2px solid ${colors.white}`, // Change left border of adjacent cell to white
+    borderLeft: `1px solid ${colors.white}`,
   },
   noLeftBorder: {
-    borderLeft: "none", // Remove left border
+    borderLeft: "none",
   },
   noRightBorder: {
-    borderRight: "none", // Remove right border
+    borderRight: "none",
   },
 };
 
-const Selector = ({ texts, height = "50px", width = "400px", onSelect }) => {
-  const [selectedCell, setSelectedCell] = useState(0); // First cell selected by default
+const Selector = ({
+  texts = [],
+  height = "50px",
+  width = "400px",
+  onSelect,
+  selectedCell, // Receive selectedCell as a prop
+}) => {
+  // const [selectedCell, setSelectedCell] = useState(0); // Removed state from here
 
-  const numberOfCells = texts.length;
+  const numberOfCells = 6;
   const cellWidth = `calc(${width} / ${numberOfCells})`;
 
   const handleCellClick = (index) => {
-    setSelectedCell(index); // Select the clicked cell
     if (onSelect) {
-      onSelect(texts[index]);
+      onSelect(texts[index], index); // Pass the index to onSelect
     }
   };
 
@@ -99,17 +113,17 @@ const Selector = ({ texts, height = "50px", width = "400px", onSelect }) => {
               ...styles.cell,
               width: cellWidth,
               height,
-              zIndex: isActive ? 3 : isHighlighted ? 2 : 1, // Higher z-index for active and highlighted cells
+              zIndex: isActive ? 3 : isHighlighted ? 2 : 1,
               ...(!isActive && !isHighlighted
                 ? styles.inactiveCell
                 : styles.activeCell),
               ...(isHighlighted && styles.highlightedCell),
               ...(index !== 0 && styles.leftBorder),
-              ...(index !== texts.length - 1 && styles.rightBorder),
+              ...(index !== 6 - 1 && styles.rightBorder),
               ...(isAdjacentRightHighlighted && styles.adjacentRightBorder),
               ...(isAdjacentLeftHighlighted && styles.adjacentLeftBorder),
-              ...(index === 0 && styles.noLeftBorder), // Ensure no left border for the first cell
-              ...(index === texts.length - 1 && styles.noRightBorder), // Ensure no right border for the last cell
+              ...(index === 0 && styles.noLeftBorder),
+              ...(index === 6 - 1 && styles.noRightBorder),
             }}
             onClick={() => handleCellClick(index)}
           >

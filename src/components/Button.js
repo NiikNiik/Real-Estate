@@ -8,6 +8,7 @@ const Button = ({
   color,
   fontSize,
   fontWeight,
+  onClick,
 }) => {
   const [isHovered, setIsHovered] = useState(false);
   const [isActive, setIsActive] = useState(false);
@@ -29,6 +30,7 @@ const Button = ({
       onMouseLeave={() => setIsHovered(false)}
       onMouseDown={() => setIsActive(true)}
       onMouseUp={() => setIsActive(false)}
+      onClick={onClick}
     >
       {label}
     </button>

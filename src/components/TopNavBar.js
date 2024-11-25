@@ -1,11 +1,13 @@
 import React, { useState } from "react";
 import Icon from "../assets/Icon"; // Adjust the path as needed
+import eventEmitter from "../eventEmitter";
 import colors from "../config/colors";
 import TextButton from "../components/TextButton"; // Adjust the path as needed
 import AppTextInput from "../components/TextInput"; // Import TextInput component
 import MagnifyingGlassIcon from "../assets/MagnifyingGlassIcon"; // Adjust the path as needed
 import OptionDropDown from "../components/OptionDropDown"; // Import OptionDropDown component
 import Selector from "../components/Selector"; // Import Selector component
+import Checkbox from "../components/Checkbox";
 
 const styles = {
   Header: {
@@ -69,18 +71,20 @@ const styles = {
 
 const TopNavBar = ({ navigate, onListingTypeChange }) => {
   const [openDropdown, setOpenDropdown] = useState(null);
-  const [exactMatch, setExactMatch] = useState(false);
   const [showPlus, setShowPlus] = useState(true);
   const [bedrooms, setBedrooms] = useState("Any");
   const [bathrooms, setBathrooms] = useState("Any");
   const [forSaleSelection, setForSaleSelection] = useState(["For Sale"]);
+  const [selectedBedsCell, setSelectedBedsCell] = useState(0);
+  const [selectedBathsCell, setSelectedBathsCell] = useState(0);
+  const [useExactMatch, setUseExactMatch] = useState(false);
 
   const toggleDropdown = (index) => {
     setOpenDropdown(openDropdown === index ? null : index);
   };
 
   const handleExactMatchChange = () => {
-    setExactMatch(!exactMatch);
+    setUseExactMatch(!useExactMatch); // Update the state here
     setShowPlus(!showPlus);
   };
 
@@ -93,7 +97,9 @@ const TopNavBar = ({ navigate, onListingTypeChange }) => {
   };
 
   const handleForSaleChange = (value) => {
-    setForSaleSelection([value]); // Wrap in array since we're handling it as array
+    setForSaleSelection(value); // Wrap in array since we're handling it as array
+    console.log("Selection: ", value);
+    eventEmitter.emit("forSaleSelectionChange", value); // Emit the event
     if (onListingTypeChange) {
       onListingTypeChange(value);
     }
@@ -106,11 +112,16 @@ const TopNavBar = ({ navigate, onListingTypeChange }) => {
     const bdText =
       bedrooms === "Any"
         ? "0+ bd"
-        : exactMatch
-        ? `${bedrooms.replace("+", "")} bd` // Remove the plus sign if exactMatch is true
-        : `${bedrooms} bd`;
+        : useExactMatch
+        ? `${bedrooms.replace("+", "")} bd`
+        : `${bedrooms.includes("+") ? bedrooms : bedrooms + "+"} bd`;
     const baText = bathrooms === "Any" ? "0+ ba" : `${bathrooms} ba`;
     return `${bdText}, ${baText}`;
+  };
+
+  const handleBedsAndBathsChange = () => {
+    const updatedBedsAndBathsTitle = getBedsAndBathsTitle();
+    eventEmitter.emit("bedsAndBathsTitleChange", updatedBedsAndBathsTitle);
   };
 
   const homeTypeItemsForSaleOrSold = [
@@ -143,6 +154,100 @@ const TopNavBar = ({ navigate, onListingTypeChange }) => {
       : homeTypeItemsForSaleOrSold;
   };
 
+  const moreItemsForSaleOrSold = [
+    "MORE FILTERS",
+    "Max HOA",
+    "Any",
+    "Listing Type",
+    "Owner posted",
+    "Agent listed",
+    "New Construction",
+    "Foreclosures",
+    "Auctions",
+    "Forclosed",
+    "Pre-forclosures",
+    "Property Status",
+    "Coming soon",
+    "Accepting backup offers",
+    "Pending & under contract",
+    "Tours",
+    "Must have open house",
+    "Parking Spots",
+    "Any",
+    "Must have garage",
+    "Square Feet",
+    "",
+    "Lot Size",
+    "",
+    "Year Built",
+    "",
+    "Basement",
+    "Has basement",
+    "Number of Stories",
+    "Single-story only",
+    "Senior Living",
+    "Hide communities",
+    "Other Amenities",
+    "Must have A/C",
+    "Must have pool",
+    "Waterfront",
+    "View",
+    "City",
+    "Mountain",
+    "Park",
+    "Water",
+    "Days Listed",
+    "Any",
+  ];
+
+  const moreItemsForRent = [
+    "MORE FILTERS",
+    "Move-In-Date",
+    "",
+    "Square Feet",
+    "",
+    "Lot Size",
+    "",
+    "Year Built",
+    "",
+    "Basement",
+    "Has basement",
+    "Number of Stories",
+    "Single-story only",
+    "Tours",
+    "Instant Tour Available",
+    "Other Amenities",
+    "Must have A/C",
+    "Must have pool",
+    "Waterfront",
+    "On-site Parking",
+    "In-unit Laundry",
+    "Income restricted",
+    "Hardwood Floors",
+    "Disabled Access",
+    "Utilities Included",
+    "Short term lease available",
+    "Furnished",
+    "Outdoor space",
+    "Controlled access",
+    "High speed internet",
+    "Elevator",
+    "Apartment Community",
+    "View",
+    "City",
+    "Mountain",
+    "Park",
+    "Water",
+    "Days Listed",
+    "Any",
+  ];
+
+  const getMoreItems = () => {
+    return forSaleSelection === "For Rent"
+      ? moreItemsForRent
+      : moreItemsForSaleOrSold;
+  };
+
   return (
     <div style={styles.Header}>
       <div style={styles.InputContainer}>
@@ -170,8 +275,9 @@ const TopNavBar = ({ navigate, onListingTypeChange }) => {
           },
           {
             text: "Price",
-            items: ["$100 - $200K", "$200 - $300K", "$300 - $400K"],
+            items: ["Price Range", "Minimum   -   Maximum", ""], // Simplified items
             shouldUpdateText: false,
+            isPrice: true, // Add a flag to identify the Price dropdown
           },
           {
             text: getBedsAndBathsTitle(),
@@ -179,33 +285,62 @@ const TopNavBar = ({ navigate, onListingTypeChange }) => {
               "Number of Bedrooms",
               "Bedrooms",
               <Selector
-                key="bedsSelector"
+                key={`bedsSelector-${useExactMatch}`} // Use useExactMatch in the key
                 borderColor={colors.primary}
                 backgroundColor={colors.white}
-                height="30px" // Set the height here
+                height="30px"
                 width="400px"
                 fontSize="14px"
                 texts={
-                  exactMatch
-                    ? ["Any", "1 ", "2 ", "3 ", "4 ", "5 "]
+                  useExactMatch // Use useExactMatch here
+                    ? ["Any", "1", "2", "3", "4", "5"]
                     : ["Any", "1+", "2+", "3+", "4+", "5+"]
                 }
-                onSelect={handleBedroomsChange}
+                onSelect={(value, index) => {
+                  setSelectedBedsCell(index);
+                  handleBedroomsChange(value);
+                }}
+                selectedCell={selectedBedsCell}
               />,
-              "Use exact match",
+              <div
+                style={{ display: "flex", alignItems: "center", gap: "10px" }}
+              >
+                <Checkbox // Move Checkbox here
+                  style={{
+                    display: "flex",
+                    marginRight: "5px",
+                    width: "20px",
+                    height: "20px",
+                    backgroundColor: colors.primary,
+                    color: colors.white,
+                    justifyContent: "center",
+                  }}
+                  isChecked={useExactMatch} // Bind to the state
+                  onChange={handleExactMatchChange} // Call the handler
+                />
+                Use exact match
+              </div>,
               "Number of Bathrooms",
               "Bathrooms",
               <Selector
-                key="bathsSelector"
+                key={`bathsSelector-${useExactMatch}`} // Key includes exactMatch
                 borderColor={colors.primary}
                 backgroundColor={colors.white}
-                height="30px" // Set the height here
+                height="30px"
                 width="400px"
                 fontSize="14px"
                 texts={["Any", "1+", "1.5+", "2+", "3+", "4+"]}
-                onSelect={handleBathroomsChange}
+                onSelect={(value, index) => {
+                  // Updated onSelect prop
+
+                  setSelectedBathsCell(index); // Update state in TopNavBar
+
+                  handleBathroomsChange(value);
+                }}
+                selectedCell={selectedBathsCell} // Pass selectedCell as prop
               />,
             ],
+
             shouldUpdateText: false,
           },
           {
@@ -216,7 +351,7 @@ const TopNavBar = ({ navigate, onListingTypeChange }) => {
           },
           {
             text: "More",
-            items: ["Option 1", "Option 2", "Option 3"],
+            items: getMoreItems(),
             shouldUpdateText: false,
           },
         ].map((field, index) => (
@@ -227,11 +362,12 @@ const TopNavBar = ({ navigate, onListingTypeChange }) => {
             isOpen={openDropdown === index}
             toggleDropdown={() => toggleDropdown(index)}
             shouldUpdateText={field.shouldUpdateText}
-            exactMatch={exactMatch}
+            useExactMatch={useExactMatch}
             onExactMatchChange={handleExactMatchChange}
             itemList={field.items} // Pass the itemList prop
             onSelect={field.onSelect} // Pass the onSelect handler
             isHomeType={field.isHomeType} // Pass the isHomeType prop
+            isPrice={field.isPrice} // Pass the isPrice flag
           />
         ))}
       </div>

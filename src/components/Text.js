@@ -1,13 +1,20 @@
 import React from "react";
-import styles from "../config/styles"; 
+import styles from "../config/styles";
 
 function AppText({ children, style, ...otherProps }) {
   return (
-    <p style={{ ...styles.text, ...style }} {...otherProps}>
+    <span
+      style={{
+        ...styles.text,
+        display: "block", // Make span behave like a block element
+        margin: "0.92em 0", // Add margins similar to <p> element
+        ...style,
+      }}
+      {...otherProps}
+    >
       {children}
-    </p>
+    </span>
   );
 }
 
 export default AppText;
-

@@ -1,9 +1,11 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import AppText from "../components/Text";
 import TextButton from "../components/TextButton";
 import ListingsCard from "../components/ListingsCard";
 import DownChevron from "../assets/DownChevron";
+import eventEmitter from "../eventEmitter";
 import colors from "../config/colors";
+import { BorderColor } from "@mui/icons-material";
 
 const listingsData = [
   // Rental Properties
@@ -170,11 +172,112 @@ const listingsData = [
   },
 ];
 
+const SaleandSoldList = [
+  "Homes for You",
+  "Price (High to Low)",
+  "Price (Low to High)",
+  "Newest",
+  "Bedrooms",
+  "Bathrooms",
+  "Square Feet",
+  "Lot Size",
+];
+
+const RentList = [
+  "Default",
+  "Payment (High to Low)",
+  "Payment (Low to High)",
+  "Newest",
+  "Bedrooms",
+  "Bathrooms",
+  "Square Feet",
+  "Lot Size",
+];
+
+const getSortOptionText = (forSaleSelection, optionIndex) => {
+  if (forSaleSelection === "For Rent") {
+    return `Sort: ${RentList[optionIndex]}`;
+  } else {
+    return `Sort: ${SaleandSoldList[optionIndex]}`;
+  }
+};
+
 const ListView = ({ listingType = "For Sale" }) => {
+  const [forSaleSelection, setForSaleSelection] = useState("For Sale");
+  const [, setPreviousForSaleSelection] = useState("For Sale");
+  const [dropdownOpen, setDropdownOpen] = useState(false);
+  const [currentOption, setCurrentOption] = useState(0); // Track the current option number
+  const [, setSortType] = useState(getSortOptionText("For Sale", 0)); // Initialize sortType
+
+  useEffect(() => {
+    const handleForSaleSelectionChange = (value) => {
+      if (value !== forSaleSelection) {
+        setPreviousForSaleSelection(forSaleSelection);
+        setForSaleSelection(value);
+        setCurrentOption((prevOption) => {
+          const newOption = getSortOptionText(value, prevOption);
+          setSortType(newOption);
+          console.log("Sort Type:", newOption); // Log the sort type
+          return prevOption;
+        });
+      }
+    };
+
+    eventEmitter.on("forSaleSelectionChange", handleForSaleSelectionChange);
+
+    return () => {
+      eventEmitter.off("forSaleSelectionChange", handleForSaleSelectionChange);
+    };
+  }, [forSaleSelection]);
+
+  const getHeaderText = (forSaleSelection) => {
+    switch (forSaleSelection) {
+      case "For Sale":
+        return "Real Estate & Homes For Sale";
+      case "For Rent":
+        return "Rental Listings";
+      case "Sold":
+        return "Recently Sold Homes";
+      default:
+        return "Real Estate & Homes For Sale";
+    }
+  };
+
+  const getSubtitleText = (forSaleSelection) => {
+    switch (forSaleSelection) {
+      case "For Rent":
+        return "rentals available";
+      case "For Sale":
+      case "Sold":
+      default:
+        return "results";
+    }
+  };
+
+  const getDropdownItems = (forSaleSelection) => {
+    if (forSaleSelection === "For Rent") {
+      return RentList;
+    } else {
+      return SaleandSoldList;
+    }
+  };
+
+  const handleDropdownToggle = () => {
+    setDropdownOpen(!dropdownOpen);
+  };
+
+  const handleSortOptionClick = (option, index) => {
+    setCurrentOption(index);
+    const newSortType = getSortOptionText(forSaleSelection, index);
+    setSortType(newSortType);
+    console.log("Sort Type:", newSortType); // Log the sort type
+    setDropdownOpen(false);
+  };
+
   // Filter listings based on the listingType
-  const filteredListings = listingsData.filter(listing => {
+  const filteredListings = listingsData.filter((listing) => {
     const listingText = listing.subtitle.toLowerCase();
-    switch(listingType) {
+    switch (listingType) {
       case "For Rent":
         return listingText.includes("for rent");
       case "Sold":
@@ -186,15 +289,36 @@ const ListView = ({ listingType = "For Sale" }) => {
   });
   return (
     <div style={styles.mainContainer}>
-      <AppText style={styles.title}>Real Estate & Homes For Sale</AppText>
+      <AppText style={styles.title}>{getHeaderText(forSaleSelection)}</AppText>
       <div style={styles.headerContainer}>
-        <AppText style={styles.subtitle}>{filteredListings.length} results</AppText>
-        <TextButton style={styles.textButton}>
+        <AppText style={styles.subtitle}>
+          {filteredListings.length} {getSubtitleText(forSaleSelection)}
+        </AppText>
+        <TextButton style={styles.textButton} onClick={handleDropdownToggle}>
           <div style={styles.textButtonContent}>
-            Sort: Homes for You{" "}
+            {getSortOptionText(forSaleSelection, currentOption)}{" "}
             <DownChevron width={24} height={24} color={colors.primary} />
           </div>
         </TextButton>
+        {dropdownOpen && (
+          <div
+            style={
+              forSaleSelection === "For Rent"
+                ? styles.dropdownMenuForRent
+                : styles.dropdownMenuDefault
+            }
+          >
+            {getDropdownItems(forSaleSelection).map((item, index) => (
+              <TextButton
+                key={index}
+                style={styles.dropdownItem}
+                onClick={() => handleSortOptionClick(item, index)}
+              >
+                {item}
+              </TextButton>
+            ))}
+          </div>
+        )}
       </div>
       <div style={styles.gridContainer}>
         {filteredListings.map((listing, index) => (
@@ -241,12 +365,43 @@ const styles = {
     color: colors.light,
     textAlign: "left",
   },
+  dropdownContainer: {
+    position: "relative",
+  },
   textButton: {
     marginLeft: "auto",
+    width: "200px", // Fixed width for the TextButton
   },
   textButtonContent: {
     display: "flex",
     alignItems: "center",
+    justifyContent: "space-between", // Ensure the text and icon are spaced correctly
+  },
+  dropdownMenuDefault: {
+    position: "absolute",
+    top: "14%",
+    left: "460px",
+    backgroundColor: colors.secondary,
+    boxShadow: "0px 4px 8px rgba(0, 0, 0, 0.1)",
+    zIndex: 1000,
+    width: "250px", // Fixed width for the dropdown menu
+    borderRadius: "4px",
+    overflow: "hidden",
+  },
+  dropdownMenuForRent: {
+    position: "absolute",
+    top: "14%",
+    left: "460px",
+    backgroundColor: colors.secondary,
+    boxShadow: "0px 4px 8px rgba(0, 0, 0, 0.1)",
+    zIndex: 1000,
+    width: "250px", // Fixed width for the dropdown menu
+    borderRadius: "4px",
+    overflow: "hidden",
+  },
+  dropdownItem: {
+    padding: "10px 20px",
+    cursor: "pointer",
   },
   gridContainer: {
     display: "grid",
