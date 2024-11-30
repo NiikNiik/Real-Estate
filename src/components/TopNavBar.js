@@ -69,19 +69,15 @@ const styles = {
   },
 };
 
-const TopNavBar = ({ navigate, onListingTypeChange, onSearch }) => {
+const TopNavBar = ({ navigate, onListingTypeChange }) => {
   const [openDropdown, setOpenDropdown] = useState(null);
   const [showPlus, setShowPlus] = useState(true);
   const [bedrooms, setBedrooms] = useState("Any");
   const [bathrooms, setBathrooms] = useState("Any");
   const [forSaleSelection, setForSaleSelection] = useState(["For Sale"]);
-<<<<<<< HEAD
-  const [searchQuery, setSearchQuery] = useState("");
-=======
   const [selectedBedsCell, setSelectedBedsCell] = useState(0);
   const [selectedBathsCell, setSelectedBathsCell] = useState(0);
   const [useExactMatch, setUseExactMatch] = useState(false);
->>>>>>> 7d69d6e9c48c1930194bdcd874600eb97bf12439
 
   const toggleDropdown = (index) => {
     setOpenDropdown(openDropdown === index ? null : index);
@@ -106,12 +102,6 @@ const TopNavBar = ({ navigate, onListingTypeChange, onSearch }) => {
     eventEmitter.emit("forSaleSelectionChange", value); // Emit the event
     if (onListingTypeChange) {
       onListingTypeChange(value);
-    }
-  };
-
-  const handleSearch = () => {
-    if (onSearch) {
-      onSearch(searchQuery); // Trigger the search callback with the query
     }
   };
 
@@ -269,8 +259,6 @@ const TopNavBar = ({ navigate, onListingTypeChange, onSearch }) => {
           <AppTextInput
             style={styles.TextInput}
             placeholder="Address, neighborhood, city, ZIP"
-            value={searchQuery}
-            onChange={(e) => setSearchQuery(e.target.value)} // Update query state
           />
           <div style={styles.MagnifyingGlassIcon}>
             <MagnifyingGlassIcon width={17} height={17} />
@@ -311,6 +299,7 @@ const TopNavBar = ({ navigate, onListingTypeChange, onSearch }) => {
                 onSelect={(value, index) => {
                   setSelectedBedsCell(index);
                   handleBedroomsChange(value);
+                  handleBedsAndBathsChange();
                 }}
                 selectedCell={selectedBedsCell}
               />,
@@ -348,6 +337,7 @@ const TopNavBar = ({ navigate, onListingTypeChange, onSearch }) => {
                   setSelectedBathsCell(index); // Update state in TopNavBar
 
                   handleBathroomsChange(value);
+                  handleBedsAndBathsChange();
                 }}
                 selectedCell={selectedBathsCell} // Pass selectedCell as prop
               />,
@@ -384,8 +374,20 @@ const TopNavBar = ({ navigate, onListingTypeChange, onSearch }) => {
         ))}
       </div>
       <div style={styles.NavLinks}>
-      <TextButton onClick={() => navigate("manage")}>Manage Properties</TextButton>
-        <TextButton onClick={() => navigate("advertise")}>Advertise</TextButton>
+        <TextButton
+          onClick={() => {
+            /* Empty navigation for now */
+          }}
+        >
+          Manage Properties
+        </TextButton>
+        <TextButton
+          onClick={() => {
+            /* Empty navigation for now */
+          }}
+        >
+          Advertise
+        </TextButton>
         <TextButton onClick={() => navigate("login")}>Log In</TextButton>
       </div>
     </div>

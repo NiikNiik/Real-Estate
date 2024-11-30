@@ -93,13 +93,9 @@ const MapComponent = () => {
   };
 
   return (
-<<<<<<< HEAD
     // LoadScript ensures Google Maps API is loaded with the provided API key
     <LoadScript googleMapsApiKey={process.env.REACT_APP_GOOGLE_MAPS_API_KEY}>
       {/* GoogleMap component to display the map */}
-=======
-    <LoadScript googleMapsApiKey={process.env.REACT_APP_GOOGLE_API_KEY}>
->>>>>>> 7d69d6e9c48c1930194bdcd874600eb97bf12439
       <GoogleMap
         mapContainerStyle={mapContainerStyle} // Style for the map container
         center={center} // Center of the map
