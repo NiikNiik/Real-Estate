@@ -302,24 +302,35 @@ const OptionDropDown = ({
   useEffect(() => {
     const generateJSONMessage = () => {
       const message = {};
-
       if (text === "For Sale") {
         message["SaleType"] = selectedItems[0];
       } else if (text === "Price") {
-        const minPrice = selectedValues[text + 1 + "-min"] || "";
-        const maxPrice = selectedValues[text + 1 + "-max"] || "";
-        message["Price"] = `${minPrice} - ${maxPrice}`;
+        message["Price"] = {};
+        itemList.forEach((item, index) => {
+          if (item === "Minimum - Maximum") {
+            const minPrice = selectedValues[text + (index + 1) + "-min"] || "";
+            const maxPrice = selectedValues[text + (index + 1) + "-max"] || "";
+            message["Price"][item] = `${minPrice} - ${maxPrice}`;
+          }
+        });
       } else if (text === "Beds & Baths") {
         message["BedsAndBaths"] = bedsAndBathsTitle;
       } else if (text === "Home Type") {
-        message["HomeType"] = selectedItems;
+        message["HomeType"] = Array.from(new Set(selectedItems));
       } else if (text === "More") {
         message["More"] = {};
-        message["More"]["Checkboxes"] = selectedItems.filter(
-          (item) =>
-            moreItemsForSaleOrSoldWithCheckboxes.includes(item) ||
-            moreItemsForRentWithCheckboxes.includes(item)
+
+        const uniqueCheckboxes = Array.from(
+          new Set(
+            selectedItems.filter(
+              (item) =>
+                moreItemsForSaleOrSoldWithCheckboxes.includes(item) ||
+                moreItemsForRentWithCheckboxes.includes(item)
+            )
+          )
         );
+
+        message["More"]["Checkboxes"] = uniqueCheckboxes;
         itemList.forEach((item, index) => {
           if (
             (item === "Max HOA" && forSaleSelection !== "For Rent") ||
@@ -335,12 +346,11 @@ const OptionDropDown = ({
           }
         });
       }
-
       console.log(JSON.stringify(message, null, 2));
+      eventEmitter.emit("filterChanged", message);
     };
-
     generateJSONMessage();
-  });
+  }, [selectedItems, selectedValues, bedsAndBathsTitle, forSaleSelection]);
 
   return (
     <div style={{ position: "relative" }}>
@@ -438,7 +448,7 @@ const OptionDropDown = ({
                   </TextButton>
                 )}
                 {text === "Price" &&
-                  index === itemList.indexOf("Minimum   -   Maximum") + 1 &&
+                  index === itemList.indexOf("Minimum - Maximum") + 1 &&
                   forSaleSelection !== "For Rent" && (
                     <div style={{ display: "flex", gap: "10px" }}>
                       <select
@@ -585,7 +595,7 @@ const OptionDropDown = ({
                     </div>
                   )}
                 {text === "Price" &&
-                  index === itemList.indexOf("Minimum   -   Maximum") + 1 &&
+                  index === itemList.indexOf("Minimum - Maximum") + 1 &&
                   forSaleSelection === "For Rent" && (
                     <div style={{ display: "flex", gap: "10px" }}>
                       <select
@@ -1007,7 +1017,7 @@ const OptionDropDown = ({
                         boldItemsForSaleOrSold.includes(item) ||
                         boldItemsForRent.includes(item) ||
                         item === "MORE FILTERS" ||
-                        item === "Minimum   -   Maximum"
+                        item === "Minimum - Maximum"
                           ? "bold"
                           : "normal",
                       ...((boldItemsForSaleOrSold.includes(item) ||

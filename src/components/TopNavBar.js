@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import Icon from "../assets/Icon"; // Adjust the path as needed
 import eventEmitter from "../eventEmitter";
 import colors from "../config/colors";
@@ -123,6 +123,10 @@ const TopNavBar = ({ navigate, onListingTypeChange }) => {
     const updatedBedsAndBathsTitle = getBedsAndBathsTitle();
     eventEmitter.emit("bedsAndBathsTitleChange", updatedBedsAndBathsTitle);
   };
+
+  useEffect(() => {
+    handleBedsAndBathsChange(); // Call the function to emit the event initially
+  }, [bedrooms, bathrooms, useExactMatch]);
 
   const homeTypeItemsForSaleOrSold = [
     "Home Type",
@@ -275,7 +279,7 @@ const TopNavBar = ({ navigate, onListingTypeChange }) => {
           },
           {
             text: "Price",
-            items: ["Price Range", "Minimum   -   Maximum", ""], // Simplified items
+            items: ["Price Range", "Minimum - Maximum", ""], // Simplified items
             shouldUpdateText: false,
             isPrice: true, // Add a flag to identify the Price dropdown
           },
@@ -299,6 +303,7 @@ const TopNavBar = ({ navigate, onListingTypeChange }) => {
                 onSelect={(value, index) => {
                   setSelectedBedsCell(index);
                   handleBedroomsChange(value);
+                  handleBedsAndBathsChange();
                 }}
                 selectedCell={selectedBedsCell}
               />,
@@ -336,6 +341,7 @@ const TopNavBar = ({ navigate, onListingTypeChange }) => {
                   setSelectedBathsCell(index); // Update state in TopNavBar
 
                   handleBathroomsChange(value);
+                  handleBedsAndBathsChange();
                 }}
                 selectedCell={selectedBathsCell} // Pass selectedCell as prop
               />,

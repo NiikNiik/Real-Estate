@@ -1,0 +1,4446 @@
+[
+  {
+    "id": "721-S-Cherry-Grove-Ave,---707-104,-Annapolis,-MD-21401",
+    "formattedAddress": "721 S Cherry Grove Ave, # 707-104, Annapolis, MD 21401",
+    "addressLine1": "721 S Cherry Grove Ave",
+    "addressLine2": "# 707-104",
+    "city": "Annapolis",
+    "state": "MD",
+    "zipCode": "21401",
+    "county": "Anne Arundel",
+    "latitude": 38.966427,
+    "longitude": -76.522758,
+    "propertyType": "Apartment",
+    "bedrooms": 1,
+    "bathrooms": 1,
+    "squareFootage": 692,
+    "status": "Active",
+    "price": 2014,
+    "listingType": "Standard",
+    "listedDate": "2024-12-04T00:00:00.000Z",
+    "removedDate": null,
+    "createdDate": "2024-11-08T00:00:00.000Z",
+    "lastSeenDate": "2024-12-04T03:31:04.587Z",
+    "daysOnMarket": 1,
+    "history": {
+      "2024-11-25": {
+        "event": "Rental Listing",
+        "price": 2014,
+        "listingType": "Standard",
+        "listedDate": "2024-11-25T00:00:00.000Z",
+        "removedDate": "2024-11-26T00:00:00.000Z",
+        "daysOnMarket": 1
+      },
+      "2024-12-04": {
+        "event": "Rental Listing",
+        "price": 2014,
+        "listingType": "Standard",
+        "listedDate": "2024-12-04T00:00:00.000Z",
+        "removedDate": null,
+        "daysOnMarket": 1
+      }
+    }
+  },
+  {
+    "id": "8317-Severn-Orchard-Cir,---2818281,-Severn,-MD-21144",
+    "formattedAddress": "8317 Severn Orchard Cir, # 2818281, Severn, MD 21144",
+    "addressLine1": "8317 Severn Orchard Cir",
+    "addressLine2": "# 2818281",
+    "city": "Severn",
+    "state": "MD",
+    "zipCode": "21144",
+    "county": "Anne Arundel",
+    "latitude": 39.118698,
+    "longitude": -76.708336,
+    "propertyType": "Townhouse",
+    "bedrooms": 3,
+    "bathrooms": 1,
+    "squareFootage": 1105,
+    "status": "Active",
+    "price": 1926,
+    "listingType": "Standard",
+    "listedDate": "2024-12-04T00:00:00.000Z",
+    "removedDate": null,
+    "createdDate": "2023-09-27T00:00:00.000Z",
+    "lastSeenDate": "2024-12-04T03:31:04.586Z",
+    "daysOnMarket": 1,
+    "history": {
+      "2024-12-04": {
+        "event": "Rental Listing",
+        "price": 1926,
+        "listingType": "Standard",
+        "listedDate": "2024-12-04T00:00:00.000Z",
+        "removedDate": null,
+        "daysOnMarket": 1
+      }
+    }
+  },
+  {
+    "id": "615-Carlton-Otto-Ln,---604-25,-Odenton,-MD-21113",
+    "formattedAddress": "615 Carlton Otto Ln, # 604-25, Odenton, MD 21113",
+    "addressLine1": "615 Carlton Otto Ln",
+    "addressLine2": "# 604-25",
+    "city": "Odenton",
+    "state": "MD",
+    "zipCode": "21113",
+    "county": "Anne Arundel",
+    "latitude": 39.080524,
+    "longitude": -76.684898,
+    "propertyType": "Apartment",
+    "bedrooms": 2,
+    "bathrooms": 2,
+    "squareFootage": 1113,
+    "status": "Active",
+    "price": 3041,
+    "listingType": "Standard",
+    "listedDate": "2024-12-04T00:00:00.000Z",
+    "removedDate": null,
+    "createdDate": "2024-10-12T00:00:00.000Z",
+    "lastSeenDate": "2024-12-04T03:31:04.568Z",
+    "daysOnMarket": 1,
+    "history": {
+      "2024-12-04": {
+        "event": "Rental Listing",
+        "price": 3041,
+        "listingType": "Standard",
+        "listedDate": "2024-12-04T00:00:00.000Z",
+        "removedDate": null,
+        "daysOnMarket": 1
+      }
+    }
+  },
+  {
+    "id": "215-Woodhill-Dr,---212C,-Glen-Burnie,-MD-21061",
+    "formattedAddress": "215 Woodhill Dr, # 212C, Glen Burnie, MD 21061",
+    "addressLine1": "215 Woodhill Dr",
+    "addressLine2": "# 212C",
+    "city": "Glen Burnie",
+    "state": "MD",
+    "zipCode": "21061",
+    "county": "Anne Arundel",
+    "latitude": 39.140869,
+    "longitude": -76.62088,
+    "propertyType": "Apartment",
+    "bedrooms": 1,
+    "bathrooms": 1,
+    "squareFootage": 763,
+    "status": "Active",
+    "price": 1565,
+    "listingType": "Standard",
+    "listedDate": "2024-12-04T00:00:00.000Z",
+    "removedDate": null,
+    "createdDate": "2024-11-09T00:00:00.000Z",
+    "lastSeenDate": "2024-12-04T03:31:04.567Z",
+    "daysOnMarket": 1,
+    "history": {
+      "2024-12-04": {
+        "event": "Rental Listing",
+        "price": 1565,
+        "listingType": "Standard",
+        "listedDate": "2024-12-04T00:00:00.000Z",
+        "removedDate": null,
+        "daysOnMarket": 1
+      }
+    }
+  },
+  {
+    "id": "721-S-Cherry-Grove-Ave,---717-204,-Annapolis,-MD-21401",
+    "formattedAddress": "721 S Cherry Grove Ave, # 717-204, Annapolis, MD 21401",
+    "addressLine1": "721 S Cherry Grove Ave",
+    "addressLine2": "# 717-204",
+    "city": "Annapolis",
+    "state": "MD",
+    "zipCode": "21401",
+    "county": "Anne Arundel",
+    "latitude": 38.966427,
+    "longitude": -76.522758,
+    "propertyType": "Apartment",
+    "bedrooms": 2,
+    "bathrooms": 2,
+    "squareFootage": 1020,
+    "status": "Active",
+    "price": 2372,
+    "listingType": "Standard",
+    "listedDate": "2024-12-04T00:00:00.000Z",
+    "removedDate": null,
+    "createdDate": "2022-10-13T02:37:59.857Z",
+    "lastSeenDate": "2024-12-04T03:31:04.564Z",
+    "daysOnMarket": 1,
+    "history": {
+      "2024-12-04": {
+        "event": "Rental Listing",
+        "price": 2372,
+        "listingType": "Standard",
+        "listedDate": "2024-12-04T00:00:00.000Z",
+        "removedDate": null,
+        "daysOnMarket": 1
+      }
+    }
+  },
+  {
+    "id": "7847-Americana-Cir,-Apt-T2,-Glen-Burnie,-MD-21060",
+    "formattedAddress": "7847 Americana Cir, Apt T2, Glen Burnie, MD 21060",
+    "addressLine1": "7847 Americana Cir",
+    "addressLine2": "Apt T2",
+    "city": "Glen Burnie",
+    "state": "MD",
+    "zipCode": "21060",
+    "county": "Anne Arundel",
+    "latitude": 39.139164,
+    "longitude": -76.59919,
+    "propertyType": "Apartment",
+    "bedrooms": 3,
+    "bathrooms": 1,
+    "squareFootage": 1077,
+    "status": "Active",
+    "price": 2019,
+    "listingType": "Standard",
+    "listedDate": "2024-12-04T00:00:00.000Z",
+    "removedDate": null,
+    "createdDate": "2024-09-20T00:00:00.000Z",
+    "lastSeenDate": "2024-12-04T03:31:04.561Z",
+    "daysOnMarket": 1,
+    "history": {
+      "2024-10-02": {
+        "event": "Rental Listing",
+        "price": 1549,
+        "listingType": "Standard",
+        "listedDate": "2024-10-02T00:00:00.000Z",
+        "removedDate": "2024-10-03T00:00:00.000Z",
+        "daysOnMarket": 1
+      },
+      "2024-10-28": {
+        "event": "Rental Listing",
+        "price": 1499,
+        "listingType": "Standard",
+        "listedDate": "2024-10-28T00:00:00.000Z",
+        "removedDate": "2024-10-29T00:00:00.000Z",
+        "daysOnMarket": 1
+      },
+      "2024-11-16": {
+        "event": "Rental Listing",
+        "price": 2049,
+        "listingType": "Standard",
+        "listedDate": "2024-11-16T00:00:00.000Z",
+        "removedDate": "2024-11-17T00:00:00.000Z",
+        "daysOnMarket": 1
+      },
+      "2024-12-04": {
+        "event": "Rental Listing",
+        "price": 2019,
+        "listingType": "Standard",
+        "listedDate": "2024-12-04T00:00:00.000Z",
+        "removedDate": null,
+        "daysOnMarket": 1
+      }
+    }
+  },
+  {
+    "id": "8317-Severn-Orchard-Cir,---C3078307,-Severn,-MD-21144",
+    "formattedAddress": "8317 Severn Orchard Cir, # C3078307, Severn, MD 21144",
+    "addressLine1": "8317 Severn Orchard Cir",
+    "addressLine2": "# C3078307",
+    "city": "Severn",
+    "state": "MD",
+    "zipCode": "21144",
+    "county": "Anne Arundel",
+    "latitude": 39.118698,
+    "longitude": -76.708336,
+    "propertyType": "Townhouse",
+    "bedrooms": 3,
+    "bathrooms": 1,
+    "squareFootage": 1105,
+    "status": "Active",
+    "price": 1784,
+    "listingType": "Standard",
+    "listedDate": "2024-12-04T00:00:00.000Z",
+    "removedDate": null,
+    "createdDate": "2022-07-09T00:40:36.808Z",
+    "lastSeenDate": "2024-12-04T03:31:04.559Z",
+    "daysOnMarket": 1,
+    "history": {
+      "2024-11-25": {
+        "event": "Rental Listing",
+        "price": 1784,
+        "listingType": "Standard",
+        "listedDate": "2024-11-25T00:00:00.000Z",
+        "removedDate": "2024-11-26T00:00:00.000Z",
+        "daysOnMarket": 1
+      },
+      "2024-12-04": {
+        "event": "Rental Listing",
+        "price": 1784,
+        "listingType": "Standard",
+        "listedDate": "2024-12-04T00:00:00.000Z",
+        "removedDate": null,
+        "daysOnMarket": 1
+      }
+    }
+  },
+  {
+    "id": "7501-Trafalgar-Cir,-Apt-459,-Hanover,-MD-21076",
+    "formattedAddress": "7501 Trafalgar Cir, Apt 459, Hanover, MD 21076",
+    "addressLine1": "7501 Trafalgar Cir",
+    "addressLine2": "Apt 459",
+    "city": "Hanover",
+    "state": "MD",
+    "zipCode": "21076",
+    "county": "Anne Arundel",
+    "latitude": 39.161015,
+    "longitude": -76.71888,
+    "propertyType": "Apartment",
+    "bedrooms": 2,
+    "bathrooms": 2,
+    "squareFootage": 1248,
+    "status": "Active",
+    "price": 2764,
+    "listingType": "Standard",
+    "listedDate": "2024-12-04T00:00:00.000Z",
+    "removedDate": null,
+    "createdDate": "2022-07-22T01:45:35.090Z",
+    "lastSeenDate": "2024-12-04T03:31:04.555Z",
+    "daysOnMarket": 1,
+    "history": {
+      "2024-12-04": {
+        "event": "Rental Listing",
+        "price": 2764,
+        "listingType": "Standard",
+        "listedDate": "2024-12-04T00:00:00.000Z",
+        "removedDate": null,
+        "daysOnMarket": 1
+      }
+    }
+  },
+  {
+    "id": "655-Americana-Dr,---1035-201,-Annapolis,-MD-21403",
+    "formattedAddress": "655 Americana Dr, # 1035-201, Annapolis, MD 21403",
+    "addressLine1": "655 Americana Dr",
+    "addressLine2": "# 1035-201",
+    "city": "Annapolis",
+    "state": "MD",
+    "zipCode": "21403",
+    "county": "Anne Arundel",
+    "latitude": 38.963554,
+    "longitude": -76.485374,
+    "propertyType": "Apartment",
+    "bedrooms": 2,
+    "bathrooms": 1,
+    "squareFootage": 782,
+    "status": "Active",
+    "price": 1693,
+    "listingType": "Standard",
+    "listedDate": "2024-12-04T00:00:00.000Z",
+    "removedDate": null,
+    "createdDate": "2022-05-06T00:07:10.896Z",
+    "lastSeenDate": "2024-12-04T03:29:41.053Z",
+    "daysOnMarket": 1,
+    "history": {
+      "2024-12-04": {
+        "event": "Rental Listing",
+        "price": 1693,
+        "listingType": "Standard",
+        "listedDate": "2024-12-04T00:00:00.000Z",
+        "removedDate": null,
+        "daysOnMarket": 1
+      }
+    }
+  },
+  {
+    "id": "7930-Silver-Leaf-Ct,---430SD-F,-Glen-Burnie,-MD-21061",
+    "formattedAddress": "7930 Silver Leaf Ct, # 430SD-F, Glen Burnie, MD 21061",
+    "addressLine1": "7930 Silver Leaf Ct",
+    "addressLine2": "# 430SD-F",
+    "city": "Glen Burnie",
+    "state": "MD",
+    "zipCode": "21061",
+    "county": "Anne Arundel",
+    "latitude": 39.131649,
+    "longitude": -76.623215,
+    "propertyType": "Apartment",
+    "bedrooms": 2,
+    "bathrooms": 1,
+    "squareFootage": 985,
+    "status": "Active",
+    "price": 1785,
+    "listingType": "Standard",
+    "listedDate": "2024-12-04T00:00:00.000Z",
+    "removedDate": null,
+    "createdDate": "2024-10-21T00:00:00.000Z",
+    "lastSeenDate": "2024-12-04T03:29:41.052Z",
+    "daysOnMarket": 1,
+    "history": {
+      "2024-12-04": {
+        "event": "Rental Listing",
+        "price": 1785,
+        "listingType": "Standard",
+        "listedDate": "2024-12-04T00:00:00.000Z",
+        "removedDate": null,
+        "daysOnMarket": 1
+      }
+    }
+  },
+  {
+    "id": "2188-Commissary-Cir,-Odenton,-MD-21113",
+    "formattedAddress": "2188 Commissary Cir, Odenton, MD 21113",
+    "addressLine1": "2188 Commissary Cir",
+    "addressLine2": null,
+    "city": "Odenton",
+    "state": "MD",
+    "zipCode": "21113",
+    "county": "Anne Arundel",
+    "latitude": 39.110456,
+    "longitude": -76.720641,
+    "propertyType": "Single Family",
+    "bedrooms": 4,
+    "bathrooms": 4,
+    "squareFootage": 1780,
+    "status": "Active",
+    "price": 2750,
+    "listingType": "Standard",
+    "listedDate": "2022-07-06T00:00:00.000Z",
+    "removedDate": null,
+    "createdDate": "2022-07-07T00:03:35.224Z",
+    "lastSeenDate": "2024-12-04T03:29:40.934Z",
+    "daysOnMarket": 883,
+    "history": {
+      "2022-07-06": {
+        "event": "Rental Listing",
+        "price": 2750,
+        "listingType": "Standard",
+        "listedDate": "2022-07-06T00:00:00.000Z",
+        "removedDate": null,
+        "daysOnMarket": 883
+      }
+    }
+  },
+  {
+    "id": "7811-Shannons-Glen-Dr,---2406-306,-Jessup,-MD-20794",
+    "formattedAddress": "7811 Shannons Glen Dr, # 2406-306, Jessup, MD 20794",
+    "addressLine1": "7811 Shannons Glen Dr",
+    "addressLine2": "# 2406-306",
+    "city": "Jessup",
+    "state": "MD",
+    "zipCode": "20794",
+    "county": "Anne Arundel",
+    "latitude": 39.140804,
+    "longitude": -76.760338,
+    "propertyType": "Apartment",
+    "bedrooms": 2,
+    "bathrooms": 2,
+    "squareFootage": 1248,
+    "status": "Active",
+    "price": 2406,
+    "listingType": "Standard",
+    "listedDate": "2024-12-04T00:00:00.000Z",
+    "removedDate": null,
+    "createdDate": "2024-10-11T00:00:00.000Z",
+    "lastSeenDate": "2024-12-04T03:29:40.895Z",
+    "daysOnMarket": 1,
+    "history": {
+      "2024-12-04": {
+        "event": "Rental Listing",
+        "price": 2406,
+        "listingType": "Standard",
+        "listedDate": "2024-12-04T00:00:00.000Z",
+        "removedDate": null,
+        "daysOnMarket": 1
+      }
+    }
+  },
+  {
+    "id": "8317-Severn-Orchard-Cir,---2308230,-Severn,-MD-21144",
+    "formattedAddress": "8317 Severn Orchard Cir, # 2308230, Severn, MD 21144",
+    "addressLine1": "8317 Severn Orchard Cir",
+    "addressLine2": "# 2308230",
+    "city": "Severn",
+    "state": "MD",
+    "zipCode": "21144",
+    "county": "Anne Arundel",
+    "latitude": 39.118698,
+    "longitude": -76.708336,
+    "propertyType": "Townhouse",
+    "bedrooms": 2,
+    "bathrooms": 1,
+    "squareFootage": 952,
+    "status": "Active",
+    "price": 1857,
+    "listingType": "Standard",
+    "listedDate": "2024-12-04T00:00:00.000Z",
+    "removedDate": null,
+    "createdDate": "2023-03-04T00:00:00.000Z",
+    "lastSeenDate": "2024-12-04T03:29:40.872Z",
+    "daysOnMarket": 1,
+    "history": {
+      "2024-12-04": {
+        "event": "Rental Listing",
+        "price": 1857,
+        "listingType": "Standard",
+        "listedDate": "2024-12-04T00:00:00.000Z",
+        "removedDate": null,
+        "daysOnMarket": 1
+      }
+    }
+  },
+  {
+    "id": "4606-Cascade-Mills-Dr,---CR10100,-Owings-Mills,-MD-21117",
+    "formattedAddress": "4606 Cascade Mills Dr, # CR10100, Owings Mills, MD 21117",
+    "addressLine1": "4606 Cascade Mills Dr",
+    "addressLine2": "# CR10100",
+    "city": "Owings Mills",
+    "state": "MD",
+    "zipCode": "21117",
+    "county": "Baltimore",
+    "latitude": 39.402229,
+    "longitude": -76.807671,
+    "propertyType": "Apartment",
+    "bedrooms": 1,
+    "bathrooms": 1,
+    "squareFootage": 1100,
+    "status": "Active",
+    "price": 1996,
+    "listingType": "Standard",
+    "listedDate": "2024-12-04T00:00:00.000Z",
+    "removedDate": null,
+    "createdDate": "2023-09-06T00:00:00.000Z",
+    "lastSeenDate": "2024-12-04T03:24:12.346Z",
+    "daysOnMarket": 1,
+    "history": {
+      "2024-11-08": {
+        "event": "Rental Listing",
+        "price": 1996,
+        "listingType": "Standard",
+        "listedDate": "2024-11-08T00:00:00.000Z",
+        "removedDate": "2024-11-09T00:00:00.000Z",
+        "daysOnMarket": 1
+      },
+      "2024-12-04": {
+        "event": "Rental Listing",
+        "price": 1996,
+        "listingType": "Standard",
+        "listedDate": "2024-12-04T00:00:00.000Z",
+        "removedDate": null,
+        "daysOnMarket": 1
+      }
+    }
+  },
+  {
+    "id": "13-Richmar-Rd,---13G,-Owings-Mills,-MD-21117",
+    "formattedAddress": "13 Richmar Rd, # 13G, Owings Mills, MD 21117",
+    "addressLine1": "13 Richmar Rd",
+    "addressLine2": "# 13G",
+    "city": "Owings Mills",
+    "state": "MD",
+    "zipCode": "21117",
+    "county": "Baltimore",
+    "latitude": 39.435604,
+    "longitude": -76.796593,
+    "propertyType": "Apartment",
+    "bedrooms": 1,
+    "bathrooms": 1,
+    "squareFootage": 559,
+    "status": "Active",
+    "price": 1419,
+    "listingType": "Standard",
+    "listedDate": "2024-12-04T00:00:00.000Z",
+    "removedDate": null,
+    "createdDate": "2023-06-23T00:00:00.000Z",
+    "lastSeenDate": "2024-12-04T03:24:12.333Z",
+    "daysOnMarket": 1,
+    "history": {
+      "2024-11-26": {
+        "event": "Rental Listing",
+        "price": 1419,
+        "listingType": "Standard",
+        "listedDate": "2024-11-26T00:00:00.000Z",
+        "removedDate": "2024-11-27T00:00:00.000Z",
+        "daysOnMarket": 1
+      },
+      "2024-12-04": {
+        "event": "Rental Listing",
+        "price": 1419,
+        "listingType": "Standard",
+        "listedDate": "2024-12-04T00:00:00.000Z",
+        "removedDate": null,
+        "daysOnMarket": 1
+      }
+    }
+  },
+  {
+    "id": "1112-Ivywood-Ln,---0045-103,-Towson,-MD-21286",
+    "formattedAddress": "1112 Ivywood Ln, # 0045-103, Towson, MD 21286",
+    "addressLine1": "1112 Ivywood Ln",
+    "addressLine2": "# 0045-103",
+    "city": "Towson",
+    "state": "MD",
+    "zipCode": "21286",
+    "county": "Baltimore",
+    "latitude": 39.396606,
+    "longitude": -76.586586,
+    "propertyType": "Apartment",
+    "bedrooms": 1,
+    "bathrooms": 1,
+    "squareFootage": 1056,
+    "status": "Active",
+    "price": 1484,
+    "listingType": "Standard",
+    "listedDate": "2024-12-04T00:00:00.000Z",
+    "removedDate": null,
+    "createdDate": "2022-03-11T02:15:06.763Z",
+    "lastSeenDate": "2024-12-04T03:24:12.279Z",
+    "daysOnMarket": 1,
+    "history": {
+      "2024-12-04": {
+        "event": "Rental Listing",
+        "price": 1484,
+        "listingType": "Standard",
+        "listedDate": "2024-12-04T00:00:00.000Z",
+        "removedDate": null,
+        "daysOnMarket": 1
+      }
+    }
+  },
+  {
+    "id": "9150-Parkland-Rd,---SK05F,-Parkville,-MD-21234",
+    "formattedAddress": "9150 Parkland Rd, # SK05F, Parkville, MD 21234",
+    "addressLine1": "9150 Parkland Rd",
+    "addressLine2": "# SK05F",
+    "city": "Parkville",
+    "state": "MD",
+    "zipCode": "21234",
+    "county": "Baltimore",
+    "latitude": 39.402386,
+    "longitude": -76.524689,
+    "propertyType": "Apartment",
+    "bedrooms": 1,
+    "bathrooms": 1,
+    "squareFootage": 788,
+    "status": "Active",
+    "price": 1440,
+    "listingType": "Standard",
+    "listedDate": "2024-12-04T00:00:00.000Z",
+    "removedDate": null,
+    "createdDate": "2023-10-17T00:00:00.000Z",
+    "lastSeenDate": "2024-12-04T03:24:12.272Z",
+    "daysOnMarket": 1,
+    "history": {
+      "2024-10-10": {
+        "event": "Rental Listing",
+        "price": 1440,
+        "listingType": "Standard",
+        "listedDate": "2024-10-10T00:00:00.000Z",
+        "removedDate": "2024-10-11T00:00:00.000Z",
+        "daysOnMarket": 1
+      },
+      "2024-10-24": {
+        "event": "Rental Listing",
+        "price": 1405,
+        "listingType": "Standard",
+        "listedDate": "2024-10-24T00:00:00.000Z",
+        "removedDate": "2024-10-25T00:00:00.000Z",
+        "daysOnMarket": 1
+      },
+      "2024-12-04": {
+        "event": "Rental Listing",
+        "price": 1440,
+        "listingType": "Standard",
+        "listedDate": "2024-12-04T00:00:00.000Z",
+        "removedDate": null,
+        "daysOnMarket": 1
+      }
+    }
+  },
+  {
+    "id": "736-West-Kingsway,---K7530753,-Middle-River,-MD-21220",
+    "formattedAddress": "736 West Kingsway, # K7530753, Middle River, MD 21220",
+    "addressLine1": "736 West Kingsway",
+    "addressLine2": "# K7530753",
+    "city": "Middle River",
+    "state": "MD",
+    "zipCode": "21220",
+    "county": "Baltimore",
+    "latitude": 39.317207,
+    "longitude": -76.42981,
+    "propertyType": "Townhouse",
+    "bedrooms": 3,
+    "bathrooms": 1,
+    "squareFootage": 1100,
+    "status": "Active",
+    "price": 1730,
+    "listingType": "Standard",
+    "listedDate": "2024-12-04T00:00:00.000Z",
+    "removedDate": null,
+    "createdDate": "2024-07-17T00:00:00.000Z",
+    "lastSeenDate": "2024-12-04T03:24:12.256Z",
+    "daysOnMarket": 1,
+    "history": {
+      "2024-10-05": {
+        "event": "Rental Listing",
+        "price": 1654,
+        "listingType": "Standard",
+        "listedDate": "2024-10-05T00:00:00.000Z",
+        "removedDate": "2024-10-06T00:00:00.000Z",
+        "daysOnMarket": 1
+      },
+      "2024-12-04": {
+        "event": "Rental Listing",
+        "price": 1730,
+        "listingType": "Standard",
+        "listedDate": "2024-12-04T00:00:00.000Z",
+        "removedDate": null,
+        "daysOnMarket": 1
+      }
+    }
+  },
+  {
+    "id": "1-Dalmeny-Ct,---0002X204,-Parkville,-MD-21234",
+    "formattedAddress": "1 Dalmeny Ct, # 0002X204, Parkville, MD 21234",
+    "addressLine1": "1 Dalmeny Ct",
+    "addressLine2": "# 0002X204",
+    "city": "Parkville",
+    "state": "MD",
+    "zipCode": "21234",
+    "county": "Baltimore",
+    "latitude": 39.411682,
+    "longitude": -76.52758,
+    "propertyType": "Apartment",
+    "bedrooms": 1,
+    "bathrooms": 1,
+    "squareFootage": 645,
+    "status": "Active",
+    "price": 1154,
+    "listingType": "Standard",
+    "listedDate": "2024-12-04T00:00:00.000Z",
+    "removedDate": null,
+    "createdDate": "2024-11-22T00:00:00.000Z",
+    "lastSeenDate": "2024-12-04T03:24:12.252Z",
+    "daysOnMarket": 1,
+    "history": {
+      "2024-12-04": {
+        "event": "Rental Listing",
+        "price": 1154,
+        "listingType": "Standard",
+        "listedDate": "2024-12-04T00:00:00.000Z",
+        "removedDate": null,
+        "daysOnMarket": 1
+      }
+    }
+  },
+  {
+    "id": "9830-Reisterstown-Rd,---001-326,-Owings-Mills,-MD-21117",
+    "formattedAddress": "9830 Reisterstown Rd, # 001-326, Owings Mills, MD 21117",
+    "addressLine1": "9830 Reisterstown Rd",
+    "addressLine2": "# 001-326",
+    "city": "Owings Mills",
+    "state": "MD",
+    "zipCode": "21117",
+    "county": "Baltimore",
+    "latitude": 39.409168,
+    "longitude": -76.770302,
+    "propertyType": "Apartment",
+    "bathrooms": 1,
+    "squareFootage": 594,
+    "status": "Active",
+    "price": 1625,
+    "listingType": "Standard",
+    "listedDate": "2024-12-04T00:00:00.000Z",
+    "removedDate": null,
+    "createdDate": "2024-01-19T00:00:00.000Z",
+    "lastSeenDate": "2024-12-04T03:24:12.207Z",
+    "daysOnMarket": 1,
+    "history": {
+      "2024-10-14": {
+        "event": "Rental Listing",
+        "price": 1665,
+        "listingType": "Standard",
+        "listedDate": "2024-10-14T00:00:00.000Z",
+        "removedDate": "2024-10-15T00:00:00.000Z",
+        "daysOnMarket": 1
+      },
+      "2024-10-20": {
+        "event": "Rental Listing",
+        "price": 1585,
+        "listingType": "Standard",
+        "listedDate": "2024-10-20T00:00:00.000Z",
+        "removedDate": "2024-10-21T00:00:00.000Z",
+        "daysOnMarket": 1
+      },
+      "2024-11-02": {
+        "event": "Rental Listing",
+        "price": 1585,
+        "listingType": "Standard",
+        "listedDate": "2024-11-02T00:00:00.000Z",
+        "removedDate": "2024-11-03T00:00:00.000Z",
+        "daysOnMarket": 1
+      },
+      "2024-11-24": {
+        "event": "Rental Listing",
+        "price": 1625,
+        "listingType": "Standard",
+        "listedDate": "2024-11-24T00:00:00.000Z",
+        "removedDate": "2024-11-25T00:00:00.000Z",
+        "daysOnMarket": 1
+      },
+      "2024-12-04": {
+        "event": "Rental Listing",
+        "price": 1625,
+        "listingType": "Standard",
+        "listedDate": "2024-12-04T00:00:00.000Z",
+        "removedDate": null,
+        "daysOnMarket": 1
+      }
+    }
+  },
+  {
+    "id": "9401-Groveton-Cir,-Apt-305,-Owings-Mills,-MD-21117",
+    "formattedAddress": "9401 Groveton Cir, Apt 305, Owings Mills, MD 21117",
+    "addressLine1": "9401 Groveton Cir",
+    "addressLine2": "Apt 305",
+    "city": "Owings Mills",
+    "state": "MD",
+    "zipCode": "21117",
+    "county": "Baltimore",
+    "latitude": 39.400166,
+    "longitude": -76.792412,
+    "propertyType": "Apartment",
+    "bedrooms": 2,
+    "bathrooms": 2,
+    "squareFootage": 1086,
+    "status": "Active",
+    "price": 2300,
+    "listingType": "Standard",
+    "listedDate": "2024-12-04T00:00:00.000Z",
+    "removedDate": null,
+    "createdDate": "2022-08-25T02:44:54.735Z",
+    "lastSeenDate": "2024-12-04T03:24:12.205Z",
+    "daysOnMarket": 1,
+    "history": {
+      "2024-10-01": {
+        "event": "Rental Listing",
+        "price": 2300,
+        "listingType": "Standard",
+        "listedDate": "2024-10-01T00:00:00.000Z",
+        "removedDate": "2024-10-02T00:00:00.000Z",
+        "daysOnMarket": 1
+      },
+      "2024-10-09": {
+        "event": "Rental Listing",
+        "price": 2300,
+        "listingType": "Standard",
+        "listedDate": "2024-10-09T00:00:00.000Z",
+        "removedDate": "2024-10-10T00:00:00.000Z",
+        "daysOnMarket": 1
+      },
+      "2024-11-01": {
+        "event": "Rental Listing",
+        "price": 2300,
+        "listingType": "Standard",
+        "listedDate": "2024-11-01T00:00:00.000Z",
+        "removedDate": "2024-11-02T00:00:00.000Z",
+        "daysOnMarket": 1
+      },
+      "2024-11-05": {
+        "event": "Rental Listing",
+        "price": 2300,
+        "listingType": "Standard",
+        "listedDate": "2024-11-05T00:00:00.000Z",
+        "removedDate": "2024-11-06T00:00:00.000Z",
+        "daysOnMarket": 1
+      },
+      "2024-12-04": {
+        "event": "Rental Listing",
+        "price": 2300,
+        "listingType": "Standard",
+        "listedDate": "2024-12-04T00:00:00.000Z",
+        "removedDate": null,
+        "daysOnMarket": 1
+      }
+    }
+  },
+  {
+    "id": "10701-Cardington-Way,---CA5-001,-Cockeysville,-MD-21030",
+    "formattedAddress": "10701 Cardington Way, # CA5-001, Cockeysville, MD 21030",
+    "addressLine1": "10701 Cardington Way",
+    "addressLine2": "# CA5-001",
+    "city": "Cockeysville",
+    "state": "MD",
+    "zipCode": "21030",
+    "county": "Baltimore",
+    "latitude": 39.477566,
+    "longitude": -76.601128,
+    "propertyType": "Apartment",
+    "bedrooms": 2,
+    "bathrooms": 2,
+    "squareFootage": 1145,
+    "status": "Active",
+    "price": 1955,
+    "listingType": "Standard",
+    "listedDate": "2024-12-04T00:00:00.000Z",
+    "removedDate": null,
+    "createdDate": "2022-10-31T02:54:07.927Z",
+    "lastSeenDate": "2024-12-04T03:24:12.201Z",
+    "daysOnMarket": 1,
+    "history": {
+      "2024-10-03": {
+        "event": "Rental Listing",
+        "price": 2189,
+        "listingType": "Standard",
+        "listedDate": "2024-10-03T00:00:00.000Z",
+        "removedDate": "2024-10-04T00:00:00.000Z",
+        "daysOnMarket": 1
+      },
+      "2024-10-10": {
+        "event": "Rental Listing",
+        "price": 2189,
+        "listingType": "Standard",
+        "listedDate": "2024-10-10T00:00:00.000Z",
+        "removedDate": "2024-10-11T00:00:00.000Z",
+        "daysOnMarket": 1
+      },
+      "2024-11-05": {
+        "event": "Rental Listing",
+        "price": 1985,
+        "listingType": "Standard",
+        "listedDate": "2024-11-05T00:00:00.000Z",
+        "removedDate": "2024-11-06T00:00:00.000Z",
+        "daysOnMarket": 1
+      },
+      "2024-11-21": {
+        "event": "Rental Listing",
+        "price": 1955,
+        "listingType": "Standard",
+        "listedDate": "2024-11-21T00:00:00.000Z",
+        "removedDate": "2024-11-22T00:00:00.000Z",
+        "daysOnMarket": 1
+      },
+      "2024-12-04": {
+        "event": "Rental Listing",
+        "price": 1955,
+        "listingType": "Standard",
+        "listedDate": "2024-12-04T00:00:00.000Z",
+        "removedDate": null,
+        "daysOnMarket": 1
+      }
+    }
+  },
+  {
+    "id": "135-Decoverly-Dr,-Gaithersburg,-MD-20878",
+    "formattedAddress": "135 Decoverly Dr, Gaithersburg, MD 20878",
+    "addressLine1": "135 Decoverly Dr",
+    "addressLine2": null,
+    "city": "Gaithersburg",
+    "state": "MD",
+    "zipCode": "20878",
+    "county": "Montgomery",
+    "latitude": 39.112636,
+    "longitude": -77.200253,
+    "propertyType": "Townhouse",
+    "bedrooms": 4,
+    "bathrooms": 4.5,
+    "squareFootage": 1572,
+    "lotSize": 1365,
+    "yearBuilt": 2014,
+    "status": "Active",
+    "price": 3600,
+    "listingType": "Standard",
+    "listedDate": "2024-10-09T00:00:00.000Z",
+    "removedDate": null,
+    "createdDate": "2021-09-08T01:49:58.395Z",
+    "lastSeenDate": "2024-12-04T03:22:33.418Z",
+    "daysOnMarket": 57,
+    "mlsName": "BrightMLS",
+    "mlsNumber": "MDMC2151728",
+    "listingAgent": {
+      "name": "Marsha Barracato",
+      "phone": "4435408377",
+      "website": "http://teammarsha.realtor"
+    },
+    "listingOffice": {
+      "name": "HomeServices Property Management",
+      "phone": "3014867800"
+    },
+    "history": {
+      "2024-10-09": {
+        "event": "Rental Listing",
+        "price": 3600,
+        "listingType": "Standard",
+        "listedDate": "2024-10-09T00:00:00.000Z",
+        "removedDate": null,
+        "daysOnMarket": 57
+      }
+    }
+  },
+  {
+    "id": "18309-Ivy-Oak-Ter,-Gaithersburg,-MD-20877",
+    "formattedAddress": "18309 Ivy Oak Ter, Gaithersburg, MD 20877",
+    "addressLine1": "18309 Ivy Oak Ter",
+    "addressLine2": null,
+    "city": "Gaithersburg",
+    "state": "MD",
+    "zipCode": "20877",
+    "county": "Montgomery",
+    "latitude": 39.157247,
+    "longitude": -77.159759,
+    "propertyType": "Townhouse",
+    "bedrooms": 2,
+    "bathrooms": 3,
+    "squareFootage": 1218,
+    "lotSize": 1500,
+    "yearBuilt": 1987,
+    "hoa": {
+      "fee": 63
+    },
+    "status": "Active",
+    "price": 2500,
+    "listingType": "Standard",
+    "listedDate": "2024-10-01T00:00:00.000Z",
+    "removedDate": null,
+    "createdDate": "2024-10-02T00:00:00.000Z",
+    "lastSeenDate": "2024-12-04T03:22:33.409Z",
+    "daysOnMarket": 65,
+    "mlsName": "BrightMLS",
+    "mlsNumber": "MDMC2150460",
+    "listingAgent": {
+      "name": "Shulin Zheng",
+      "phone": "2406767577",
+      "email": "shulinzheng@yahoo.com"
+    },
+    "listingOffice": {
+      "name": "DMV Landmark Realty, LLC",
+      "phone": "3015872999",
+      "email": "dmvlandmarkrealty@gmail.com"
+    },
+    "history": {
+      "2024-10-01": {
+        "event": "Rental Listing",
+        "price": 2500,
+        "listingType": "Standard",
+        "listedDate": "2024-10-01T00:00:00.000Z",
+        "removedDate": null,
+        "daysOnMarket": 65
+      }
+    }
+  },
+  {
+    "id": "12124-Bentridge-Pl,-Rockville,-MD-20854",
+    "formattedAddress": "12124 Bentridge Pl, Rockville, MD 20854",
+    "addressLine1": "12124 Bentridge Pl",
+    "addressLine2": null,
+    "city": "Rockville",
+    "state": "MD",
+    "zipCode": "20854",
+    "county": "Montgomery",
+    "latitude": 39.055508,
+    "longitude": -77.192393,
+    "propertyType": "Townhouse",
+    "bedrooms": 3,
+    "bathrooms": 1.5,
+    "squareFootage": 1595,
+    "lotSize": 1509,
+    "yearBuilt": 1981,
+    "status": "Active",
+    "price": 3350,
+    "listingType": "Standard",
+    "listedDate": "2024-10-13T00:00:00.000Z",
+    "removedDate": null,
+    "createdDate": "2024-10-14T00:00:00.000Z",
+    "lastSeenDate": "2024-12-04T03:22:33.300Z",
+    "daysOnMarket": 53,
+    "mlsName": "BrightMLS",
+    "mlsNumber": "MDMC2150822",
+    "listingAgent": {
+      "name": "Susan Romm, Agent",
+      "phone": "3013252565",
+      "email": "susan@sromm.com",
+      "website": "http://www.susanromm.com"
+    },
+    "listingOffice": {
+      "name": "RE MAX 100",
+      "phone": "4107306100",
+      "email": "kcrowley@remax.net"
+    },
+    "history": {
+      "2024-10-13": {
+        "event": "Rental Listing",
+        "price": 3350,
+        "listingType": "Standard",
+        "listedDate": "2024-10-13T00:00:00.000Z",
+        "removedDate": null,
+        "daysOnMarket": 53
+      }
+    }
+  },
+  {
+    "id": "4901-Meridian-Way,---715B19,-Frederick,-MD-21703",
+    "formattedAddress": "4901 Meridian Way, # 715B19, Frederick, MD 21703",
+    "addressLine1": "4901 Meridian Way",
+    "addressLine2": "# 715B19",
+    "city": "Frederick",
+    "state": "MD",
+    "zipCode": "21703",
+    "county": "Frederick",
+    "latitude": 39.366383,
+    "longitude": -77.435234,
+    "propertyType": "Apartment",
+    "bedrooms": 2,
+    "bathrooms": 2,
+    "squareFootage": 1100,
+    "status": "Active",
+    "price": 2030,
+    "listingType": "Standard",
+    "listedDate": "2024-12-04T00:00:00.000Z",
+    "removedDate": null,
+    "createdDate": "2024-10-10T00:00:00.000Z",
+    "lastSeenDate": "2024-12-04T03:21:38.159Z",
+    "daysOnMarket": 1,
+    "history": {
+      "2024-12-04": {
+        "event": "Rental Listing",
+        "price": 2030,
+        "listingType": "Standard",
+        "listedDate": "2024-12-04T00:00:00.000Z",
+        "removedDate": null,
+        "daysOnMarket": 1
+      }
+    }
+  },
+  {
+    "id": "3708-Bedford-Dr,-North-Beach,-MD-20714",
+    "formattedAddress": "3708 Bedford Dr, North Beach, MD 20714",
+    "addressLine1": "3708 Bedford Dr",
+    "addressLine2": null,
+    "city": "North Beach",
+    "state": "MD",
+    "zipCode": "20714",
+    "county": "Calvert",
+    "latitude": 38.704197,
+    "longitude": -76.541867,
+    "propertyType": "Townhouse",
+    "bedrooms": 3,
+    "bathrooms": 3,
+    "squareFootage": 2520,
+    "lotSize": 1738,
+    "yearBuilt": 2009,
+    "status": "Active",
+    "price": 3200,
+    "listingType": "Standard",
+    "listedDate": "2024-10-03T00:00:00.000Z",
+    "removedDate": null,
+    "createdDate": "2024-10-04T00:00:00.000Z",
+    "lastSeenDate": "2024-12-04T03:19:24.489Z",
+    "daysOnMarket": 63,
+    "mlsName": "BrightMLS",
+    "mlsNumber": "MDCA2017984",
+    "listingAgent": {
+      "name": "Jana Ritter",
+      "phone": "3057990255",
+      "email": "jana@ritterrealtydc.com",
+      "website": "http://www.ritterrealtydc.com"
+    },
+    "listingOffice": {
+      "name": "Ritter Realty, Llc",
+      "phone": "3057990255",
+      "email": "jana@ritterrealtydc.com",
+      "website": "http://www.ritterrealtydc.com"
+    },
+    "history": {
+      "2024-10-03": {
+        "event": "Rental Listing",
+        "price": 3200,
+        "listingType": "Standard",
+        "listedDate": "2024-10-03T00:00:00.000Z",
+        "removedDate": null,
+        "daysOnMarket": 63
+      }
+    }
+  },
+  {
+    "id": "5101-Nanticoke-Unit-Garage-Way,-Apt-Above,-Huntingtown,-MD-20639",
+    "formattedAddress": "5101 Nanticoke Unit Garage Way, Apt Above, Huntingtown, MD 20639",
+    "addressLine1": "5101 Nanticoke Unit Garage Way",
+    "addressLine2": "Apt Above",
+    "city": "Huntingtown",
+    "state": "MD",
+    "zipCode": "20639",
+    "county": "Calvert",
+    "latitude": 38.636803,
+    "longitude": -76.606148,
+    "propertyType": "Apartment",
+    "bedrooms": 1,
+    "bathrooms": 1,
+    "squareFootage": 1500,
+    "status": "Active",
+    "price": 2000,
+    "listingType": "Standard",
+    "listedDate": "2024-06-25T00:00:00.000Z",
+    "removedDate": null,
+    "createdDate": "2024-06-26T00:00:00.000Z",
+    "lastSeenDate": "2024-12-04T03:19:24.478Z",
+    "daysOnMarket": 163,
+    "history": {
+      "2024-06-25": {
+        "event": "Rental Listing",
+        "price": 2000,
+        "listingType": "Standard",
+        "listedDate": "2024-06-25T00:00:00.000Z",
+        "removedDate": null,
+        "daysOnMarket": 163
+      }
+    }
+  },
+  {
+    "id": "405-Clubhouse-Dr,-Lusby,-MD-20657",
+    "formattedAddress": "405 Clubhouse Dr, Lusby, MD 20657",
+    "addressLine1": "405 Clubhouse Dr",
+    "addressLine2": null,
+    "city": "Lusby",
+    "state": "MD",
+    "zipCode": "20657",
+    "county": "Calvert",
+    "latitude": 38.339271,
+    "longitude": -76.419707,
+    "propertyType": "Apartment",
+    "bathrooms": 1,
+    "squareFootage": 440,
+    "yearBuilt": 1963,
+    "status": "Active",
+    "price": 1195,
+    "listingType": "Standard",
+    "listedDate": "2024-12-04T00:00:00.000Z",
+    "removedDate": null,
+    "createdDate": "2024-11-09T00:00:00.000Z",
+    "lastSeenDate": "2024-12-04T03:19:24.469Z",
+    "daysOnMarket": 1,
+    "history": {
+      "2024-12-04": {
+        "event": "Rental Listing",
+        "price": 1195,
+        "listingType": "Standard",
+        "listedDate": "2024-12-04T00:00:00.000Z",
+        "removedDate": null,
+        "daysOnMarket": 1
+      }
+    }
+  },
+  {
+    "id": "1101-Chiswell-Ln,-Silver-Spring,-MD-20901",
+    "formattedAddress": "1101 Chiswell Ln, Silver Spring, MD 20901",
+    "addressLine1": "1101 Chiswell Ln",
+    "addressLine2": null,
+    "city": "Silver Spring",
+    "state": "MD",
+    "zipCode": "20901",
+    "county": "Montgomery",
+    "latitude": 39.034249,
+    "longitude": -77.018518,
+    "propertyType": "Single Family",
+    "bedrooms": 4,
+    "bathrooms": 2.5,
+    "squareFootage": 1757,
+    "lotSize": 9651,
+    "yearBuilt": 1961,
+    "status": "Active",
+    "price": 3200,
+    "listingType": "Standard",
+    "listedDate": "2024-10-31T00:00:00.000Z",
+    "removedDate": null,
+    "createdDate": "2020-11-22T03:14:16.377Z",
+    "lastSeenDate": "2024-12-04T03:15:50.219Z",
+    "daysOnMarket": 35,
+    "mlsName": "BrightMLS",
+    "mlsNumber": "MDMC2154266",
+    "listingAgent": {
+      "name": "Luther Williams",
+      "phone": "3015094055",
+      "email": "realtor1957@msn.com"
+    },
+    "listingOffice": {
+      "name": "SAMSON PROPERTIES - Bowie",
+      "phone": "7033788810",
+      "email": "frontdesk@samsonproperties.net",
+      "website": "https://samsonproperties.net/"
+    },
+    "history": {
+      "2024-10-31": {
+        "event": "Rental Listing",
+        "price": 3200,
+        "listingType": "Standard",
+        "listedDate": "2024-10-31T00:00:00.000Z",
+        "removedDate": null,
+        "daysOnMarket": 35
+      }
+    }
+  },
+  {
+    "id": "13807-Eastland-St,-Rockville,-MD-20853",
+    "formattedAddress": "13807 Eastland St, Rockville, MD 20853",
+    "addressLine1": "13807 Eastland St",
+    "addressLine2": null,
+    "city": "Rockville",
+    "state": "MD",
+    "zipCode": "20853",
+    "county": "Montgomery",
+    "latitude": 39.083044,
+    "longitude": -77.089099,
+    "propertyType": "Townhouse",
+    "bedrooms": 4,
+    "bathrooms": 3,
+    "squareFootage": 1514,
+    "lotSize": 11869,
+    "yearBuilt": 1957,
+    "status": "Active",
+    "price": 4150,
+    "listingType": "Standard",
+    "listedDate": "2024-10-31T00:00:00.000Z",
+    "removedDate": null,
+    "createdDate": "2019-11-27T19:51:46.247Z",
+    "lastSeenDate": "2024-12-04T03:15:50.216Z",
+    "daysOnMarket": 35,
+    "mlsName": "BrightMLS",
+    "mlsNumber": "MDMC2107944",
+    "listingAgent": {
+      "name": "Pamela Portillo, Nar Certified Real Estate Specialist",
+      "phone": "3015354445",
+      "email": "prhouston63@gmail.com",
+      "website": "https://pamelaportillo.book.live/read-expired-book"
+    },
+    "listingOffice": {
+      "name": "SAMSON PROPERTIES - Waldorf",
+      "phone": "7033788810",
+      "email": "frontdesk@samsonproperties.net",
+      "website": "https://samsonproperties.net/"
+    },
+    "history": {
+      "2024-10-31": {
+        "event": "Rental Listing",
+        "price": 4150,
+        "listingType": "Standard",
+        "listedDate": "2024-10-31T00:00:00.000Z",
+        "removedDate": null,
+        "daysOnMarket": 35
+      }
+    }
+  },
+  {
+    "id": "2901-Nightside-Dr,-Upper-Marlboro,-MD-20774",
+    "formattedAddress": "2901 Nightside Dr, Upper Marlboro, MD 20774",
+    "addressLine1": "2901 Nightside Dr",
+    "addressLine2": null,
+    "city": "Upper Marlboro",
+    "state": "MD",
+    "zipCode": "20774",
+    "county": "Prince George's",
+    "latitude": 38.851607,
+    "longitude": -76.810909,
+    "propertyType": "Single Family",
+    "bedrooms": 1,
+    "bathrooms": 1,
+    "status": "Active",
+    "price": 1000,
+    "listingType": "Standard",
+    "listedDate": "2024-09-26T00:00:00.000Z",
+    "removedDate": null,
+    "createdDate": "2024-09-27T00:00:00.000Z",
+    "lastSeenDate": "2024-12-04T03:15:38.463Z",
+    "daysOnMarket": 70,
+    "history": {
+      "2024-09-26": {
+        "event": "Rental Listing",
+        "price": 1000,
+        "listingType": "Standard",
+        "listedDate": "2024-09-26T00:00:00.000Z",
+        "removedDate": null,
+        "daysOnMarket": 70
+      }
+    }
+  },
+  {
+    "id": "3906-70th-Ave,-Hyattsville,-MD-20784",
+    "formattedAddress": "3906 70th Ave, Hyattsville, MD 20784",
+    "addressLine1": "3906 70th Ave",
+    "addressLine2": null,
+    "city": "Hyattsville",
+    "state": "MD",
+    "zipCode": "20784",
+    "county": "Prince George's",
+    "latitude": 38.938436,
+    "longitude": -76.889546,
+    "propertyType": "Single Family",
+    "bedrooms": 2,
+    "bathrooms": 1,
+    "squareFootage": 936,
+    "lotSize": 7405,
+    "yearBuilt": 1955,
+    "status": "Active",
+    "price": 2650,
+    "listingType": "Standard",
+    "listedDate": "2024-11-06T00:00:00.000Z",
+    "removedDate": null,
+    "createdDate": "2024-11-07T00:00:00.000Z",
+    "lastSeenDate": "2024-12-04T03:15:20.159Z",
+    "daysOnMarket": 29,
+    "mlsName": "BrightMLS",
+    "mlsNumber": "MDPG2131592",
+    "listingAgent": {
+      "name": "Emerick Peace",
+      "phone": "2407375001",
+      "email": "peaceteamleads@gmail.com",
+      "website": "http://kwpeaceteam.com"
+    },
+    "listingOffice": {
+      "name": "Keller Williams Preferred Properties",
+      "phone": "2407375000",
+      "email": "tlpatricialong@gmail.com"
+    },
+    "history": {
+      "2024-11-06": {
+        "event": "Rental Listing",
+        "price": 2650,
+        "listingType": "Standard",
+        "listedDate": "2024-11-06T00:00:00.000Z",
+        "removedDate": null,
+        "daysOnMarket": 29
+      }
+    }
+  },
+  {
+    "id": "8125-48th-Ave,-Apt-513,-College-Park,-MD-20740",
+    "formattedAddress": "8125 48th Ave, Apt 513, College Park, MD 20740",
+    "addressLine1": "8125 48th Ave",
+    "addressLine2": "Apt 513",
+    "city": "College Park",
+    "state": "MD",
+    "zipCode": "20740",
+    "county": "Prince George's",
+    "latitude": 38.989982,
+    "longitude": -76.931131,
+    "propertyType": "Apartment",
+    "bedrooms": 1,
+    "bathrooms": 1,
+    "status": "Active",
+    "price": 610,
+    "listingType": "Standard",
+    "listedDate": "2024-11-11T00:00:00.000Z",
+    "removedDate": null,
+    "createdDate": "2024-11-12T00:00:00.000Z",
+    "lastSeenDate": "2024-12-04T03:15:20.158Z",
+    "daysOnMarket": 24,
+    "history": {
+      "2024-11-11": {
+        "event": "Rental Listing",
+        "price": 610,
+        "listingType": "Standard",
+        "listedDate": "2024-11-11T00:00:00.000Z",
+        "removedDate": null,
+        "daysOnMarket": 24
+      }
+    }
+  },
+  {
+    "id": "14709-Argos-Pl,-Upper-Marlboro,-MD-20774",
+    "formattedAddress": "14709 Argos Pl, Upper Marlboro, MD 20774",
+    "addressLine1": "14709 Argos Pl",
+    "addressLine2": null,
+    "city": "Upper Marlboro",
+    "state": "MD",
+    "zipCode": "20774",
+    "county": "Prince George's",
+    "latitude": 38.885242,
+    "longitude": -76.750934,
+    "propertyType": "Townhouse",
+    "bedrooms": 3,
+    "bathrooms": 2.5,
+    "squareFootage": 2200,
+    "lotSize": 2700,
+    "yearBuilt": 2008,
+    "status": "Active",
+    "price": 3500,
+    "listingType": "Standard",
+    "listedDate": "2024-11-10T00:00:00.000Z",
+    "removedDate": null,
+    "createdDate": "2024-11-10T00:00:00.000Z",
+    "lastSeenDate": "2024-12-04T03:15:20.107Z",
+    "daysOnMarket": 25,
+    "mlsName": "BrightMLS",
+    "mlsNumber": "MDPG2132118",
+    "listingAgent": {
+      "name": "Joseph Seriki",
+      "phone": "3055054155",
+      "email": "jseriki@onesothebysrealty.com",
+      "website": "josephseriki.ttrsir.com"
+    },
+    "listingOffice": {
+      "name": "TTR Sotheby's International Realty",
+      "phone": "2023331212",
+      "email": "mrankin@ttrsir.com",
+      "website": "https://www.sothebysrealty.com/ttrsir/eng"
+    },
+    "history": {
+      "2024-11-10": {
+        "event": "Rental Listing",
+        "price": 3500,
+        "listingType": "Standard",
+        "listedDate": "2024-11-10T00:00:00.000Z",
+        "removedDate": null,
+        "daysOnMarket": 25
+      }
+    }
+  },
+  {
+    "id": "14013-Reverend-Boucher-Pl,-Upper-Marlboro,-MD-20772",
+    "formattedAddress": "14013 Reverend Boucher Pl, Upper Marlboro, MD 20772",
+    "addressLine1": "14013 Reverend Boucher Pl",
+    "addressLine2": null,
+    "city": "Upper Marlboro",
+    "state": "MD",
+    "zipCode": "20772",
+    "county": "Prince George's",
+    "latitude": 38.828164,
+    "longitude": -76.763047,
+    "propertyType": "Townhouse",
+    "bedrooms": 3,
+    "bathrooms": 2.5,
+    "squareFootage": 1296,
+    "lotSize": 1480,
+    "yearBuilt": 1992,
+    "status": "Active",
+    "price": 2395,
+    "listingType": "Standard",
+    "listedDate": "2024-11-15T00:00:00.000Z",
+    "removedDate": null,
+    "createdDate": "2024-03-01T00:00:00.000Z",
+    "lastSeenDate": "2024-12-04T03:15:20.103Z",
+    "daysOnMarket": 20,
+    "mlsName": "BrightMLS",
+    "mlsNumber": "MDPG2132632",
+    "listingAgent": {
+      "name": "Chris Meldrom",
+      "phone": "4103706327",
+      "email": "chris.meldrom@gmail.com"
+    },
+    "listingOffice": {
+      "name": "Corner House Realty",
+      "phone": "4434993839",
+      "email": "aj@cornerhouserealty.com"
+    },
+    "history": {
+      "2024-10-07": {
+        "event": "Rental Listing",
+        "price": 2395,
+        "listingType": "Standard",
+        "listedDate": "2024-10-07T00:00:00.000Z",
+        "removedDate": "2024-10-08T00:00:00.000Z",
+        "daysOnMarket": 1
+      },
+      "2024-10-17": {
+        "event": "Rental Listing",
+        "price": 2395,
+        "listingType": "Standard",
+        "listedDate": "2024-10-17T00:00:00.000Z",
+        "removedDate": "2024-10-18T00:00:00.000Z",
+        "daysOnMarket": 1
+      },
+      "2024-11-15": {
+        "event": "Rental Listing",
+        "price": 2395,
+        "listingType": "Standard",
+        "listedDate": "2024-11-15T00:00:00.000Z",
+        "removedDate": null,
+        "daysOnMarket": 20
+      }
+    }
+  },
+  {
+    "id": "18-N-Rosedale-St,-Baltimore,-MD-21229",
+    "formattedAddress": "18 N Rosedale St, Baltimore, MD 21229",
+    "addressLine1": "18 N Rosedale St",
+    "addressLine2": null,
+    "city": "Baltimore",
+    "state": "MD",
+    "zipCode": "21229",
+    "county": "Baltimore",
+    "latitude": 39.286489,
+    "longitude": -76.669235,
+    "propertyType": "Townhouse",
+    "bedrooms": 3,
+    "bathrooms": 1.5,
+    "squareFootage": 1640,
+    "lotSize": 1460,
+    "yearBuilt": 1936,
+    "status": "Active",
+    "price": 1800,
+    "listingType": "Standard",
+    "listedDate": "2024-09-22T00:00:00.000Z",
+    "removedDate": null,
+    "createdDate": "2024-09-23T00:00:00.000Z",
+    "lastSeenDate": "2024-12-04T03:13:28.609Z",
+    "daysOnMarket": 74,
+    "mlsName": "BrightMLS",
+    "mlsNumber": "MDBA2140536",
+    "listingAgent": {
+      "name": "Keith T. Eades",
+      "phone": "2025002948",
+      "email": "keith@symmetry.realestate",
+      "website": "https://symmetry.realestate"
+    },
+    "listingOffice": {
+      "name": "Symmetry Homes & Real Estate",
+      "phone": "2025002948"
+    },
+    "history": {
+      "2024-09-22": {
+        "event": "Rental Listing",
+        "price": 1800,
+        "listingType": "Standard",
+        "listedDate": "2024-09-22T00:00:00.000Z",
+        "removedDate": null,
+        "daysOnMarket": 74
+      }
+    }
+  },
+  {
+    "id": "519-W-Pratt-St,-Unit-2BR,-Baltimore,-MD-21201",
+    "formattedAddress": "519 W Pratt St, Unit 2BR, Baltimore, MD 21201",
+    "addressLine1": "519 W Pratt St",
+    "addressLine2": "Unit 2BR",
+    "city": "Baltimore",
+    "state": "MD",
+    "zipCode": "21201",
+    "county": "Baltimore",
+    "latitude": 39.285961,
+    "longitude": -76.62307,
+    "propertyType": "Apartment",
+    "bedrooms": 2,
+    "bathrooms": 2,
+    "squareFootage": 940,
+    "yearBuilt": 1900,
+    "status": "Active",
+    "price": 1410,
+    "listingType": "Standard",
+    "listedDate": "2024-10-03T00:00:00.000Z",
+    "removedDate": null,
+    "createdDate": "2022-12-24T01:29:29.249Z",
+    "lastSeenDate": "2024-12-04T03:13:28.494Z",
+    "daysOnMarket": 63,
+    "mlsName": "BrightMLS",
+    "mlsNumber": "MDBA2110002",
+    "listingAgent": {
+      "name": "Benedict Montemayor",
+      "phone": "3014689481",
+      "email": "benedict.montemayor@cort.com"
+    },
+    "listingOffice": {
+      "name": "Realty Local Llc",
+      "phone": "2402427560"
+    },
+    "history": {
+      "2024-10-03": {
+        "event": "Rental Listing",
+        "price": 1410,
+        "listingType": "Standard",
+        "listedDate": "2024-10-03T00:00:00.000Z",
+        "removedDate": null,
+        "daysOnMarket": 63
+      }
+    }
+  },
+  {
+    "id": "1814-E-Fairmount-Ave,-Baltimore,-MD-21231",
+    "formattedAddress": "1814 E Fairmount Ave, Baltimore, MD 21231",
+    "addressLine1": "1814 E Fairmount Ave",
+    "addressLine2": null,
+    "city": "Baltimore",
+    "state": "MD",
+    "zipCode": "21231",
+    "county": "Baltimore",
+    "latitude": 39.292987,
+    "longitude": -76.591066,
+    "propertyType": "Single Family",
+    "bedrooms": 3,
+    "bathrooms": 3,
+    "squareFootage": 1814,
+    "status": "Active",
+    "price": 2450,
+    "listingType": "Standard",
+    "listedDate": "2024-09-27T00:00:00.000Z",
+    "removedDate": null,
+    "createdDate": "2022-08-05T07:20:51.880Z",
+    "lastSeenDate": "2024-12-04T03:13:28.464Z",
+    "daysOnMarket": 69,
+    "history": {
+      "2024-09-27": {
+        "event": "Rental Listing",
+        "price": 2450,
+        "listingType": "Standard",
+        "listedDate": "2024-09-27T00:00:00.000Z",
+        "removedDate": null,
+        "daysOnMarket": 69
+      }
+    }
+  },
+  {
+    "id": "113-Dunkirk-Rd,-Baltimore,-MD-21212",
+    "formattedAddress": "113 Dunkirk Rd, Baltimore, MD 21212",
+    "addressLine1": "113 Dunkirk Rd",
+    "addressLine2": null,
+    "city": "Baltimore",
+    "state": "MD",
+    "zipCode": "21212",
+    "county": "Baltimore",
+    "latitude": 39.377116,
+    "longitude": -76.614513,
+    "propertyType": "Townhouse",
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "squareFootage": 1780,
+    "lotSize": 2200,
+    "yearBuilt": 1942,
+    "status": "Active",
+    "price": 2550,
+    "listingType": "Standard",
+    "listedDate": "2024-09-30T00:00:00.000Z",
+    "removedDate": null,
+    "createdDate": "2019-04-22T08:20:20.321Z",
+    "lastSeenDate": "2024-12-04T03:13:28.441Z",
+    "daysOnMarket": 66,
+    "mlsName": "BrightMLS",
+    "mlsNumber": "MDBC2108290",
+    "listingAgent": {
+      "name": "Terry Brennan",
+      "phone": "4104040987",
+      "email": "terry.brennan@longandfoster.com",
+      "website": "http://terrybrennan.lnfre.com"
+    },
+    "listingOffice": {
+      "name": "Long & Foster Towson",
+      "phone": "4105839400",
+      "email": "longandfoster@broker1suite.com",
+      "website": "http://www.longandfoster.com"
+    },
+    "history": {
+      "2024-09-30": {
+        "event": "Rental Listing",
+        "price": 2550,
+        "listingType": "Standard",
+        "listedDate": "2024-09-30T00:00:00.000Z",
+        "removedDate": null,
+        "daysOnMarket": 66
+      }
+    }
+  },
+  {
+    "id": "3912-Ettrick-Ct,-Unit-5-18,-Bowie,-MD-20716",
+    "formattedAddress": "3912 Ettrick Ct, Unit 5-18, Bowie, MD 20716",
+    "addressLine1": "3912 Ettrick Ct",
+    "addressLine2": "Unit 5-18",
+    "city": "Bowie",
+    "state": "MD",
+    "zipCode": "20716",
+    "county": "Prince George's",
+    "latitude": 38.943809,
+    "longitude": -76.723537,
+    "propertyType": "Townhouse",
+    "bedrooms": 2,
+    "bathrooms": 2.5,
+    "squareFootage": 1344,
+    "lotSize": 4424,
+    "yearBuilt": 1997,
+    "status": "Active",
+    "price": 2000,
+    "listingType": "Standard",
+    "listedDate": "2024-11-26T00:00:00.000Z",
+    "removedDate": null,
+    "createdDate": "2024-11-27T00:00:00.000Z",
+    "lastSeenDate": "2024-12-04T03:12:34.523Z",
+    "daysOnMarket": 9,
+    "mlsName": "BrightMLS",
+    "mlsNumber": "MDPG2134028",
+    "listingAgent": {
+      "name": "Annette Ekeruche",
+      "phone": "2403517509",
+      "email": "annetteehomes@gmail.com",
+      "website": "http://www.longandfoster.com/annetteekeruche"
+    },
+    "listingOffice": {
+      "name": "Long & Foster Mitchellville/Upper Marlboro",
+      "phone": "3012491600",
+      "email": "longandfoster@broker1suite.com",
+      "website": "http://www.longandfoster.com"
+    },
+    "history": {
+      "2024-11-26": {
+        "event": "Rental Listing",
+        "price": 2000,
+        "listingType": "Standard",
+        "listedDate": "2024-11-26T00:00:00.000Z",
+        "removedDate": null,
+        "daysOnMarket": 9
+      }
+    }
+  },
+  {
+    "id": "8417-Church-Ln,-Bowie,-MD-20720",
+    "formattedAddress": "8417 Church Ln, Bowie, MD 20720",
+    "addressLine1": "8417 Church Ln",
+    "addressLine2": null,
+    "city": "Bowie",
+    "state": "MD",
+    "zipCode": "20720",
+    "county": "Prince George's",
+    "latitude": 39.005035,
+    "longitude": -76.789977,
+    "propertyType": "Single Family",
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "squareFootage": 1452,
+    "lotSize": 55321,
+    "yearBuilt": 1985,
+    "status": "Active",
+    "price": 2800,
+    "listingType": "Standard",
+    "listedDate": "2024-12-02T00:00:00.000Z",
+    "removedDate": null,
+    "createdDate": "2024-12-03T00:00:00.000Z",
+    "lastSeenDate": "2024-12-04T03:12:34.487Z",
+    "daysOnMarket": 3,
+    "mlsName": "BrightMLS",
+    "mlsNumber": "MDPG2134366",
+    "listingAgent": {
+      "name": "Nkenglefe Atangcho"
+    },
+    "listingOffice": {
+      "name": "Taylor Properties",
+      "phone": "3019702447",
+      "email": "admin@taylorprops.com"
+    },
+    "history": {
+      "2024-12-02": {
+        "event": "Rental Listing",
+        "price": 2800,
+        "listingType": "Standard",
+        "listedDate": "2024-12-02T00:00:00.000Z",
+        "removedDate": null,
+        "daysOnMarket": 3
+      }
+    }
+  },
+  {
+    "id": "9220-Old-Lantern-Way,---SS535D,-Laurel,-MD-20723",
+    "formattedAddress": "9220 Old Lantern Way, # SS535D, Laurel, MD 20723",
+    "addressLine1": "9220 Old Lantern Way",
+    "addressLine2": "# SS535D",
+    "city": "Laurel",
+    "state": "MD",
+    "zipCode": "20723",
+    "county": "Howard",
+    "latitude": 39.120373,
+    "longitude": -76.842346,
+    "propertyType": "Apartment",
+    "bedrooms": 2,
+    "bathrooms": 2,
+    "squareFootage": 910,
+    "status": "Active",
+    "price": 2029,
+    "listingType": "Standard",
+    "listedDate": "2024-12-04T00:00:00.000Z",
+    "removedDate": null,
+    "createdDate": "2024-11-21T00:00:00.000Z",
+    "lastSeenDate": "2024-12-04T03:10:41.549Z",
+    "daysOnMarket": 1,
+    "history": {
+      "2024-12-04": {
+        "event": "Rental Listing",
+        "price": 2029,
+        "listingType": "Standard",
+        "listedDate": "2024-12-04T00:00:00.000Z",
+        "removedDate": null,
+        "daysOnMarket": 1
+      }
+    }
+  },
+  {
+    "id": "8732-Town-And-Country-Blvd,---34-9010,-Ellicott-City,-MD-21043",
+    "formattedAddress": "8732 Town And Country Blvd, # 34-9010, Ellicott City, MD 21043",
+    "addressLine1": "8732 Town And Country Blvd",
+    "addressLine2": "# 34-9010",
+    "city": "Ellicott City",
+    "state": "MD",
+    "zipCode": "21043",
+    "county": "Howard",
+    "latitude": 39.287468,
+    "longitude": -76.814156,
+    "propertyType": "Apartment",
+    "bedrooms": 1,
+    "bathrooms": 1,
+    "squareFootage": 830,
+    "status": "Active",
+    "price": 1710,
+    "listingType": "Standard",
+    "listedDate": "2024-12-04T00:00:00.000Z",
+    "removedDate": null,
+    "createdDate": "2023-12-06T00:00:00.000Z",
+    "lastSeenDate": "2024-12-04T03:10:41.545Z",
+    "daysOnMarket": 1,
+    "history": {
+      "2024-12-04": {
+        "event": "Rental Listing",
+        "price": 1710,
+        "listingType": "Standard",
+        "listedDate": "2024-12-04T00:00:00.000Z",
+        "removedDate": null,
+        "daysOnMarket": 1
+      }
+    }
+  },
+  {
+    "id": "6000-Merriweather-Dr,-Unit-5088,-Columbia,-MD-21044",
+    "formattedAddress": "6000 Merriweather Dr, Unit 5088, Columbia, MD 21044",
+    "addressLine1": "6000 Merriweather Dr",
+    "addressLine2": "Unit 5088",
+    "city": "Columbia",
+    "state": "MD",
+    "zipCode": "21044",
+    "county": "Howard",
+    "latitude": 39.206631,
+    "longitude": -76.86264,
+    "propertyType": "Apartment",
+    "bathrooms": 1,
+    "squareFootage": 608,
+    "status": "Active",
+    "price": 2027,
+    "listingType": "Standard",
+    "listedDate": "2024-12-04T00:00:00.000Z",
+    "removedDate": null,
+    "createdDate": "2024-11-06T00:00:00.000Z",
+    "lastSeenDate": "2024-12-04T03:10:41.540Z",
+    "daysOnMarket": 1,
+    "history": {
+      "2024-11-22": {
+        "event": "Rental Listing",
+        "price": 2027,
+        "listingType": "Standard",
+        "listedDate": "2024-11-22T00:00:00.000Z",
+        "removedDate": "2024-11-23T00:00:00.000Z",
+        "daysOnMarket": 1
+      },
+      "2024-12-04": {
+        "event": "Rental Listing",
+        "price": 2027,
+        "listingType": "Standard",
+        "listedDate": "2024-12-04T00:00:00.000Z",
+        "removedDate": null,
+        "daysOnMarket": 1
+      }
+    }
+  },
+  {
+    "id": "5664-Stevens-Forest-Rd,---5670-97,-Columbia,-MD-21045",
+    "formattedAddress": "5664 Stevens Forest Rd, # 5670-97, Columbia, MD 21045",
+    "addressLine1": "5664 Stevens Forest Rd",
+    "addressLine2": "# 5670-97",
+    "city": "Columbia",
+    "state": "MD",
+    "zipCode": "21045",
+    "county": "Howard",
+    "latitude": 39.214405,
+    "longitude": -76.850639,
+    "propertyType": "Apartment",
+    "bedrooms": 2,
+    "bathrooms": 2,
+    "squareFootage": 1058,
+    "status": "Active",
+    "price": 2028,
+    "listingType": "Standard",
+    "listedDate": "2024-12-04T00:00:00.000Z",
+    "removedDate": null,
+    "createdDate": "2023-09-28T00:00:00.000Z",
+    "lastSeenDate": "2024-12-04T03:10:41.539Z",
+    "daysOnMarket": 1,
+    "history": {
+      "2024-12-04": {
+        "event": "Rental Listing",
+        "price": 2028,
+        "listingType": "Standard",
+        "listedDate": "2024-12-04T00:00:00.000Z",
+        "removedDate": null,
+        "daysOnMarket": 1
+      }
+    }
+  },
+  {
+    "id": "5980-Turnabout-Ln,-Apt-9,-Columbia,-MD-21044",
+    "formattedAddress": "5980 Turnabout Ln, Apt 9, Columbia, MD 21044",
+    "addressLine1": "5980 Turnabout Ln",
+    "addressLine2": "Apt 9",
+    "city": "Columbia",
+    "state": "MD",
+    "zipCode": "21044",
+    "county": "Howard",
+    "latitude": 39.218067,
+    "longitude": -76.882034,
+    "propertyType": "Apartment",
+    "bedrooms": 1,
+    "bathrooms": 1,
+    "squareFootage": 700,
+    "status": "Active",
+    "price": 1629,
+    "listingType": "Standard",
+    "listedDate": "2024-12-04T00:00:00.000Z",
+    "removedDate": null,
+    "createdDate": "2022-09-18T02:12:25.108Z",
+    "lastSeenDate": "2024-12-04T03:10:41.519Z",
+    "daysOnMarket": 1,
+    "history": {
+      "2024-09-21": {
+        "event": "Rental Listing",
+        "price": 1829,
+        "listingType": "Standard",
+        "listedDate": "2024-09-21T00:00:00.000Z",
+        "removedDate": "2024-09-22T00:00:00.000Z",
+        "daysOnMarket": 1
+      },
+      "2024-09-26": {
+        "event": "Rental Listing",
+        "price": 1829,
+        "listingType": "Standard",
+        "listedDate": "2024-09-26T00:00:00.000Z",
+        "removedDate": "2024-09-27T00:00:00.000Z",
+        "daysOnMarket": 1
+      },
+      "2024-11-06": {
+        "event": "Rental Listing",
+        "price": 1829,
+        "listingType": "Standard",
+        "listedDate": "2024-11-06T00:00:00.000Z",
+        "removedDate": "2024-11-07T00:00:00.000Z",
+        "daysOnMarket": 1
+      },
+      "2024-11-15": {
+        "event": "Rental Listing",
+        "price": 1829,
+        "listingType": "Standard",
+        "listedDate": "2024-11-15T00:00:00.000Z",
+        "removedDate": "2024-11-16T00:00:00.000Z",
+        "daysOnMarket": 1
+      },
+      "2024-12-04": {
+        "event": "Rental Listing",
+        "price": 1629,
+        "listingType": "Standard",
+        "listedDate": "2024-12-04T00:00:00.000Z",
+        "removedDate": null,
+        "daysOnMarket": 1
+      }
+    }
+  },
+  {
+    "id": "3113-Pine-Orchard-Ln,---3153-101,-Ellicott-City,-MD-21042",
+    "formattedAddress": "3113 Pine Orchard Ln, # 3153-101, Ellicott City, MD 21042",
+    "addressLine1": "3113 Pine Orchard Ln",
+    "addressLine2": "# 3153-101",
+    "city": "Ellicott City",
+    "state": "MD",
+    "zipCode": "21042",
+    "county": "Howard",
+    "latitude": 39.28384,
+    "longitude": -76.863419,
+    "propertyType": "Apartment",
+    "bedrooms": 2,
+    "bathrooms": 2,
+    "squareFootage": 1185,
+    "status": "Active",
+    "price": 2563,
+    "listingType": "Standard",
+    "listedDate": "2024-12-04T00:00:00.000Z",
+    "removedDate": null,
+    "createdDate": "2024-08-09T00:00:00.000Z",
+    "lastSeenDate": "2024-12-04T03:10:41.510Z",
+    "daysOnMarket": 1,
+    "history": {
+      "2024-12-04": {
+        "event": "Rental Listing",
+        "price": 2563,
+        "listingType": "Standard",
+        "listedDate": "2024-12-04T00:00:00.000Z",
+        "removedDate": null,
+        "daysOnMarket": 1
+      }
+    }
+  },
+  {
+    "id": "8732-Town-And-Country-Blvd,---03-8677,-Ellicott-City,-MD-21043",
+    "formattedAddress": "8732 Town And Country Blvd, # 03-8677, Ellicott City, MD 21043",
+    "addressLine1": "8732 Town And Country Blvd",
+    "addressLine2": "# 03-8677",
+    "city": "Ellicott City",
+    "state": "MD",
+    "zipCode": "21043",
+    "county": "Howard",
+    "latitude": 39.287468,
+    "longitude": -76.814156,
+    "propertyType": "Apartment",
+    "bedrooms": 2,
+    "bathrooms": 1,
+    "squareFootage": 870,
+    "status": "Active",
+    "price": 1880,
+    "listingType": "Standard",
+    "listedDate": "2024-12-04T00:00:00.000Z",
+    "removedDate": null,
+    "createdDate": "2023-06-28T00:00:00.000Z",
+    "lastSeenDate": "2024-12-04T03:10:41.504Z",
+    "daysOnMarket": 1,
+    "history": {
+      "2024-10-09": {
+        "event": "Rental Listing",
+        "price": 1830,
+        "listingType": "Standard",
+        "listedDate": "2024-10-09T00:00:00.000Z",
+        "removedDate": "2024-10-10T00:00:00.000Z",
+        "daysOnMarket": 1
+      },
+      "2024-11-17": {
+        "event": "Rental Listing",
+        "price": 1880,
+        "listingType": "Standard",
+        "listedDate": "2024-11-17T00:00:00.000Z",
+        "removedDate": "2024-11-18T00:00:00.000Z",
+        "daysOnMarket": 1
+      },
+      "2024-12-04": {
+        "event": "Rental Listing",
+        "price": 1880,
+        "listingType": "Standard",
+        "listedDate": "2024-12-04T00:00:00.000Z",
+        "removedDate": null,
+        "daysOnMarket": 1
+      }
+    }
+  },
+  {
+    "id": "8129-Mission-Hill-Pl,---23,-Jessup,-MD-20794",
+    "formattedAddress": "8129 Mission Hill Pl, # 23, Jessup, MD 20794",
+    "addressLine1": "8129 Mission Hill Pl",
+    "addressLine2": "# 23",
+    "city": "Jessup",
+    "state": "MD",
+    "zipCode": "20794",
+    "county": "Howard",
+    "latitude": 39.163729,
+    "longitude": -76.795081,
+    "propertyType": "Townhouse",
+    "bedrooms": 3,
+    "bathrooms": 2.5,
+    "squareFootage": 1600,
+    "status": "Active",
+    "price": 2700,
+    "listingType": "Standard",
+    "listedDate": "2024-12-04T00:00:00.000Z",
+    "removedDate": null,
+    "createdDate": "2024-10-08T00:00:00.000Z",
+    "lastSeenDate": "2024-12-04T03:10:41.495Z",
+    "daysOnMarket": 1,
+    "history": {
+      "2024-11-22": {
+        "event": "Rental Listing",
+        "price": 2700,
+        "listingType": "Standard",
+        "listedDate": "2024-11-22T00:00:00.000Z",
+        "removedDate": "2024-11-23T00:00:00.000Z",
+        "daysOnMarket": 1
+      },
+      "2024-12-04": {
+        "event": "Rental Listing",
+        "price": 2700,
+        "listingType": "Standard",
+        "listedDate": "2024-12-04T00:00:00.000Z",
+        "removedDate": null,
+        "daysOnMarket": 1
+      }
+    }
+  },
+  {
+    "id": "7537-Weather-Worn-Way,-Unit-A,-Columbia,-MD-21046",
+    "formattedAddress": "7537 Weather Worn Way, Unit A, Columbia, MD 21046",
+    "addressLine1": "7537 Weather Worn Way",
+    "addressLine2": "Unit A",
+    "city": "Columbia",
+    "state": "MD",
+    "zipCode": "21046",
+    "county": "Howard",
+    "latitude": 39.165685,
+    "longitude": -76.86712,
+    "propertyType": "Condo",
+    "bedrooms": 2,
+    "bathrooms": 2,
+    "squareFootage": 1220,
+    "yearBuilt": 1984,
+    "status": "Active",
+    "price": 2450,
+    "listingType": "Standard",
+    "listedDate": "2024-12-04T00:00:00.000Z",
+    "removedDate": null,
+    "createdDate": "2023-07-26T00:00:00.000Z",
+    "lastSeenDate": "2024-12-04T03:10:41.489Z",
+    "daysOnMarket": 1,
+    "history": {
+      "2024-11-22": {
+        "event": "Rental Listing",
+        "price": 2450,
+        "listingType": "Standard",
+        "listedDate": "2024-11-22T00:00:00.000Z",
+        "removedDate": "2024-11-23T00:00:00.000Z",
+        "daysOnMarket": 1
+      },
+      "2024-12-04": {
+        "event": "Rental Listing",
+        "price": 2450,
+        "listingType": "Standard",
+        "listedDate": "2024-12-04T00:00:00.000Z",
+        "removedDate": null,
+        "daysOnMarket": 1
+      }
+    }
+  },
+  {
+    "id": "9220-Old-Lantern-Way,---TX235J,-Laurel,-MD-20723",
+    "formattedAddress": "9220 Old Lantern Way, # TX235J, Laurel, MD 20723",
+    "addressLine1": "9220 Old Lantern Way",
+    "addressLine2": "# TX235J",
+    "city": "Laurel",
+    "state": "MD",
+    "zipCode": "20723",
+    "county": "Howard",
+    "latitude": 39.120373,
+    "longitude": -76.842346,
+    "propertyType": "Apartment",
+    "bedrooms": 1,
+    "bathrooms": 1,
+    "squareFootage": 711,
+    "status": "Active",
+    "price": 1689,
+    "listingType": "Standard",
+    "listedDate": "2024-12-04T00:00:00.000Z",
+    "removedDate": null,
+    "createdDate": "2023-07-03T00:00:00.000Z",
+    "lastSeenDate": "2024-12-04T03:10:41.456Z",
+    "daysOnMarket": 1,
+    "history": {
+      "2024-12-04": {
+        "event": "Rental Listing",
+        "price": 1689,
+        "listingType": "Standard",
+        "listedDate": "2024-12-04T00:00:00.000Z",
+        "removedDate": null,
+        "daysOnMarket": 1
+      }
+    }
+  },
+  {
+    "id": "15-Washington-Ln,---25E,-Westminster,-MD-21157",
+    "formattedAddress": "15 Washington Ln, # 25E, Westminster, MD 21157",
+    "addressLine1": "15 Washington Ln",
+    "addressLine2": "# 25E",
+    "city": "Westminster",
+    "state": "MD",
+    "zipCode": "21157",
+    "county": "Carroll",
+    "latitude": 39.54237,
+    "longitude": -76.994247,
+    "propertyType": "Apartment",
+    "bedrooms": 2,
+    "bathrooms": 1,
+    "squareFootage": 1000,
+    "status": "Active",
+    "price": 1835,
+    "listingType": "Standard",
+    "listedDate": "2024-12-04T00:00:00.000Z",
+    "removedDate": null,
+    "createdDate": "2023-03-16T00:00:00.000Z",
+    "lastSeenDate": "2024-12-04T03:03:38.112Z",
+    "daysOnMarket": 1,
+    "history": {
+      "2024-12-04": {
+        "event": "Rental Listing",
+        "price": 1835,
+        "listingType": "Standard",
+        "listedDate": "2024-12-04T00:00:00.000Z",
+        "removedDate": null,
+        "daysOnMarket": 1
+      }
+    }
+  },
+  {
+    "id": "7420-Village-Rd,---8,-Sykesville,-MD-21784",
+    "formattedAddress": "7420 Village Rd, # 8, Sykesville, MD 21784",
+    "addressLine1": "7420 Village Rd",
+    "addressLine2": "# 8",
+    "city": "Sykesville",
+    "state": "MD",
+    "zipCode": "21784",
+    "county": "Carroll",
+    "latitude": 39.370655,
+    "longitude": -76.965279,
+    "propertyType": "Apartment",
+    "bedrooms": 2,
+    "bathrooms": 1,
+    "squareFootage": 959,
+    "status": "Active",
+    "price": 2019,
+    "listingType": "Standard",
+    "listedDate": "2024-12-04T00:00:00.000Z",
+    "removedDate": null,
+    "createdDate": "2023-01-26T00:00:00.000Z",
+    "lastSeenDate": "2024-12-04T03:03:38.101Z",
+    "daysOnMarket": 1,
+    "history": {
+      "2024-12-04": {
+        "event": "Rental Listing",
+        "price": 2019,
+        "listingType": "Standard",
+        "listedDate": "2024-12-04T00:00:00.000Z",
+        "removedDate": null,
+        "daysOnMarket": 1
+      }
+    }
+  },
+  {
+    "id": "303-N-Howard-St,-Apt-601,-Baltimore,-MD-21201",
+    "formattedAddress": "303 N Howard St, Apt 601, Baltimore, MD 21201",
+    "addressLine1": "303 N Howard St",
+    "addressLine2": "Apt 601",
+    "city": "Baltimore",
+    "state": "MD",
+    "zipCode": "21201",
+    "county": "Baltimore",
+    "latitude": 39.293083,
+    "longitude": -76.619453,
+    "propertyType": "Apartment",
+    "bathrooms": 1.5,
+    "squareFootage": 1531,
+    "yearBuilt": 1890,
+    "status": "Active",
+    "price": 3080,
+    "listingType": "Standard",
+    "listedDate": "2024-10-26T00:00:00.000Z",
+    "removedDate": null,
+    "createdDate": "2024-10-08T00:00:00.000Z",
+    "lastSeenDate": "2024-12-04T03:00:19.229Z",
+    "daysOnMarket": 40,
+    "mlsName": "BrightMLS",
+    "mlsNumber": "MDBA2143340",
+    "listingAgent": {
+      "name": "Dominique D'amico Drummond",
+      "phone": "2158500556",
+      "email": "dominique.drummond@monumentsothebysrealty.com"
+    },
+    "listingOffice": {
+      "name": "Monument Sotheby's International Realty",
+      "phone": "4437087074"
+    },
+    "history": {
+      "2024-10-26": {
+        "event": "Rental Listing",
+        "price": 3080,
+        "listingType": "Standard",
+        "listedDate": "2024-10-26T00:00:00.000Z",
+        "removedDate": null,
+        "daysOnMarket": 40
+      }
+    }
+  },
+  {
+    "id": "250-President-St,-Unit-308,-Baltimore,-MD-21202",
+    "formattedAddress": "250 President St, Unit 308, Baltimore, MD 21202",
+    "addressLine1": "250 President St",
+    "addressLine2": "Unit 308",
+    "city": "Baltimore",
+    "state": "MD",
+    "zipCode": "21202",
+    "county": "Baltimore",
+    "latitude": 39.286029,
+    "longitude": -76.604003,
+    "propertyType": "Apartment",
+    "bedrooms": 2,
+    "bathrooms": 2,
+    "squareFootage": 1453,
+    "yearBuilt": 1988,
+    "hoa": {
+      "fee": 845
+    },
+    "status": "Active",
+    "price": 3300,
+    "listingType": "Standard",
+    "listedDate": "2024-10-16T00:00:00.000Z",
+    "removedDate": null,
+    "createdDate": "2024-10-17T00:00:00.000Z",
+    "lastSeenDate": "2024-12-04T03:00:19.157Z",
+    "daysOnMarket": 50,
+    "mlsName": "BrightMLS",
+    "mlsNumber": "MDBA2136206",
+    "listingAgent": {
+      "name": "Jackie Ovad",
+      "phone": "4105999305",
+      "email": "homes@jackieovad.com",
+      "website": "http://mdbestrealtor.com"
+    },
+    "listingOffice": {
+      "name": "Keller Williams Legacy",
+      "phone": "4436609229",
+      "email": "montymccausland@kw.com"
+    },
+    "history": {
+      "2024-10-16": {
+        "event": "Rental Listing",
+        "price": 3300,
+        "listingType": "Standard",
+        "listedDate": "2024-10-16T00:00:00.000Z",
+        "removedDate": null,
+        "daysOnMarket": 50
+      }
+    }
+  },
+  {
+    "id": "4934-Columbia-Rd,-Apt-3,-Columbia,-MD-21044",
+    "formattedAddress": "4934 Columbia Rd, Apt 3, Columbia, MD 21044",
+    "addressLine1": "4934 Columbia Rd",
+    "addressLine2": "Apt 3",
+    "city": "Columbia",
+    "state": "MD",
+    "zipCode": "21044",
+    "county": "Howard",
+    "latitude": 39.238401,
+    "longitude": -76.845201,
+    "propertyType": "Condo",
+    "bedrooms": 1,
+    "bathrooms": 1,
+    "squareFootage": 783,
+    "yearBuilt": 1988,
+    "status": "Active",
+    "price": 1700,
+    "listingType": "Standard",
+    "listedDate": "2024-09-03T00:00:00.000Z",
+    "removedDate": null,
+    "createdDate": "2024-09-04T00:00:00.000Z",
+    "lastSeenDate": "2024-12-04T02:58:08.936Z",
+    "daysOnMarket": 93,
+    "mlsName": "BrightMLS",
+    "mlsNumber": "MDHW2044160",
+    "listingAgent": {
+      "name": "Team Eaton",
+      "phone": "4104611456",
+      "email": "weaton@cbmove.com",
+      "website": "http://www.cbmove.com/teameaton"
+    },
+    "listingOffice": {
+      "name": "Coldwell Banker Realty",
+      "phone": "4107407100",
+      "email": "wpeach@cbmove.com",
+      "website": "https://www.coldwellbankerhomes.com//md/ellicott-city/office/howard-county-regional/oid_3635/"
+    },
+    "history": {
+      "2024-09-03": {
+        "event": "Rental Listing",
+        "price": 1700,
+        "listingType": "Standard",
+        "listedDate": "2024-09-03T00:00:00.000Z",
+        "removedDate": null,
+        "daysOnMarket": 93
+      }
+    }
+  },
+  {
+    "id": "7936-Quidditch-Ln,-Elkridge,-MD-21075",
+    "formattedAddress": "7936 Quidditch Ln, Elkridge, MD 21075",
+    "addressLine1": "7936 Quidditch Ln",
+    "addressLine2": null,
+    "city": "Elkridge",
+    "state": "MD",
+    "zipCode": "21075",
+    "county": "Howard",
+    "latitude": 39.180395,
+    "longitude": -76.772332,
+    "propertyType": "Townhouse",
+    "bedrooms": 4,
+    "bathrooms": 3.5,
+    "squareFootage": 2210,
+    "lotSize": 1485,
+    "yearBuilt": 2017,
+    "hoa": {
+      "fee": 110
+    },
+    "status": "Active",
+    "price": 3400,
+    "listingType": "Standard",
+    "listedDate": "2024-09-20T00:00:00.000Z",
+    "removedDate": null,
+    "createdDate": "2024-09-21T00:00:00.000Z",
+    "lastSeenDate": "2024-12-04T02:58:08.930Z",
+    "daysOnMarket": 76,
+    "mlsName": "BrightMLS",
+    "mlsNumber": "MDHW2043742",
+    "listingAgent": {
+      "name": "Mitzi Henson",
+      "phone": "3019702447",
+      "email": "mitzihenson2012@gmail.com",
+      "website": "http://www.mhenson.taylorprops.com"
+    },
+    "listingOffice": {
+      "name": "Taylor Properties",
+      "phone": "3019702447",
+      "email": "admin@taylorprops.com"
+    },
+    "history": {
+      "2024-09-20": {
+        "event": "Rental Listing",
+        "price": 3400,
+        "listingType": "Standard",
+        "listedDate": "2024-09-20T00:00:00.000Z",
+        "removedDate": null,
+        "daysOnMarket": 76
+      }
+    }
+  },
+  {
+    "id": "5629-Harpers-Farm-Rd,-Unit-A,-Columbia,-MD-21044",
+    "formattedAddress": "5629 Harpers Farm Rd, Unit A, Columbia, MD 21044",
+    "addressLine1": "5629 Harpers Farm Rd",
+    "addressLine2": "Unit A",
+    "city": "Columbia",
+    "state": "MD",
+    "zipCode": "21044",
+    "county": "Howard",
+    "latitude": 39.22202,
+    "longitude": -76.881254,
+    "propertyType": "Condo",
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "squareFootage": 1402,
+    "yearBuilt": 1977,
+    "hoa": {
+      "fee": 249
+    },
+    "status": "Active",
+    "price": 2350,
+    "listingType": "Standard",
+    "listedDate": "2024-09-27T00:00:00.000Z",
+    "removedDate": null,
+    "createdDate": "2024-09-28T00:00:00.000Z",
+    "lastSeenDate": "2024-12-04T02:58:08.927Z",
+    "daysOnMarket": 69,
+    "mlsName": "BrightMLS",
+    "mlsNumber": "MDHW2045344",
+    "listingAgent": {
+      "name": "Cristian F Hernandez",
+      "phone": "2408485088",
+      "email": "cristian@streamlinemanagement.com"
+    },
+    "listingOffice": {
+      "name": "Streamline Management, Llc.",
+      "phone": "3016568765"
+    },
+    "history": {
+      "2024-09-27": {
+        "event": "Rental Listing",
+        "price": 2350,
+        "listingType": "Standard",
+        "listedDate": "2024-09-27T00:00:00.000Z",
+        "removedDate": null,
+        "daysOnMarket": 69
+      }
+    }
+  },
+  {
+    "id": "5901-Tamar-Dr,-Unit-8,-Columbia,-MD-21045",
+    "formattedAddress": "5901 Tamar Dr, Unit 8, Columbia, MD 21045",
+    "addressLine1": "5901 Tamar Dr",
+    "addressLine2": "Unit 8",
+    "city": "Columbia",
+    "state": "MD",
+    "zipCode": "21045",
+    "county": "Howard",
+    "latitude": 39.20759,
+    "longitude": -76.82458,
+    "propertyType": "Condo",
+    "bedrooms": 2,
+    "bathrooms": 1,
+    "squareFootage": 908,
+    "yearBuilt": 1982,
+    "status": "Active",
+    "price": 1850,
+    "listingType": "Standard",
+    "listedDate": "2024-10-24T00:00:00.000Z",
+    "removedDate": null,
+    "createdDate": "2024-10-25T00:00:00.000Z",
+    "lastSeenDate": "2024-12-04T02:58:08.894Z",
+    "daysOnMarket": 42,
+    "mlsName": "BrightMLS",
+    "mlsNumber": "MDHW2046094",
+    "listingAgent": {
+      "name": "Kathleen Beard",
+      "phone": "4436043385",
+      "email": "kathy@hiban.com"
+    },
+    "listingOffice": {
+      "name": "Northrop Realty",
+      "phone": "4104651770",
+      "website": "https://www.northroprealty.com/"
+    },
+    "history": {
+      "2024-10-24": {
+        "event": "Rental Listing",
+        "price": 1850,
+        "listingType": "Standard",
+        "listedDate": "2024-10-24T00:00:00.000Z",
+        "removedDate": null,
+        "daysOnMarket": 42
+      }
+    }
+  },
+  {
+    "id": "7408-Slipknot-Aly,-Elkridge,-MD-21075",
+    "formattedAddress": "7408 Slipknot Aly, Elkridge, MD 21075",
+    "addressLine1": "7408 Slipknot Aly",
+    "addressLine2": null,
+    "city": "Elkridge",
+    "state": "MD",
+    "zipCode": "21075",
+    "county": "Howard",
+    "latitude": 39.175258,
+    "longitude": -76.78007,
+    "propertyType": "Townhouse",
+    "bedrooms": 3,
+    "bathrooms": 2.5,
+    "squareFootage": 1775,
+    "status": "Active",
+    "price": 2995,
+    "listingType": "Standard",
+    "listedDate": "2024-11-04T00:00:00.000Z",
+    "removedDate": null,
+    "createdDate": "2024-11-05T00:00:00.000Z",
+    "lastSeenDate": "2024-12-04T02:58:08.863Z",
+    "daysOnMarket": 31,
+    "history": {
+      "2024-11-04": {
+        "event": "Rental Listing",
+        "price": 2995,
+        "listingType": "Standard",
+        "listedDate": "2024-11-04T00:00:00.000Z",
+        "removedDate": null,
+        "daysOnMarket": 31
+      }
+    }
+  },
+  {
+    "id": "11225-Avalanche-1-6-Way,-Unit-B,-Columbia,-MD-21044",
+    "formattedAddress": "11225 Avalanche 1 6 Way, Unit B, Columbia, MD 21044",
+    "addressLine1": "11225 Avalanche 1 6 Way",
+    "addressLine2": "Unit B",
+    "city": "Columbia",
+    "state": "MD",
+    "zipCode": "21044",
+    "county": "Howard",
+    "latitude": 39.211658,
+    "longitude": -76.887802,
+    "propertyType": "Townhouse",
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "squareFootage": 1274,
+    "yearBuilt": 1974,
+    "status": "Active",
+    "price": 2500,
+    "listingType": "Standard",
+    "listedDate": "2024-11-08T00:00:00.000Z",
+    "removedDate": null,
+    "createdDate": "2024-11-09T00:00:00.000Z",
+    "lastSeenDate": "2024-12-04T02:58:08.855Z",
+    "daysOnMarket": 27,
+    "mlsName": "BrightMLS",
+    "mlsNumber": "MDHW2046662",
+    "listingAgent": {
+      "name": "Connor Mcanallen",
+      "phone": "4439806169",
+      "email": "connor.mcanallen@lnf.com"
+    },
+    "listingOffice": {
+      "name": "HomeServices Property Management",
+      "phone": "2407576965"
+    },
+    "history": {
+      "2024-11-08": {
+        "event": "Rental Listing",
+        "price": 2500,
+        "listingType": "Standard",
+        "listedDate": "2024-11-08T00:00:00.000Z",
+        "removedDate": null,
+        "daysOnMarket": 27
+      }
+    }
+  },
+  {
+    "id": "8853-Blue-Sea-Dr,-Columbia,-MD-21046",
+    "formattedAddress": "8853 Blue Sea Dr, Columbia, MD 21046",
+    "addressLine1": "8853 Blue Sea Dr",
+    "addressLine2": null,
+    "city": "Columbia",
+    "state": "MD",
+    "zipCode": "21046",
+    "county": "Howard",
+    "latitude": 39.170825,
+    "longitude": -76.857844,
+    "propertyType": "Single Family",
+    "bedrooms": 4,
+    "bathrooms": 3,
+    "squareFootage": 2747,
+    "lotSize": 11244,
+    "yearBuilt": 1981,
+    "status": "Active",
+    "price": 3450,
+    "listingType": "Standard",
+    "listedDate": "2024-10-23T00:00:00.000Z",
+    "removedDate": null,
+    "createdDate": "2020-01-03T19:58:03.349Z",
+    "lastSeenDate": "2024-12-04T02:58:08.836Z",
+    "daysOnMarket": 43,
+    "mlsName": "BrightMLS",
+    "mlsNumber": "MDHW2046064",
+    "listingAgent": {
+      "name": "Chris Meldrom",
+      "phone": "4103706327",
+      "email": "chris.meldrom@gmail.com"
+    },
+    "listingOffice": {
+      "name": "Corner House Realty",
+      "phone": "4434993839",
+      "email": "aj@cornerhouserealty.com"
+    },
+    "history": {
+      "2024-10-23": {
+        "event": "Rental Listing",
+        "price": 3450,
+        "listingType": "Standard",
+        "listedDate": "2024-10-23T00:00:00.000Z",
+        "removedDate": null,
+        "daysOnMarket": 43
+      }
+    }
+  },
+  {
+    "id": "23426-Winemiller-Way,-Clarksburg,-MD-20871",
+    "formattedAddress": "23426 Winemiller Way, Clarksburg, MD 20871",
+    "addressLine1": "23426 Winemiller Way",
+    "addressLine2": null,
+    "city": "Clarksburg",
+    "state": "MD",
+    "zipCode": "20871",
+    "county": "Montgomery",
+    "latitude": 39.244216,
+    "longitude": -77.280468,
+    "propertyType": "Townhouse",
+    "bedrooms": 4,
+    "bathrooms": 3.5,
+    "squareFootage": 1960,
+    "lotSize": 1695,
+    "yearBuilt": 2004,
+    "status": "Active",
+    "price": 3000,
+    "listingType": "Standard",
+    "listedDate": "2024-11-11T00:00:00.000Z",
+    "removedDate": null,
+    "createdDate": "2020-06-15T18:04:39.743Z",
+    "lastSeenDate": "2024-12-04T02:56:54.343Z",
+    "daysOnMarket": 24,
+    "mlsName": "BrightMLS",
+    "mlsNumber": "MDMC2155606",
+    "listingAgent": {
+      "name": "Hong Cai",
+      "phone": "3012163998",
+      "email": "hongcai@mris.com"
+    },
+    "listingOffice": {
+      "name": "Bmi  Realtors Inc.",
+      "phone": "3012163998"
+    },
+    "history": {
+      "2024-11-11": {
+        "event": "Rental Listing",
+        "price": 3000,
+        "listingType": "Standard",
+        "listedDate": "2024-11-11T00:00:00.000Z",
+        "removedDate": null,
+        "daysOnMarket": 24
+      }
+    }
+  },
+  {
+    "id": "915-Dorchester-Cove-Rd,-Hanover,-MD-21076",
+    "formattedAddress": "915 Dorchester Cove Rd, Hanover, MD 21076",
+    "addressLine1": "915 Dorchester Cove Rd",
+    "addressLine2": null,
+    "city": "Hanover",
+    "state": "MD",
+    "zipCode": "21076",
+    "county": "Anne Arundel",
+    "latitude": 39.166915,
+    "longitude": -76.729863,
+    "propertyType": "Townhouse",
+    "bedrooms": 3,
+    "bathrooms": 3,
+    "squareFootage": 2284,
+    "lotSize": 1525,
+    "yearBuilt": 2020,
+    "status": "Active",
+    "price": 2800,
+    "listingType": "Standard",
+    "listedDate": "2024-10-22T00:00:00.000Z",
+    "removedDate": null,
+    "createdDate": "2022-08-10T00:24:54.494Z",
+    "lastSeenDate": "2024-12-04T02:50:18.927Z",
+    "daysOnMarket": 44,
+    "mlsName": "BrightMLS",
+    "mlsNumber": "MDAA2097382",
+    "listingAgent": {
+      "name": "Susan Mcfarland",
+      "phone": "2404600747",
+      "email": "susanmcfarland@realtor.com",
+      "website": "http://www.homesbysusanmcfarland.com"
+    },
+    "listingOffice": {
+      "name": "RE MAX Realty Group",
+      "phone": "3012587757",
+      "email": "kcrowley@remax.net",
+      "website": "www.ournexthouse.com"
+    },
+    "history": {
+      "2024-10-22": {
+        "event": "Rental Listing",
+        "price": 2800,
+        "listingType": "Standard",
+        "listedDate": "2024-10-22T00:00:00.000Z",
+        "removedDate": null,
+        "daysOnMarket": 44
+      }
+    }
+  },
+  {
+    "id": "201-Water-Fountain-Ct,-Unit-304,-Glen-Burnie,-MD-21060",
+    "formattedAddress": "201 Water Fountain Ct, Unit 304, Glen Burnie, MD 21060",
+    "addressLine1": "201 Water Fountain Ct",
+    "addressLine2": "Unit 304",
+    "city": "Glen Burnie",
+    "state": "MD",
+    "zipCode": "21060",
+    "county": "Anne Arundel",
+    "latitude": 39.194906,
+    "longitude": -76.60845,
+    "propertyType": "Condo",
+    "bedrooms": 2,
+    "bathrooms": 2,
+    "squareFootage": 876,
+    "yearBuilt": 1999,
+    "status": "Active",
+    "price": 1900,
+    "listingType": "Standard",
+    "listedDate": "2024-10-08T00:00:00.000Z",
+    "removedDate": null,
+    "createdDate": "2024-10-09T00:00:00.000Z",
+    "lastSeenDate": "2024-12-04T02:50:18.850Z",
+    "daysOnMarket": 58,
+    "mlsName": "BrightMLS",
+    "mlsNumber": "MDAA2096088",
+    "listingAgent": {
+      "name": "Cody Bishop",
+      "phone": "4435480191",
+      "email": "cbishop@tidewaterproperty.com"
+    },
+    "listingOffice": {
+      "name": "Tidewater Realty Group, Llc",
+      "phone": "4435480191"
+    },
+    "history": {
+      "2024-10-08": {
+        "event": "Rental Listing",
+        "price": 1900,
+        "listingType": "Standard",
+        "listedDate": "2024-10-08T00:00:00.000Z",
+        "removedDate": null,
+        "daysOnMarket": 58
+      }
+    }
+  },
+  {
+    "id": "1504-Byrd-St,-Baltimore,-MD-21230",
+    "formattedAddress": "1504 Byrd St, Baltimore, MD 21230",
+    "addressLine1": "1504 Byrd St",
+    "addressLine2": null,
+    "city": "Baltimore",
+    "state": "MD",
+    "zipCode": "21230",
+    "county": "Baltimore",
+    "latitude": 39.272385,
+    "longitude": -76.611117,
+    "propertyType": "Townhouse",
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "squareFootage": 1380,
+    "yearBuilt": 1880,
+    "status": "Active",
+    "price": 2895,
+    "listingType": "Standard",
+    "listedDate": "2024-11-08T00:00:00.000Z",
+    "removedDate": null,
+    "createdDate": "2024-11-09T00:00:00.000Z",
+    "lastSeenDate": "2024-12-04T02:41:26.242Z",
+    "daysOnMarket": 27,
+    "mlsName": "BrightMLS",
+    "mlsNumber": "MDBA2144508",
+    "listingAgent": {
+      "name": "Debbie Bullinger ,Crs,abr",
+      "phone": "4109166170",
+      "email": "debbiebullinger@icloud.com",
+      "website": "http://www.cummingsrealtors.com"
+    },
+    "listingOffice": {
+      "name": "Cummings & Co. Realtors",
+      "phone": "4108230033",
+      "email": "admin@cummingsrealtors.com",
+      "website": "http://www.cummingsrealtors.com"
+    },
+    "history": {
+      "2024-11-08": {
+        "event": "Rental Listing",
+        "price": 2895,
+        "listingType": "Standard",
+        "listedDate": "2024-11-08T00:00:00.000Z",
+        "removedDate": null,
+        "daysOnMarket": 27
+      }
+    }
+  },
+  {
+    "id": "500-S-Haven-St,-Baltimore,-MD-21224",
+    "formattedAddress": "500 S Haven St, Baltimore, MD 21224",
+    "addressLine1": "500 S Haven St",
+    "addressLine2": null,
+    "city": "Baltimore",
+    "state": "MD",
+    "zipCode": "21224",
+    "county": "Baltimore",
+    "latitude": 39.28641,
+    "longitude": -76.562557,
+    "propertyType": "Townhouse",
+    "bedrooms": 3,
+    "bathrooms": 2.5,
+    "squareFootage": 960,
+    "lotSize": 736,
+    "yearBuilt": 1920,
+    "status": "Active",
+    "price": 2200,
+    "listingType": "Standard",
+    "listedDate": "2024-11-03T00:00:00.000Z",
+    "removedDate": null,
+    "createdDate": "2024-11-04T00:00:00.000Z",
+    "lastSeenDate": "2024-12-04T02:41:26.234Z",
+    "daysOnMarket": 32,
+    "mlsName": "BrightMLS",
+    "mlsNumber": "MDBA2145598",
+    "listingAgent": {
+      "name": "Adam Bauer Belasco",
+      "email": "abelasco@belascorealty.com"
+    },
+    "listingOffice": {
+      "name": "Keller Williams Capital Properties",
+      "phone": "2022437700"
+    },
+    "history": {
+      "2024-11-03": {
+        "event": "Rental Listing",
+        "price": 2200,
+        "listingType": "Standard",
+        "listedDate": "2024-11-03T00:00:00.000Z",
+        "removedDate": null,
+        "daysOnMarket": 32
+      }
+    }
+  },
+  {
+    "id": "1018-N-Charles-St,-Unit-R6,-Baltimore,-MD-21201",
+    "formattedAddress": "1018 N Charles St, Unit R6, Baltimore, MD 21201",
+    "addressLine1": "1018 N Charles St",
+    "addressLine2": "Unit R6",
+    "city": "Baltimore",
+    "state": "MD",
+    "zipCode": "21201",
+    "county": "Baltimore",
+    "latitude": 39.30169,
+    "longitude": -76.616318,
+    "propertyType": "Apartment",
+    "bedrooms": 1,
+    "bathrooms": 1,
+    "squareFootage": 600,
+    "yearBuilt": 2007,
+    "status": "Active",
+    "price": 1200,
+    "listingType": "Standard",
+    "listedDate": "2024-10-31T00:00:00.000Z",
+    "removedDate": null,
+    "createdDate": "2022-10-06T01:13:38.662Z",
+    "lastSeenDate": "2024-12-04T02:41:26.195Z",
+    "daysOnMarket": 35,
+    "mlsName": "BrightMLS",
+    "mlsNumber": "MDBA2145136",
+    "listingAgent": {
+      "name": "Gary Addington",
+      "phone": "4105997887",
+      "email": "gary@marylandrealestate.us",
+      "website": "http://www.zillow.com/profile/garyaddington/"
+    },
+    "listingOffice": {
+      "name": "Cummings & Co. Realtors",
+      "phone": "4108230033",
+      "email": "admin@cummingsrealtors.com",
+      "website": "http://www.cummingsrealtors.com"
+    },
+    "history": {
+      "2024-10-31": {
+        "event": "Rental Listing",
+        "price": 1200,
+        "listingType": "Standard",
+        "listedDate": "2024-10-31T00:00:00.000Z",
+        "removedDate": null,
+        "daysOnMarket": 35
+      }
+    }
+  },
+  {
+    "id": "847-Park-Ave,-Unit-3,-Baltimore,-MD-21201",
+    "formattedAddress": "847 Park Ave, Unit 3, Baltimore, MD 21201",
+    "addressLine1": "847 Park Ave",
+    "addressLine2": "Unit 3",
+    "city": "Baltimore",
+    "state": "MD",
+    "zipCode": "21201",
+    "county": "Baltimore",
+    "latitude": 39.30032,
+    "longitude": -76.618385,
+    "propertyType": "Apartment",
+    "bedrooms": 1,
+    "bathrooms": 1,
+    "squareFootage": 620,
+    "lotSize": 1699,
+    "yearBuilt": 1900,
+    "status": "Active",
+    "price": 1400,
+    "listingType": "Standard",
+    "listedDate": "2024-11-01T00:00:00.000Z",
+    "removedDate": null,
+    "createdDate": "2024-11-03T00:00:00.000Z",
+    "lastSeenDate": "2024-12-04T02:41:26.188Z",
+    "daysOnMarket": 34,
+    "mlsName": "BrightMLS",
+    "mlsNumber": "MDBA2145260",
+    "listingAgent": {
+      "name": "James G Allen",
+      "phone": "4438501630",
+      "email": "jamesahomes@gmail.com",
+      "website": "jamesallenhomes.net"
+    },
+    "listingOffice": {
+      "name": "Lion Acre Realty",
+      "phone": "4437761846",
+      "email": "info@lionacrerealty.com"
+    },
+    "history": {
+      "2024-11-01": {
+        "event": "Rental Listing",
+        "price": 1400,
+        "listingType": "Standard",
+        "listedDate": "2024-11-01T00:00:00.000Z",
+        "removedDate": null,
+        "daysOnMarket": 34
+      }
+    }
+  },
+  {
+    "id": "1837-Bolton-St,-Apt-1,-Baltimore,-MD-21217",
+    "formattedAddress": "1837 Bolton St, Apt 1, Baltimore, MD 21217",
+    "addressLine1": "1837 Bolton St",
+    "addressLine2": "Apt 1",
+    "city": "Baltimore",
+    "state": "MD",
+    "zipCode": "21217",
+    "county": "Baltimore",
+    "latitude": 39.310104,
+    "longitude": -76.62957,
+    "propertyType": "Apartment",
+    "bedrooms": 2,
+    "bathrooms": 2,
+    "squareFootage": 1858,
+    "yearBuilt": 1890,
+    "status": "Active",
+    "price": 1600,
+    "listingType": "Standard",
+    "listedDate": "2024-11-05T00:00:00.000Z",
+    "removedDate": null,
+    "createdDate": "2023-02-02T00:00:00.000Z",
+    "lastSeenDate": "2024-12-04T02:41:26.156Z",
+    "daysOnMarket": 30,
+    "mlsName": "BrightMLS",
+    "mlsNumber": "MDBA2145714",
+    "listingAgent": {
+      "name": "Andrew Pariser",
+      "phone": "2024836300",
+      "email": "andy@lnf.com",
+      "website": "http://www.andrewpariser.lnf.com"
+    },
+    "listingOffice": {
+      "name": "Long & Foster Woodley Park",
+      "phone": "2024836300",
+      "email": "longandfoster@broker1suite.com",
+      "website": "http://www.longandfoster.com"
+    },
+    "history": {
+      "2024-11-05": {
+        "event": "Rental Listing",
+        "price": 1600,
+        "listingType": "Standard",
+        "listedDate": "2024-11-05T00:00:00.000Z",
+        "removedDate": null,
+        "daysOnMarket": 30
+      }
+    }
+  },
+  {
+    "id": "9701-Fields-Rd,-Apt-1008,-Gaithersburg,-MD-20878",
+    "formattedAddress": "9701 Fields Rd, Apt 1008, Gaithersburg, MD 20878",
+    "addressLine1": "9701 Fields Rd",
+    "addressLine2": "Apt 1008",
+    "city": "Gaithersburg",
+    "state": "MD",
+    "zipCode": "20878",
+    "county": "Montgomery",
+    "latitude": 39.115035,
+    "longitude": -77.198921,
+    "propertyType": "Apartment",
+    "bedrooms": 1,
+    "bathrooms": 1,
+    "squareFootage": 879,
+    "status": "Active",
+    "price": 1550,
+    "listingType": "Standard",
+    "listedDate": "2024-11-22T00:00:00.000Z",
+    "removedDate": null,
+    "createdDate": "2024-11-23T00:00:00.000Z",
+    "lastSeenDate": "2024-12-04T02:37:11.233Z",
+    "daysOnMarket": 13,
+    "history": {
+      "2024-11-22": {
+        "event": "Rental Listing",
+        "price": 1550,
+        "listingType": "Standard",
+        "listedDate": "2024-11-22T00:00:00.000Z",
+        "removedDate": null,
+        "daysOnMarket": 13
+      }
+    }
+  },
+  {
+    "id": "701-Harvest-Run-Dr,-Apt-101,-Odenton,-MD-21113",
+    "formattedAddress": "701 Harvest Run Dr, Apt 101, Odenton, MD 21113",
+    "addressLine1": "701 Harvest Run Dr",
+    "addressLine2": "Apt 101",
+    "city": "Odenton",
+    "state": "MD",
+    "zipCode": "21113",
+    "county": "Anne Arundel",
+    "latitude": 39.067014,
+    "longitude": -76.713278,
+    "propertyType": "Condo",
+    "bedrooms": 2,
+    "bathrooms": 2,
+    "squareFootage": 1107,
+    "yearBuilt": 2000,
+    "hoa": {
+      "fee": 285
+    },
+    "status": "Active",
+    "price": 2100,
+    "listingType": "Standard",
+    "listedDate": "2024-11-07T00:00:00.000Z",
+    "removedDate": null,
+    "createdDate": "2021-08-11T01:31:09.782Z",
+    "lastSeenDate": "2024-12-04T02:34:27.971Z",
+    "daysOnMarket": 28,
+    "mlsName": "BrightMLS",
+    "mlsNumber": "MDAA2097712",
+    "listingAgent": {
+      "name": "Tamara Nims",
+      "phone": "4102205745"
+    },
+    "listingOffice": {
+      "name": "COMPASS",
+      "phone": "4102801646",
+      "email": "hans@vsellsmd.com"
+    },
+    "history": {
+      "2024-11-07": {
+        "event": "Rental Listing",
+        "price": 2100,
+        "listingType": "Standard",
+        "listedDate": "2024-11-07T00:00:00.000Z",
+        "removedDate": null,
+        "daysOnMarket": 28
+      }
+    }
+  },
+  {
+    "id": "1617-Woodtree-Ct-W,-Annapolis,-MD-21409",
+    "formattedAddress": "1617 Woodtree Ct W, Annapolis, MD 21409",
+    "addressLine1": "1617 Woodtree Ct W",
+    "addressLine2": null,
+    "city": "Annapolis",
+    "state": "MD",
+    "zipCode": "21409",
+    "county": "Anne Arundel",
+    "latitude": 39.028997,
+    "longitude": -76.47739,
+    "propertyType": "Townhouse",
+    "bedrooms": 3,
+    "bathrooms": 2.5,
+    "squareFootage": 1496,
+    "lotSize": 3750,
+    "yearBuilt": 1982,
+    "status": "Active",
+    "price": 2700,
+    "listingType": "Standard",
+    "listedDate": "2024-11-11T00:00:00.000Z",
+    "removedDate": null,
+    "createdDate": "2024-11-12T00:00:00.000Z",
+    "lastSeenDate": "2024-12-04T02:34:27.927Z",
+    "daysOnMarket": 24,
+    "mlsName": "BrightMLS",
+    "mlsNumber": "MDAA2098566",
+    "listingAgent": {
+      "name": "Realtor Mark Lloyd",
+      "phone": "4135886267",
+      "email": "mark.lloyd@longandfoster.com",
+      "website": "http://www.realtor.com"
+    },
+    "listingOffice": {
+      "name": "Long & Foster Annapolis Fine Homes",
+      "phone": "4102633400",
+      "email": "longandfoster@broker1suite.com",
+      "website": "https://www.longandfoster.com/office/officeinfo.aspx"
+    },
+    "history": {
+      "2024-11-11": {
+        "event": "Rental Listing",
+        "price": 2700,
+        "listingType": "Standard",
+        "listedDate": "2024-11-11T00:00:00.000Z",
+        "removedDate": null,
+        "daysOnMarket": 24
+      }
+    }
+  },
+  {
+    "id": "702-Defense-Pump-House-box-A-Hwy,-Unit-The,-Crownsville,-MD-21032",
+    "formattedAddress": "702 Defense Pump House-box A Hwy, Unit The, Crownsville, MD 21032",
+    "addressLine1": "702 Defense Pump House-box A Hwy",
+    "addressLine2": "Unit The",
+    "city": "Crownsville",
+    "state": "MD",
+    "zipCode": "21032",
+    "county": "Anne Arundel",
+    "latitude": 38.990833,
+    "longitude": -76.60688,
+    "propertyType": "Single Family",
+    "bedrooms": 1,
+    "bathrooms": 1,
+    "squareFootage": 1000,
+    "status": "Active",
+    "price": 2700,
+    "listingType": "Standard",
+    "listedDate": "2024-11-26T00:00:00.000Z",
+    "removedDate": null,
+    "createdDate": "2024-11-27T00:00:00.000Z",
+    "lastSeenDate": "2024-12-04T02:34:27.853Z",
+    "daysOnMarket": 9,
+    "history": {
+      "2024-11-26": {
+        "event": "Rental Listing",
+        "price": 2700,
+        "listingType": "Standard",
+        "listedDate": "2024-11-26T00:00:00.000Z",
+        "removedDate": null,
+        "daysOnMarket": 9
+      }
+    }
+  },
+  {
+    "id": "4417-Kavon-Ave,-Baltimore,-MD-21206",
+    "formattedAddress": "4417 Kavon Ave, Baltimore, MD 21206",
+    "addressLine1": "4417 Kavon Ave",
+    "addressLine2": null,
+    "city": "Baltimore",
+    "state": "MD",
+    "zipCode": "21206",
+    "county": "Baltimore",
+    "latitude": 39.328333,
+    "longitude": -76.561741,
+    "propertyType": "Single Family",
+    "bedrooms": 2,
+    "bathrooms": 2,
+    "squareFootage": 1070,
+    "yearBuilt": 1930,
+    "status": "Active",
+    "price": 1600,
+    "listingType": "Standard",
+    "listedDate": "2024-11-12T00:00:00.000Z",
+    "removedDate": null,
+    "createdDate": "2024-11-13T00:00:00.000Z",
+    "lastSeenDate": "2024-12-04T02:27:50.202Z",
+    "daysOnMarket": 23,
+    "history": {
+      "2024-11-12": {
+        "event": "Rental Listing",
+        "price": 1600,
+        "listingType": "Standard",
+        "listedDate": "2024-11-12T00:00:00.000Z",
+        "removedDate": null,
+        "daysOnMarket": 23
+      }
+    }
+  },
+  {
+    "id": "3920-Red-Deer-Cir,-Randallstown,-MD-21133",
+    "formattedAddress": "3920 Red Deer Cir, Randallstown, MD 21133",
+    "addressLine1": "3920 Red Deer Cir",
+    "addressLine2": null,
+    "city": "Randallstown",
+    "state": "MD",
+    "zipCode": "21133",
+    "county": "Baltimore",
+    "latitude": 39.378661,
+    "longitude": -76.817157,
+    "propertyType": "Single Family",
+    "bedrooms": 1,
+    "bathrooms": 1,
+    "squareFootage": 700,
+    "yearBuilt": 1999,
+    "status": "Active",
+    "price": 1100,
+    "listingType": "Standard",
+    "listedDate": "2024-10-18T00:00:00.000Z",
+    "removedDate": null,
+    "createdDate": "2024-10-19T00:00:00.000Z",
+    "lastSeenDate": "2024-12-04T02:27:48.257Z",
+    "daysOnMarket": 48,
+    "history": {
+      "2024-10-18": {
+        "event": "Rental Listing",
+        "price": 1100,
+        "listingType": "Standard",
+        "listedDate": "2024-10-18T00:00:00.000Z",
+        "removedDate": null,
+        "daysOnMarket": 48
+      }
+    }
+  },
+  {
+    "id": "4-Byers-Ct,-Unit-2,-Randallstown,-MD-21133",
+    "formattedAddress": "4 Byers Ct, Unit 2, Randallstown, MD 21133",
+    "addressLine1": "4 Byers Ct",
+    "addressLine2": "Unit 2",
+    "city": "Randallstown",
+    "state": "MD",
+    "zipCode": "21133",
+    "county": "Baltimore",
+    "latitude": 39.382725,
+    "longitude": -76.822174,
+    "propertyType": "Single Family",
+    "bedrooms": 1,
+    "bathrooms": 1,
+    "status": "Active",
+    "price": 850,
+    "listingType": "Standard",
+    "listedDate": "2024-07-18T00:00:00.000Z",
+    "removedDate": null,
+    "createdDate": "2024-07-19T00:00:00.000Z",
+    "lastSeenDate": "2024-12-04T02:27:48.215Z",
+    "daysOnMarket": 140,
+    "history": {
+      "2024-07-18": {
+        "event": "Rental Listing",
+        "price": 850,
+        "listingType": "Standard",
+        "listedDate": "2024-07-18T00:00:00.000Z",
+        "removedDate": null,
+        "daysOnMarket": 140
+      }
+    }
+  },
+  {
+    "id": "1-Smeton-Pl,-Apt-1002,-Towson,-MD-21204",
+    "formattedAddress": "1 Smeton Pl, Apt 1002, Towson, MD 21204",
+    "addressLine1": "1 Smeton Pl",
+    "addressLine2": "Apt 1002",
+    "city": "Towson",
+    "state": "MD",
+    "zipCode": "21204",
+    "county": "Baltimore",
+    "latitude": 39.410812,
+    "longitude": -76.602931,
+    "propertyType": "Condo",
+    "bedrooms": 2,
+    "bathrooms": 2,
+    "squareFootage": 1409,
+    "yearBuilt": 1975,
+    "status": "Active",
+    "price": 1900,
+    "listingType": "Standard",
+    "listedDate": "2024-10-03T00:00:00.000Z",
+    "removedDate": null,
+    "createdDate": "2021-02-11T01:12:55.904Z",
+    "lastSeenDate": "2024-12-04T02:27:48.139Z",
+    "daysOnMarket": 63,
+    "mlsName": "BrightMLS",
+    "mlsNumber": "MDBC2109072",
+    "listingAgent": {
+      "name": "Scarlett Loewe",
+      "phone": "4432531333",
+      "email": "sloewe@opf.com"
+    },
+    "listingOffice": {
+      "name": "Long & Foster Towson",
+      "phone": "4105839400",
+      "email": "longandfoster@broker1suite.com",
+      "website": "http://www.longandfoster.com"
+    },
+    "history": {
+      "2024-10-03": {
+        "event": "Rental Listing",
+        "price": 1900,
+        "listingType": "Standard",
+        "listedDate": "2024-10-03T00:00:00.000Z",
+        "removedDate": null,
+        "daysOnMarket": 63
+      }
+    }
+  },
+  {
+    "id": "1433-Clingmans-Dome-Dr,-Frederick,-MD-21702",
+    "formattedAddress": "1433 Clingmans Dome Dr, Frederick, MD 21702",
+    "addressLine1": "1433 Clingmans Dome Dr",
+    "addressLine2": null,
+    "city": "Frederick",
+    "state": "MD",
+    "zipCode": "21702",
+    "county": "Frederick",
+    "latitude": 39.443751,
+    "longitude": -77.457997,
+    "propertyType": "Townhouse",
+    "bedrooms": 3,
+    "bathrooms": 3.5,
+    "squareFootage": 2000,
+    "lotSize": 1900,
+    "yearBuilt": 2022,
+    "hoa": {
+      "fee": 70
+    },
+    "status": "Active",
+    "price": 3000,
+    "listingType": "Standard",
+    "listedDate": "2024-10-21T00:00:00.000Z",
+    "removedDate": null,
+    "createdDate": "2024-10-22T00:00:00.000Z",
+    "lastSeenDate": "2024-12-04T02:27:21.506Z",
+    "daysOnMarket": 45,
+    "mlsName": "BrightMLS",
+    "mlsNumber": "MDFR2055798",
+    "listingAgent": {
+      "name": "Oluwatosin Makanjuola",
+      "phone": "8622185075",
+      "email": "tosindirect@gmail.com"
+    },
+    "listingOffice": {
+      "name": "Ultimate Properties, LLC.",
+      "phone": "3012025150"
+    },
+    "history": {
+      "2024-10-21": {
+        "event": "Rental Listing",
+        "price": 3000,
+        "listingType": "Standard",
+        "listedDate": "2024-10-21T00:00:00.000Z",
+        "removedDate": null,
+        "daysOnMarket": 45
+      }
+    }
+  },
+  {
+    "id": "35027-Old-Ocean-City-Rd,-Pittsville,-MD-21850",
+    "formattedAddress": "35027 Old Ocean City Rd, Pittsville, MD 21850",
+    "addressLine1": "35027 Old Ocean City Rd",
+    "addressLine2": null,
+    "city": "Pittsville",
+    "state": "MD",
+    "zipCode": "21850",
+    "county": "Wicomico",
+    "latitude": 38.389316,
+    "longitude": -75.398113,
+    "propertyType": "Single Family",
+    "bedrooms": 3,
+    "bathrooms": 3,
+    "squareFootage": 1894,
+    "yearBuilt": 2022,
+    "status": "Active",
+    "price": 2500,
+    "listingType": "Standard",
+    "listedDate": "2024-09-09T00:00:00.000Z",
+    "removedDate": null,
+    "createdDate": "2024-09-10T00:00:00.000Z",
+    "lastSeenDate": "2024-12-04T02:17:35.680Z",
+    "daysOnMarket": 87,
+    "history": {
+      "2024-09-09": {
+        "event": "Rental Listing",
+        "price": 2500,
+        "listingType": "Standard",
+        "listedDate": "2024-09-09T00:00:00.000Z",
+        "removedDate": null,
+        "daysOnMarket": 87
+      }
+    }
+  },
+  {
+    "id": "12240-Roundwood-Rd,-Unit-204,-Lutherville-Timonium,-MD-21093",
+    "formattedAddress": "12240 Roundwood Rd, Unit 204, Lutherville Timonium, MD 21093",
+    "addressLine1": "12240 Roundwood Rd",
+    "addressLine2": "Unit 204",
+    "city": "Lutherville Timonium",
+    "state": "MD",
+    "zipCode": "21093",
+    "county": "Baltimore",
+    "latitude": 39.460345,
+    "longitude": -76.664968,
+    "propertyType": "Condo",
+    "bedrooms": 2,
+    "bathrooms": 2,
+    "squareFootage": 1701,
+    "lotSize": 1701,
+    "yearBuilt": 2003,
+    "hoa": {
+      "fee": 465
+    },
+    "status": "Active",
+    "price": 2500,
+    "listingType": "Standard",
+    "listedDate": "2024-11-08T00:00:00.000Z",
+    "removedDate": null,
+    "createdDate": "2024-11-09T00:00:00.000Z",
+    "lastSeenDate": "2024-12-04T01:57:23.779Z",
+    "daysOnMarket": 27,
+    "mlsName": "BrightMLS",
+    "mlsNumber": "MDBC2111898",
+    "listingAgent": {
+      "name": "Katherine Gillespie",
+      "phone": "4109676487",
+      "email": "kgillespie15@comcast.net",
+      "website": "http://www.cbmove.com/katherine.gillespie"
+    },
+    "listingOffice": {
+      "name": "Long & Foster Towson",
+      "phone": "4105839400",
+      "email": "longandfoster@broker1suite.com",
+      "website": "http://www.longandfoster.com"
+    },
+    "history": {
+      "2024-11-08": {
+        "event": "Rental Listing",
+        "price": 2500,
+        "listingType": "Standard",
+        "listedDate": "2024-11-08T00:00:00.000Z",
+        "removedDate": null,
+        "daysOnMarket": 27
+      }
+    }
+  },
+  {
+    "id": "6204-Collinsway-Rd,-Catonsville,-MD-21228",
+    "formattedAddress": "6204 Collinsway Rd, Catonsville, MD 21228",
+    "addressLine1": "6204 Collinsway Rd",
+    "addressLine2": null,
+    "city": "Catonsville",
+    "state": "MD",
+    "zipCode": "21228",
+    "county": "Baltimore",
+    "latitude": 39.294669,
+    "longitude": -76.750682,
+    "propertyType": "Single Family",
+    "bedrooms": 4,
+    "bathrooms": 2.5,
+    "squareFootage": 1452,
+    "status": "Active",
+    "price": 2950,
+    "listingType": "Standard",
+    "listedDate": "2024-11-09T00:00:00.000Z",
+    "removedDate": null,
+    "createdDate": "2024-11-10T00:00:00.000Z",
+    "lastSeenDate": "2024-12-04T01:57:23.773Z",
+    "daysOnMarket": 26,
+    "history": {
+      "2024-11-09": {
+        "event": "Rental Listing",
+        "price": 2950,
+        "listingType": "Standard",
+        "listedDate": "2024-11-09T00:00:00.000Z",
+        "removedDate": null,
+        "daysOnMarket": 26
+      }
+    }
+  },
+  {
+    "id": "7518-Lange-St,-Apt-2,-Baltimore,-MD-21224",
+    "formattedAddress": "7518 Lange St, Apt 2, Baltimore, MD 21224",
+    "addressLine1": "7518 Lange St",
+    "addressLine2": "Apt 2",
+    "city": "Baltimore",
+    "state": "MD",
+    "zipCode": "21224",
+    "county": "Baltimore",
+    "latitude": 39.286902,
+    "longitude": -76.508279,
+    "propertyType": "Townhouse",
+    "bedrooms": 2,
+    "bathrooms": 1,
+    "squareFootage": 1512,
+    "lotSize": 2430,
+    "yearBuilt": 1943,
+    "status": "Active",
+    "price": 1000,
+    "listingType": "Standard",
+    "listedDate": "2024-11-22T00:00:00.000Z",
+    "removedDate": null,
+    "createdDate": "2023-07-23T00:00:00.000Z",
+    "lastSeenDate": "2024-12-04T01:57:23.720Z",
+    "daysOnMarket": 13,
+    "mlsName": "BrightMLS",
+    "mlsNumber": "MDBC2113334",
+    "listingAgent": {
+      "name": "Michelle Johnson",
+      "phone": "3015206044",
+      "email": "mdjohnson1@verizon.net",
+      "website": "http://capitalinvestorsllc.com/buyahome.php"
+    },
+    "listingOffice": {
+      "name": "Tri-State Realty Llc",
+      "phone": "3013831152"
+    },
+    "history": {
+      "2024-11-22": {
+        "event": "Rental Listing",
+        "price": 1000,
+        "listingType": "Standard",
+        "listedDate": "2024-11-22T00:00:00.000Z",
+        "removedDate": null,
+        "daysOnMarket": 13
+      }
+    }
+  },
+  {
+    "id": "7514-River-Reach-Rd,-Baltimore,-MD-21224",
+    "formattedAddress": "7514 River Reach Rd, Baltimore, MD 21224",
+    "addressLine1": "7514 River Reach Rd",
+    "addressLine2": null,
+    "city": "Baltimore",
+    "state": "MD",
+    "zipCode": "21224",
+    "county": "Baltimore",
+    "latitude": 39.315758,
+    "longitude": -76.770556,
+    "propertyType": "Townhouse",
+    "bedrooms": 3,
+    "bathrooms": 3.5,
+    "squareFootage": 2500,
+    "lotSize": 2178,
+    "yearBuilt": 2024,
+    "hoa": {
+      "fee": 150
+    },
+    "status": "Active",
+    "price": 3500,
+    "listingType": "New Construction",
+    "listedDate": "2024-11-28T00:00:00.000Z",
+    "removedDate": null,
+    "createdDate": "2024-11-29T00:00:00.000Z",
+    "lastSeenDate": "2024-12-04T01:57:23.678Z",
+    "daysOnMarket": 7,
+    "mlsName": "BrightMLS",
+    "mlsNumber": "MDBC2113670",
+    "listingAgent": {
+      "name": "Venkat Gurram",
+      "phone": "4437760990",
+      "email": "venkatgurram.realtor@gmail.com"
+    },
+    "listingOffice": {
+      "name": "SAMSON PROPERTIES - Columbia",
+      "phone": "7033788810",
+      "email": "frontdesk@samsonproperties.net",
+      "website": "https://samsonproperties.net/"
+    },
+    "history": {
+      "2024-11-28": {
+        "event": "Rental Listing",
+        "price": 3500,
+        "listingType": "New Construction",
+        "listedDate": "2024-11-28T00:00:00.000Z",
+        "removedDate": null,
+        "daysOnMarket": 7
+      }
+    }
+  },
+  {
+    "id": "102-Waldon-Rd,---W125000K,-Abingdon,-MD-21009",
+    "formattedAddress": "102 Waldon Rd, # W125000K, Abingdon, MD 21009",
+    "addressLine1": "102 Waldon Rd",
+    "addressLine2": "# W125000K",
+    "city": "Abingdon",
+    "state": "MD",
+    "zipCode": "21009",
+    "county": "Harford",
+    "latitude": 39.462273,
+    "longitude": -76.307152,
+    "propertyType": "Apartment",
+    "bedrooms": 2,
+    "bathrooms": 2,
+    "squareFootage": 844,
+    "status": "Active",
+    "price": 1724,
+    "listingType": "Standard",
+    "listedDate": "2024-12-04T00:00:00.000Z",
+    "removedDate": null,
+    "createdDate": "2024-10-04T00:00:00.000Z",
+    "lastSeenDate": "2024-12-04T01:47:47.444Z",
+    "daysOnMarket": 1,
+    "history": {
+      "2024-11-02": {
+        "event": "Rental Listing",
+        "price": 1778,
+        "listingType": "Standard",
+        "listedDate": "2024-11-02T00:00:00.000Z",
+        "removedDate": "2024-11-03T00:00:00.000Z",
+        "daysOnMarket": 1
+      },
+      "2024-12-04": {
+        "event": "Rental Listing",
+        "price": 1724,
+        "listingType": "Standard",
+        "listedDate": "2024-12-04T00:00:00.000Z",
+        "removedDate": null,
+        "daysOnMarket": 1
+      }
+    }
+  },
+  {
+    "id": "300-Stevens-Cir,-Apt-2B,-Aberdeen,-MD-21001",
+    "formattedAddress": "300 Stevens Cir, Apt 2B, Aberdeen, MD 21001",
+    "addressLine1": "300 Stevens Cir",
+    "addressLine2": "Apt 2B",
+    "city": "Aberdeen",
+    "state": "MD",
+    "zipCode": "21001",
+    "county": "Harford",
+    "latitude": 39.521236,
+    "longitude": -76.19381,
+    "propertyType": "Apartment",
+    "bedrooms": 2,
+    "bathrooms": 1,
+    "squareFootage": 1000,
+    "status": "Active",
+    "price": 1449,
+    "listingType": "Standard",
+    "listedDate": "2024-12-04T00:00:00.000Z",
+    "removedDate": null,
+    "createdDate": "2023-02-10T00:00:00.000Z",
+    "lastSeenDate": "2024-12-04T01:47:47.439Z",
+    "daysOnMarket": 1,
+    "history": {
+      "2024-10-18": {
+        "event": "Rental Listing",
+        "price": 1449,
+        "listingType": "Standard",
+        "listedDate": "2024-10-18T00:00:00.000Z",
+        "removedDate": "2024-10-19T00:00:00.000Z",
+        "daysOnMarket": 1
+      },
+      "2024-10-28": {
+        "event": "Rental Listing",
+        "price": 1429,
+        "listingType": "Standard",
+        "listedDate": "2024-10-28T00:00:00.000Z",
+        "removedDate": "2024-10-29T00:00:00.000Z",
+        "daysOnMarket": 1
+      },
+      "2024-11-03": {
+        "event": "Rental Listing",
+        "price": 1379,
+        "listingType": "Standard",
+        "listedDate": "2024-11-03T00:00:00.000Z",
+        "removedDate": "2024-11-04T00:00:00.000Z",
+        "daysOnMarket": 1
+      },
+      "2024-11-12": {
+        "event": "Rental Listing",
+        "price": 1379,
+        "listingType": "Standard",
+        "listedDate": "2024-11-12T00:00:00.000Z",
+        "removedDate": "2024-11-13T00:00:00.000Z",
+        "daysOnMarket": 1
+      },
+      "2024-11-26": {
+        "event": "Rental Listing",
+        "price": 1489,
+        "listingType": "Standard",
+        "listedDate": "2024-11-26T00:00:00.000Z",
+        "removedDate": "2024-11-27T00:00:00.000Z",
+        "daysOnMarket": 1
+      },
+      "2024-12-04": {
+        "event": "Rental Listing",
+        "price": 1449,
+        "listingType": "Standard",
+        "listedDate": "2024-12-04T00:00:00.000Z",
+        "removedDate": null,
+        "daysOnMarket": 1
+      }
+    }
+  },
+  {
+    "id": "102-Waldon-Rd,---W128000A,-Abingdon,-MD-21009",
+    "formattedAddress": "102 Waldon Rd, # W128000A, Abingdon, MD 21009",
+    "addressLine1": "102 Waldon Rd",
+    "addressLine2": "# W128000A",
+    "city": "Abingdon",
+    "state": "MD",
+    "zipCode": "21009",
+    "county": "Harford",
+    "latitude": 39.462273,
+    "longitude": -76.307152,
+    "propertyType": "Apartment",
+    "bedrooms": 2,
+    "bathrooms": 2,
+    "squareFootage": 844,
+    "status": "Active",
+    "price": 1529,
+    "listingType": "Standard",
+    "listedDate": "2024-12-04T00:00:00.000Z",
+    "removedDate": null,
+    "createdDate": "2023-05-28T00:00:00.000Z",
+    "lastSeenDate": "2024-12-04T01:47:47.433Z",
+    "daysOnMarket": 1,
+    "history": {
+      "2024-11-02": {
+        "event": "Rental Listing",
+        "price": 1583,
+        "listingType": "Standard",
+        "listedDate": "2024-11-02T00:00:00.000Z",
+        "removedDate": "2024-11-03T00:00:00.000Z",
+        "daysOnMarket": 1
+      },
+      "2024-12-04": {
+        "event": "Rental Listing",
+        "price": 1529,
+        "listingType": "Standard",
+        "listedDate": "2024-12-04T00:00:00.000Z",
+        "removedDate": null,
+        "daysOnMarket": 1
+      }
+    }
+  },
+  {
+    "id": "2033-Armstrong-St,---2030,-Edgewood,-MD-21040",
+    "formattedAddress": "2033 Armstrong St, # 2030, Edgewood, MD 21040",
+    "addressLine1": "2033 Armstrong St",
+    "addressLine2": "# 2030",
+    "city": "Edgewood",
+    "state": "MD",
+    "zipCode": "21040",
+    "county": "Harford",
+    "latitude": 39.417023,
+    "longitude": -76.297897,
+    "propertyType": "Apartment",
+    "bedrooms": 3,
+    "bathrooms": 1,
+    "squareFootage": 850,
+    "status": "Active",
+    "price": 1534,
+    "listingType": "Standard",
+    "listedDate": "2024-12-04T00:00:00.000Z",
+    "removedDate": null,
+    "createdDate": "2024-09-18T00:00:00.000Z",
+    "lastSeenDate": "2024-12-04T01:47:47.409Z",
+    "daysOnMarket": 1,
+    "history": {
+      "2024-12-04": {
+        "event": "Rental Listing",
+        "price": 1534,
+        "listingType": "Standard",
+        "listedDate": "2024-12-04T00:00:00.000Z",
+        "removedDate": null,
+        "daysOnMarket": 1
+      }
+    }
+  },
+  {
+    "id": "9-Liberty-St,-Aberdeen,-MD-21001",
+    "formattedAddress": "9 Liberty St, Aberdeen, MD 21001",
+    "addressLine1": "9 Liberty St",
+    "addressLine2": null,
+    "city": "Aberdeen",
+    "state": "MD",
+    "zipCode": "21001",
+    "county": "Harford",
+    "latitude": 39.503598,
+    "longitude": -76.157814,
+    "propertyType": "Single Family",
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "squareFootage": 1068,
+    "status": "Active",
+    "price": 2000,
+    "listingType": "Standard",
+    "listedDate": "2024-12-04T00:00:00.000Z",
+    "removedDate": null,
+    "createdDate": "2024-10-31T00:00:00.000Z",
+    "lastSeenDate": "2024-12-04T01:47:47.384Z",
+    "daysOnMarket": 1,
+    "history": {
+      "2024-11-15": {
+        "event": "Rental Listing",
+        "price": 2000,
+        "listingType": "Standard",
+        "listedDate": "2024-11-15T00:00:00.000Z",
+        "removedDate": "2024-11-16T00:00:00.000Z",
+        "daysOnMarket": 1
+      },
+      "2024-12-04": {
+        "event": "Rental Listing",
+        "price": 2000,
+        "listingType": "Standard",
+        "listedDate": "2024-12-04T00:00:00.000Z",
+        "removedDate": null,
+        "daysOnMarket": 1
+      }
+    }
+  },
+  {
+    "id": "2033-Armstrong-St,---2018,-Edgewood,-MD-21040",
+    "formattedAddress": "2033 Armstrong St, # 2018, Edgewood, MD 21040",
+    "addressLine1": "2033 Armstrong St",
+    "addressLine2": "# 2018",
+    "city": "Edgewood",
+    "state": "MD",
+    "zipCode": "21040",
+    "county": "Harford",
+    "latitude": 39.417023,
+    "longitude": -76.297897,
+    "propertyType": "Apartment",
+    "bedrooms": 2,
+    "bathrooms": 1,
+    "squareFootage": 750,
+    "status": "Active",
+    "price": 1349,
+    "listingType": "Standard",
+    "listedDate": "2024-12-04T00:00:00.000Z",
+    "removedDate": null,
+    "createdDate": "2024-06-06T00:00:00.000Z",
+    "lastSeenDate": "2024-12-04T01:47:47.331Z",
+    "daysOnMarket": 1,
+    "history": {
+      "2024-09-28": {
+        "event": "Rental Listing",
+        "price": 1419,
+        "listingType": "Standard",
+        "listedDate": "2024-09-28T00:00:00.000Z",
+        "removedDate": "2024-09-29T00:00:00.000Z",
+        "daysOnMarket": 1
+      },
+      "2024-10-02": {
+        "event": "Rental Listing",
+        "price": 1419,
+        "listingType": "Standard",
+        "listedDate": "2024-10-02T00:00:00.000Z",
+        "removedDate": "2024-10-03T00:00:00.000Z",
+        "daysOnMarket": 1
+      },
+      "2024-11-27": {
+        "event": "Rental Listing",
+        "price": 1349,
+        "listingType": "Standard",
+        "listedDate": "2024-11-27T00:00:00.000Z",
+        "removedDate": "2024-11-28T00:00:00.000Z",
+        "daysOnMarket": 1
+      },
+      "2024-12-04": {
+        "event": "Rental Listing",
+        "price": 1349,
+        "listingType": "Standard",
+        "listedDate": "2024-12-04T00:00:00.000Z",
+        "removedDate": null,
+        "daysOnMarket": 1
+      }
+    }
+  },
+  {
+    "id": "7850-Port-Tobacco-Rd,-Port-Tobacco,-MD-20677",
+    "formattedAddress": "7850 Port Tobacco Rd, Port Tobacco, MD 20677",
+    "addressLine1": "7850 Port Tobacco Rd",
+    "addressLine2": null,
+    "city": "Port Tobacco",
+    "state": "MD",
+    "zipCode": "20677",
+    "county": "Charles",
+    "latitude": 38.504213,
+    "longitude": -77.059636,
+    "propertyType": "Single Family",
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "squareFootage": 1960,
+    "status": "Active",
+    "price": 2375,
+    "listingType": "Standard",
+    "listedDate": "2024-12-04T00:00:00.000Z",
+    "removedDate": null,
+    "createdDate": "2021-05-13T01:14:54.275Z",
+    "lastSeenDate": "2024-12-04T01:47:40.710Z",
+    "daysOnMarket": 1,
+    "history": {
+      "2024-12-04": {
+        "event": "Rental Listing",
+        "price": 2375,
+        "listingType": "Standard",
+        "listedDate": "2024-12-04T00:00:00.000Z",
+        "removedDate": null,
+        "daysOnMarket": 1
+      }
+    }
+  },
+  {
+    "id": "11314-Golden-Eagle-Pl,-Waldorf,-MD-20603",
+    "formattedAddress": "11314 Golden Eagle Pl, Waldorf, MD 20603",
+    "addressLine1": "11314 Golden Eagle Pl",
+    "addressLine2": null,
+    "city": "Waldorf",
+    "state": "MD",
+    "zipCode": "20603",
+    "county": "Charles",
+    "latitude": 38.628445,
+    "longitude": -76.920227,
+    "propertyType": "Townhouse",
+    "bedrooms": 4,
+    "bathrooms": 3.5,
+    "squareFootage": 1320,
+    "status": "Active",
+    "price": 2750,
+    "listingType": "Standard",
+    "listedDate": "2024-11-01T00:00:00.000Z",
+    "removedDate": null,
+    "createdDate": "2021-12-10T00:03:44.820Z",
+    "lastSeenDate": "2024-12-04T01:47:40.669Z",
+    "daysOnMarket": 34,
+    "history": {
+      "2024-11-01": {
+        "event": "Rental Listing",
+        "price": 2750,
+        "listingType": "Standard",
+        "listedDate": "2024-11-01T00:00:00.000Z",
+        "removedDate": null,
+        "daysOnMarket": 34
+      }
+    }
+  },
+  {
+    "id": "17-Kenai-Pl,-Indian-Head,-MD-20640",
+    "formattedAddress": "17 Kenai Pl, Indian Head, MD 20640",
+    "addressLine1": "17 Kenai Pl",
+    "addressLine2": null,
+    "city": "Indian Head",
+    "state": "MD",
+    "zipCode": "20640",
+    "county": "Charles",
+    "latitude": 38.602277,
+    "longitude": -77.164272,
+    "propertyType": "Townhouse",
+    "bedrooms": 3,
+    "bathrooms": 2.5,
+    "squareFootage": 1994,
+    "lotSize": 1525,
+    "yearBuilt": 2023,
+    "hoa": {
+      "fee": 75
+    },
+    "status": "Active",
+    "price": 2750,
+    "listingType": "Standard",
+    "listedDate": "2024-10-17T00:00:00.000Z",
+    "removedDate": null,
+    "createdDate": "2024-10-18T00:00:00.000Z",
+    "lastSeenDate": "2024-12-04T01:47:40.666Z",
+    "daysOnMarket": 49,
+    "mlsName": "BrightMLS",
+    "mlsNumber": "MDCH2036402",
+    "listingAgent": {
+      "name": "Henryk Palmer",
+      "phone": "4432248040",
+      "email": "realestateryk@gmail.com"
+    },
+    "listingOffice": {
+      "name": "RLAH @properties",
+      "phone": "3016520643",
+      "email": "jason@rlahre.com",
+      "website": "www.rlathome.com"
+    },
+    "history": {
+      "2024-10-17": {
+        "event": "Rental Listing",
+        "price": 2750,
+        "listingType": "Standard",
+        "listedDate": "2024-10-17T00:00:00.000Z",
+        "removedDate": null,
+        "daysOnMarket": 49
+      }
+    }
+  },
+  {
+    "id": "4206-Drake-Ct,-Waldorf,-MD-20603",
+    "formattedAddress": "4206 Drake Ct, Waldorf, MD 20603",
+    "addressLine1": "4206 Drake Ct",
+    "addressLine2": null,
+    "city": "Waldorf",
+    "state": "MD",
+    "zipCode": "20603",
+    "county": "Charles",
+    "latitude": 38.624597,
+    "longitude": -76.930392,
+    "propertyType": "Single Family",
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "squareFootage": 1116,
+    "status": "Active",
+    "price": 2150,
+    "listingType": "Standard",
+    "listedDate": "2024-10-10T00:00:00.000Z",
+    "removedDate": null,
+    "createdDate": "2024-10-11T00:00:00.000Z",
+    "lastSeenDate": "2024-12-04T01:47:40.627Z",
+    "daysOnMarket": 56,
+    "history": {
+      "2024-10-10": {
+        "event": "Rental Listing",
+        "price": 2150,
+        "listingType": "Standard",
+        "listedDate": "2024-10-10T00:00:00.000Z",
+        "removedDate": null,
+        "daysOnMarket": 56
+      }
+    }
+  },
+  {
+    "id": "10796-Tip-Hill-Ct,-La-Plata,-MD-20646",
+    "formattedAddress": "10796 Tip Hill Ct, La Plata, MD 20646",
+    "addressLine1": "10796 Tip Hill Ct",
+    "addressLine2": null,
+    "city": "La Plata",
+    "state": "MD",
+    "zipCode": "20646",
+    "county": "Charles",
+    "latitude": 38.498952,
+    "longitude": -76.936635,
+    "propertyType": "Single Family",
+    "bedrooms": 3,
+    "bathrooms": 1.5,
+    "squareFootage": 1528,
+    "lotSize": 47045,
+    "yearBuilt": 1973,
+    "status": "Active",
+    "price": 2395,
+    "listingType": "Standard",
+    "listedDate": "2024-11-20T00:00:00.000Z",
+    "removedDate": null,
+    "createdDate": "2024-11-21T00:00:00.000Z",
+    "lastSeenDate": "2024-12-04T01:47:40.615Z",
+    "daysOnMarket": 15,
+    "mlsName": "BrightMLS",
+    "mlsNumber": "MDCH2037618",
+    "listingAgent": {
+      "name": "Lisa Wills",
+      "phone": "2406204956",
+      "email": "lisasellsremax@gmail.com"
+    },
+    "listingOffice": {
+      "name": "RE MAX One",
+      "phone": "4432956123",
+      "email": "markjdavis@remax.net"
+    },
+    "history": {
+      "2024-11-20": {
+        "event": "Rental Listing",
+        "price": 2395,
+        "listingType": "Standard",
+        "listedDate": "2024-11-20T00:00:00.000Z",
+        "removedDate": null,
+        "daysOnMarket": 15
+      }
+    }
+  },
+  {
+    "id": "510-E-Cold-Spring-Ln,-Unit-510,-Baltimore,-MD-21212",
+    "formattedAddress": "510 E Cold Spring Ln, Unit 510, Baltimore, MD 21212",
+    "addressLine1": "510 E Cold Spring Ln",
+    "addressLine2": "Unit 510",
+    "city": "Baltimore",
+    "state": "MD",
+    "zipCode": "21212",
+    "county": "Baltimore",
+    "latitude": 39.34642,
+    "longitude": -76.608963,
+    "propertyType": "Townhouse",
+    "bedrooms": 2,
+    "bathrooms": 1.5,
+    "squareFootage": 1080,
+    "status": "Active",
+    "price": 1450,
+    "listingType": "Standard",
+    "listedDate": "2024-12-04T00:00:00.000Z",
+    "removedDate": null,
+    "createdDate": "2024-12-04T00:00:00.000Z",
+    "lastSeenDate": "2024-12-04T01:36:16.324Z",
+    "daysOnMarket": 1,
+    "history": {
+      "2024-12-04": {
+        "event": "Rental Listing",
+        "price": 1450,
+        "listingType": "Standard",
+        "listedDate": "2024-12-04T00:00:00.000Z",
+        "removedDate": null,
+        "daysOnMarket": 1
+      }
+    }
+  },
+  {
+    "id": "67-Pine-St,-Frostburg,-MD-21502",
+    "formattedAddress": "67 Pine St, Frostburg, MD 21502",
+    "addressLine1": "67 Pine St",
+    "addressLine2": null,
+    "city": "Frostburg",
+    "state": "MD",
+    "zipCode": "21502",
+    "county": "Allegany",
+    "latitude": 39.659199,
+    "longitude": -78.934326,
+    "propertyType": "Single Family",
+    "bedrooms": 2,
+    "bathrooms": 1,
+    "status": "Active",
+    "price": 895,
+    "listingType": "Standard",
+    "listedDate": "2024-12-04T00:00:00.000Z",
+    "removedDate": null,
+    "createdDate": "2020-12-08T00:57:16.343Z",
+    "lastSeenDate": "2024-12-04T01:35:41.924Z",
+    "daysOnMarket": 1,
+    "history": {
+      "2024-12-04": {
+        "event": "Rental Listing",
+        "price": 895,
+        "listingType": "Standard",
+        "listedDate": "2024-12-04T00:00:00.000Z",
+        "removedDate": null,
+        "daysOnMarket": 1
+      }
+    }
+  },
+  {
+    "id": "10-B-Queen-Elizabeth-Ct,-Chester,-MD-21619",
+    "formattedAddress": "10-B Queen Elizabeth Ct, Chester, MD 21619",
+    "addressLine1": "10-B Queen Elizabeth Ct",
+    "addressLine2": null,
+    "city": "Chester",
+    "state": "MD",
+    "zipCode": "21619",
+    "county": "Queen Anne's",
+    "latitude": 38.985886,
+    "longitude": -76.280806,
+    "propertyType": "Condo",
+    "bedrooms": 1,
+    "bathrooms": 1,
+    "squareFootage": 724,
+    "yearBuilt": 1983,
+    "hoa": {
+      "fee": 350
+    },
+    "status": "Active",
+    "price": 2100,
+    "listingType": "Standard",
+    "listedDate": "2024-09-20T00:00:00.000Z",
+    "removedDate": null,
+    "createdDate": "2022-07-23T00:27:35.995Z",
+    "lastSeenDate": "2024-12-04T01:20:00.369Z",
+    "daysOnMarket": 76,
+    "mlsName": "BrightMLS",
+    "mlsNumber": "MDQA2011096",
+    "listingAgent": {
+      "name": "M.j. Stevens",
+      "phone": "4106046332",
+      "email": "mj.stevens@longandfoster.com",
+      "website": "http://mjstevens.lnfre.com/falcon/webui/lnfwelcomepage.aspx"
+    },
+    "listingOffice": {
+      "name": "Long & Foster Kent Island",
+      "phone": "4106432244",
+      "email": "longandfoster@broker1suite.com",
+      "website": "http://www.longandfoster.com"
+    },
+    "history": {
+      "2024-09-20": {
+        "event": "Rental Listing",
+        "price": 2100,
+        "listingType": "Standard",
+        "listedDate": "2024-09-20T00:00:00.000Z",
+        "removedDate": null,
+        "daysOnMarket": 76
+      }
+    }
+  },
+  {
+    "id": "45864-Nancy-Ln,-Great-Mills,-MD-20634",
+    "formattedAddress": "45864 Nancy Ln, Great Mills, MD 20634",
+    "addressLine1": "45864 Nancy Ln",
+    "addressLine2": null,
+    "city": "Great Mills",
+    "state": "MD",
+    "zipCode": "20634",
+    "county": "St. Mary's",
+    "latitude": 38.26322,
+    "longitude": -76.488264,
+    "propertyType": "Single Family",
+    "bedrooms": 5,
+    "bathrooms": 3,
+    "squareFootage": 2160,
+    "lotSize": 70132,
+    "yearBuilt": 1975,
+    "status": "Active",
+    "price": 2800,
+    "listingType": "Standard",
+    "listedDate": "2024-11-13T00:00:00.000Z",
+    "removedDate": null,
+    "createdDate": "2024-11-14T00:00:00.000Z",
+    "lastSeenDate": "2024-12-04T01:08:10.075Z",
+    "daysOnMarket": 22,
+    "mlsName": "BrightMLS",
+    "mlsNumber": "MDSM2021628",
+    "listingAgent": {
+      "name": "Hannah Darlene Cole",
+      "phone": "2402028034",
+      "email": "hcole.realestate@gmail.com"
+    },
+    "listingOffice": {
+      "name": "EXIT LANDMARK REALTY (White Plains)",
+      "phone": "3019342022",
+      "email": "myexitagent@yahoo.com",
+      "website": "www.exitlandmarkmd.com"
+    },
+    "history": {
+      "2024-11-13": {
+        "event": "Rental Listing",
+        "price": 2800,
+        "listingType": "Standard",
+        "listedDate": "2024-11-13T00:00:00.000Z",
+        "removedDate": null,
+        "daysOnMarket": 22
+      }
+    }
+  },
+  {
+    "id": "136-Bluebill-Ct,-Unit-136,-Havre-De-Grace,-MD-21078",
+    "formattedAddress": "136 Bluebill Ct, Unit 136, Havre De Grace, MD 21078",
+    "addressLine1": "136 Bluebill Ct",
+    "addressLine2": "Unit 136",
+    "city": "Havre De Grace",
+    "state": "MD",
+    "zipCode": "21078",
+    "county": "Harford",
+    "latitude": 39.561644,
+    "longitude": -76.119974,
+    "propertyType": "Townhouse",
+    "bedrooms": 3,
+    "bathrooms": 2.5,
+    "squareFootage": 2112,
+    "status": "Active",
+    "price": 2500,
+    "listingType": "Standard",
+    "listedDate": "2024-10-21T00:00:00.000Z",
+    "removedDate": null,
+    "createdDate": "2024-10-22T00:00:00.000Z",
+    "lastSeenDate": "2024-12-04T01:07:09.759Z",
+    "daysOnMarket": 45,
+    "history": {
+      "2024-10-21": {
+        "event": "Rental Listing",
+        "price": 2500,
+        "listingType": "Standard",
+        "listedDate": "2024-10-21T00:00:00.000Z",
+        "removedDate": null,
+        "daysOnMarket": 45
+      }
+    }
+  },
+  {
+    "id": "8186-June-Way,-Apt-803,-Easton,-MD-21601",
+    "formattedAddress": "8186 June Way, Apt 803, Easton, MD 21601",
+    "addressLine1": "8186 June Way",
+    "addressLine2": "Apt 803",
+    "city": "Easton",
+    "state": "MD",
+    "zipCode": "21601",
+    "county": "Talbot",
+    "latitude": 38.774269,
+    "longitude": -76.046279,
+    "propertyType": "Townhouse",
+    "bedrooms": 2,
+    "bathrooms": 1.5,
+    "squareFootage": 1120,
+    "lotSize": 1585,
+    "yearBuilt": 2004,
+    "status": "Active",
+    "price": 1800,
+    "listingType": "Standard",
+    "listedDate": "2024-09-06T00:00:00.000Z",
+    "removedDate": null,
+    "createdDate": "2024-09-07T00:00:00.000Z",
+    "lastSeenDate": "2024-12-04T01:05:38.949Z",
+    "daysOnMarket": 90,
+    "mlsName": "BrightMLS",
+    "mlsNumber": "MDTA2008806",
+    "listingAgent": {
+      "name": "Elizabeth Tryon",
+      "phone": "4109243764",
+      "email": "etryon@bensonandmangold.com"
+    },
+    "listingOffice": {
+      "name": "Meredith Fine Properties",
+      "phone": "4108222001",
+      "email": "info@meredithfineproperties.com"
+    },
+    "history": {
+      "2024-09-06": {
+        "event": "Rental Listing",
+        "price": 1800,
+        "listingType": "Standard",
+        "listedDate": "2024-09-06T00:00:00.000Z",
+        "removedDate": null,
+        "daysOnMarket": 90
+      }
+    }
+  }
+]
