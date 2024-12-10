@@ -13,8 +13,8 @@ const HomeScreen = ({ navigate }) => {
 
   return (
     <div>
-      <TopNavBar 
-        navigate={navigate} 
+      <TopNavBar
+        navigate={navigate}
         onListingTypeChange={handleListingTypeChange}
       />
       <SideNavBar />
